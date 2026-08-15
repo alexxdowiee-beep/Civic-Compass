@@ -1,0 +1,1397 @@
+[
+  {
+    "name": "Auckland Central",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Naisi Chen",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Green",
+        "n": "Chlöe Swarbrick",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "Banks Peninsula",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Vanessa Weenink",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Tracey McLellan",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Green",
+        "n": "Craig Pauling",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Alliance",
+        "n": "Kyle Turnbull",
+        "c": "#C0392B"
+      },
+      {
+        "p": "ACT",
+        "n": "Zachary Wellman",
+        "c": "#F2C230"
+      }
+    ]
+  },
+  {
+    "name": "Botany",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Neru Leavasa",
+        "c": "#D1424A"
+      },
+      {
+        "p": "National",
+        "n": "Christopher Luxon",
+        "c": "#2E6FC4"
+      }
+    ]
+  },
+  {
+    "name": "Christchurch Central",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Dale Stephens",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "George Hampton",
+        "c": "#D1424A"
+      },
+      {
+        "p": "ACT",
+        "n": "Christian van der Pump",
+        "c": "#F2C230"
+      },
+      {
+        "p": "Green",
+        "n": "Kahurangi Carter",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Eden Skipper",
+        "c": "#00A99D"
+      },
+      {
+        "p": "Alliance",
+        "n": "Greg Byrnes",
+        "c": "#C0392B"
+      },
+      {
+        "p": "NZ First",
+        "n": "Mark Arneil",
+        "c": "#1C1C1C"
+      }
+    ]
+  },
+  {
+    "name": "Christchurch East",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Alexandra Davids",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Green",
+        "n": "Teresa Butler",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Alliance",
+        "n": "Ethan Gullery",
+        "c": "#C0392B"
+      },
+      {
+        "p": "ACT",
+        "n": "Toni Severin",
+        "c": "#F2C230"
+      },
+      {
+        "p": "NZ First",
+        "n": "Shane Wiremu",
+        "c": "#1C1C1C"
+      }
+    ]
+  },
+  {
+    "name": "Coromandel",
+    "group": "Waikato/BOP",
+    "cands": [
+      {
+        "p": "Green",
+        "n": "Pamela Grealey",
+        "c": "#5AA469"
+      },
+      {
+        "p": "National",
+        "n": "Scott Simpson",
+        "c": "#2E6FC4"
+      }
+    ]
+  },
+  {
+    "name": "Dunedin",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Kristine Asuncion",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Opportunity",
+        "n": "David Bainbridge-Zafar",
+        "c": "#00A99D"
+      },
+      {
+        "p": "Alliance",
+        "n": "Victor Billot",
+        "c": "#C0392B"
+      },
+      {
+        "p": "Labour",
+        "n": "Rachel Brooking",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Green",
+        "n": "Francisco Hernandez",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "East Cape",
+    "group": "Gisborne/Hawke's Bay",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Dana Kirkpatrick",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Jo Luxton",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Cail Smith",
+        "c": "#00A99D"
+      },
+      {
+        "p": "Green",
+        "n": "Jordan Walker",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "East Coast Bays",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Green",
+        "n": "Abe McKee",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "Epsom",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Opportunity",
+        "n": "Kent Duston",
+        "c": "#00A99D"
+      },
+      {
+        "p": "Green",
+        "n": "Lawrence Xu-Nan",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "Glendene",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Opportunity",
+        "n": "Evan French",
+        "c": "#00A99D"
+      },
+      {
+        "p": "National",
+        "n": "Sunil Kumar",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Green",
+        "n": "Yasmine Serhan",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "Hamilton East",
+    "group": "Waikato",
+    "cands": [
+      {
+        "p": "Opportunity",
+        "n": "Naomi Pocock",
+        "c": "#00A99D"
+      }
+    ]
+  },
+  {
+    "name": "Hamilton West",
+    "group": "Waikato",
+    "cands": [
+      {
+        "p": "Green",
+        "n": "Louise Hutt",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "Henderson",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Angee Nicholas",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Green",
+        "n": "Alika Wells",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Almo Wong",
+        "c": "#00A99D"
+      }
+    ]
+  },
+  {
+    "name": "Hutt South",
+    "group": "Wellington",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Chris Bishop",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Green",
+        "n": "Courtney White",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Benjamin Wylie-van Eerd",
+        "c": "#00A99D"
+      }
+    ]
+  },
+  {
+    "name": "Ilam",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Hamish Campbell",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Green",
+        "n": "Mike Davidson",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Alliance",
+        "n": "Courtney Fraser",
+        "c": "#C0392B"
+      },
+      {
+        "p": "Labour",
+        "n": "Rata Jamieson",
+        "c": "#D1424A"
+      },
+      {
+        "p": "NZ First",
+        "n": "Nathan Walton",
+        "c": "#1C1C1C"
+      }
+    ]
+  },
+  {
+    "name": "Invercargill",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Janice Lee",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Kaikōura",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Matthew Flight",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Kaipara ki Mahurangi",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Green",
+        "n": "Zephyr Brown",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Daniel Eb",
+        "c": "#00A99D"
+      },
+      {
+        "p": "Labour",
+        "n": "Tracey-Lee Repia",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Kāpiti",
+    "group": "Wellington",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Tim Costley",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Sophie Handford",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Kenepuru",
+    "group": "Wellington",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Barbara Edmonds",
+        "c": "#D1424A"
+      },
+      {
+        "p": "National",
+        "n": "Matthew Evetts",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Green",
+        "n": "Lan Pham",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "Māngere",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Rosemary Bourke",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Green",
+        "n": "Michel Mulipola",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "Manurewa",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Ghouse Majeed",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Arena Williams",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Maungakiekie",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Opportunity",
+        "n": "Derrick Paull",
+        "c": "#00A99D"
+      },
+      {
+        "p": "Green",
+        "n": "Adam Powell",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Labour",
+        "n": "Priyanca Radhakrishnan",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Mount Albert",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Green",
+        "n": "Ricardo Menéndez March",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Labour",
+        "n": "Helen White",
+        "c": "#D1424A"
+      },
+      {
+        "p": "National",
+        "n": "Melissa Lee",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Qiulae Wong",
+        "c": "#00A99D"
+      }
+    ]
+  },
+  {
+    "name": "Mount Maunganui",
+    "group": "Bay of Plenty",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Tom Rutherford",
+        "c": "#2E6FC4"
+      }
+    ]
+  },
+  {
+    "name": "Mount Roskill",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Michael Wood",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Napier",
+    "group": "Gisborne/Hawke's Bay",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Alex Hedley",
+        "c": "#D1424A"
+      },
+      {
+        "p": "National",
+        "n": "Katie Nimon",
+        "c": "#2E6FC4"
+      }
+    ]
+  },
+  {
+    "name": "Nelson",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Rachel Boyack",
+        "c": "#D1424A"
+      },
+      {
+        "p": "National",
+        "n": "Blair Cameron",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Green",
+        "n": "Rohan O'Neill-Stevens",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "New Plymouth",
+    "group": "Taranaki",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Amanda Clinton-Gohdes",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Sarah Lucas",
+        "c": "#00A99D"
+      },
+      {
+        "p": "National",
+        "n": "David MacLeod",
+        "c": "#2E6FC4"
+      }
+    ]
+  },
+  {
+    "name": "North Shore",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Sam Collins",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Green",
+        "n": "Josh Jacobsen",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Holly Knill",
+        "c": "#00A99D"
+      }
+    ]
+  },
+  {
+    "name": "Northcote",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Opportunity",
+        "n": "Cody Marsh",
+        "c": "#00A99D"
+      },
+      {
+        "p": "Green",
+        "n": "Bhen Goodsir",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "Northland",
+    "group": "Northland",
+    "cands": [
+      {
+        "p": "Outdoors",
+        "n": "Sean Brickland",
+        "c": "#4A6B3D"
+      },
+      {
+        "p": "National",
+        "n": "Grant McCallum",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Build the Nation",
+        "n": "Richard McIntosh",
+        "c": "#8A5A2B"
+      },
+      {
+        "p": "Green",
+        "n": "Lucian Plaumann",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "Ōtāhuhu",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Opportunity",
+        "n": "Adam MacRae-Martin",
+        "c": "#00A99D"
+      }
+    ]
+  },
+  {
+    "name": "Pakuranga",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Simeon Brown",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Kevin Huang",
+        "c": "#00A99D"
+      }
+    ]
+  },
+  {
+    "name": "Palmerston North",
+    "group": "Manawatū-Whanganui",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Ankit Bansal",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Green",
+        "n": "Teanau Tuiono",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Labour",
+        "n": "Tangi Utikere",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Papakura",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Emma Chatterton",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Green",
+        "n": "Angela Dalton",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "Port Waikato",
+    "group": "Waikato",
+    "cands": [
+      {
+        "p": "Green",
+        "n": "Carl Morgan",
+        "c": "#5AA469"
+      },
+      {
+        "p": "National",
+        "n": "Matthew Paul",
+        "c": "#2E6FC4"
+      }
+    ]
+  },
+  {
+    "name": "Rangitata",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "National",
+        "n": "James Meager",
+        "c": "#2E6FC4"
+      }
+    ]
+  },
+  {
+    "name": "Rangitīkei",
+    "group": "Manawatū-Whanganui",
+    "cands": [
+      {
+        "p": "Green",
+        "n": "Bernard Long",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Labour",
+        "n": "Karl Severinsen",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Remutaka",
+    "group": "Wellington",
+    "cands": [
+      {
+        "p": "Green",
+        "n": "Chris Norton",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Luke Ross",
+        "c": "#00A99D"
+      }
+    ]
+  },
+  {
+    "name": "Rotorua",
+    "group": "Bay of Plenty",
+    "cands": [
+      {
+        "p": "Opportunity",
+        "n": "Finn Liley",
+        "c": "#00A99D"
+      },
+      {
+        "p": "National",
+        "n": "Todd McClay",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Fisher Wang",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Selwyn",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Nicola Grigg",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Nick Moody",
+        "c": "#D1424A"
+      },
+      {
+        "p": "ACT",
+        "n": "Iain Murray",
+        "c": "#F2C230"
+      },
+      {
+        "p": "Green",
+        "n": "Alma De Anda",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Adrian Mee",
+        "c": "#00A99D"
+      },
+      {
+        "p": "Alliance",
+        "n": "Jesse Luke",
+        "c": "#C0392B"
+      },
+      {
+        "p": "NZ First",
+        "n": "Elizabeth Mundt",
+        "c": "#1C1C1C"
+      },
+      {
+        "p": "Independent",
+        "n": "Zoran Rakovic",
+        "c": "#7C8A80"
+      }
+    ]
+  },
+  {
+    "name": "Southland",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "NZ First",
+        "n": "Jason Herrick",
+        "c": "#1C1C1C"
+      },
+      {
+        "p": "Labour",
+        "n": "Peter McDonald",
+        "c": "#D1424A"
+      },
+      {
+        "p": "National",
+        "n": "Joseph Mooney",
+        "c": "#2E6FC4"
+      }
+    ]
+  },
+  {
+    "name": "Taieri",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Matthew French",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Alliance",
+        "n": "Anna Knight",
+        "c": "#C0392B"
+      },
+      {
+        "p": "Labour",
+        "n": "Ingrid Leary",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Mathew Phillips",
+        "c": "#00A99D"
+      },
+      {
+        "p": "Green",
+        "n": "Scott Willis",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "Takanini",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Kharag Singh",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Tāmaki",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "ACT",
+        "n": "James Christmas",
+        "c": "#F2C230"
+      },
+      {
+        "p": "Labour",
+        "n": "Max Harris",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Green",
+        "n": "Donald Mackenzie-Mayo",
+        "c": "#5AA469"
+      },
+      {
+        "p": "National",
+        "n": "Mahesh Muralidhar",
+        "c": "#2E6FC4"
+      }
+    ]
+  },
+  {
+    "name": "Taranaki-King Country",
+    "group": "Taranaki",
+    "cands": []
+  },
+  {
+    "name": "Taupō",
+    "group": "Waikato",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Chris Flatt",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Sam Plummer",
+        "c": "#00A99D"
+      },
+      {
+        "p": "National",
+        "n": "Louise Upston",
+        "c": "#2E6FC4"
+      }
+    ]
+  },
+  {
+    "name": "Tauranga",
+    "group": "Bay of Plenty",
+    "cands": [
+      {
+        "p": "Opportunity",
+        "n": "Michael Carter",
+        "c": "#00A99D"
+      },
+      {
+        "p": "National",
+        "n": "Sam Uffindell",
+        "c": "#2E6FC4"
+      }
+    ]
+  },
+  {
+    "name": "Tukituki",
+    "group": "Gisborne/Hawke's Bay",
+    "cands": [
+      {
+        "p": "Independent",
+        "n": "Kaleb Hawkins",
+        "c": "#7C8A80"
+      },
+      {
+        "p": "NZ First",
+        "n": "Taine Randell",
+        "c": "#1C1C1C"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Rachel Ward",
+        "c": "#00A99D"
+      },
+      {
+        "p": "National",
+        "n": "Catherine Wedd",
+        "c": "#2E6FC4"
+      }
+    ]
+  },
+  {
+    "name": "Upper Harbour",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Hannah Pia Baral",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Green",
+        "n": "Ryan Richards",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "Waikato",
+    "group": "Waikato",
+    "cands": [
+      {
+        "p": "Independent",
+        "n": "Walt Cavendish",
+        "c": "#7C8A80"
+      }
+    ]
+  },
+  {
+    "name": "Waimakariri",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Matt Doocey",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Dan Rosewarne",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Alliance",
+        "n": "Ali McDougall",
+        "c": "#C0392B"
+      }
+    ]
+  },
+  {
+    "name": "Wairarapa",
+    "group": "Wellington",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Mike Butterick",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Kieran McAnulty",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Matt Shepherd",
+        "c": "#00A99D"
+      }
+    ]
+  },
+  {
+    "name": "Waitakere",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "Green",
+        "n": "Steve Abel",
+        "c": "#5AA469"
+      },
+      {
+        "p": "National",
+        "n": "Agnes Loheni",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Mark Roach",
+        "c": "#00A99D"
+      },
+      {
+        "p": "Labour",
+        "n": "Vanushi Walters",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Waitaki",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Damien O'Connor",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Helen Tait",
+        "c": "#00A99D"
+      }
+    ]
+  },
+  {
+    "name": "Wellington Bays",
+    "group": "Wellington",
+    "cands": [
+      {
+        "p": "Green",
+        "n": "Julie Anne Genter",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Kayla Kingdon-Bebb",
+        "c": "#00A99D"
+      },
+      {
+        "p": "National",
+        "n": "Karunā Muthu",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Craig Renney",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Wellington North",
+    "group": "Wellington",
+    "cands": [
+      {
+        "p": "Opportunity",
+        "n": "Jessica Hammond",
+        "c": "#00A99D"
+      },
+      {
+        "p": "Alliance",
+        "n": "Josh Harford",
+        "c": "#C0392B"
+      },
+      {
+        "p": "Green",
+        "n": "Tamatha Paul",
+        "c": "#5AA469"
+      },
+      {
+        "p": "National",
+        "n": "Jonathan Pitts",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Ayesha Verrall",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "West Coast-Tasman",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "NZ First",
+        "n": "Jamie Cleine",
+        "c": "#1C1C1C"
+      },
+      {
+        "p": "Alliance",
+        "n": "Louis Coup",
+        "c": "#C0392B"
+      },
+      {
+        "p": "Outdoors",
+        "n": "Sue Grey",
+        "c": "#4A6B3D"
+      },
+      {
+        "p": "National",
+        "n": "Katie Milne",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Rory Paterson",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Cindie Uddstrom",
+        "c": "#00A99D"
+      }
+    ]
+  },
+  {
+    "name": "Whanganui",
+    "group": "Manawatū-Whanganui",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Carl Bates",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Green",
+        "n": "Awhi Haenga",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Labour",
+        "n": "Angela Roberts",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Whangaparāoa",
+    "group": "Auckland",
+    "cands": [
+      {
+        "p": "National",
+        "n": "Mark Mitchell",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Estefania Muller-Pallarès",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Whangārei",
+    "group": "Northland",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Gary Payinda",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Wigram",
+    "group": "South Island",
+    "cands": [
+      {
+        "p": "Green",
+        "n": "Shreejan Pandey",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Alliance",
+        "n": "Nicolas Pegg",
+        "c": "#C0392B"
+      },
+      {
+        "p": "National",
+        "n": "Tracy Summerfield",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Dominik Yanzick",
+        "c": "#D1424A"
+      },
+      {
+        "p": "NZ First",
+        "n": "Bryce Park",
+        "c": "#1C1C1C"
+      }
+    ]
+  },
+  {
+    "name": "Hauraki-Waikato",
+    "group": "Māori electorates",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Kingi Kiriona",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Ikaroa-Rāwhiti",
+    "group": "Māori electorates",
+    "cands": [
+      {
+        "p": "Te Pāti Māori",
+        "n": "Haley Maxwell",
+        "c": "#8A1C2B"
+      },
+      {
+        "p": "Labour",
+        "n": "Cushla Tangaere-Manuel",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Green",
+        "n": "Heather Te Au-Skipworth",
+        "c": "#5AA469"
+      }
+    ]
+  },
+  {
+    "name": "Tāmaki Makaurau",
+    "group": "Māori electorates",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Kerrin Leoni",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Te Tai Tokerau",
+    "group": "Māori electorates",
+    "cands": [
+      {
+        "p": "Green",
+        "n": "Hūhana Lyndon",
+        "c": "#5AA469"
+      },
+      {
+        "p": "Labour",
+        "n": "Willow-Jean Prime",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Te Pāti Māori",
+        "n": "Aperahama Edwards",
+        "c": "#8A1C2B"
+      },
+      {
+        "p": "Te Tai Tokerau Party",
+        "n": "Mariameno Kapa-Kingi",
+        "c": "#9B7EDE"
+      }
+    ]
+  },
+  {
+    "name": "Te Tai Hauāuru",
+    "group": "Māori electorates",
+    "cands": [
+      {
+        "p": "Te Pāti Māori",
+        "n": "Debbie Ngarewa-Packer",
+        "c": "#8A1C2B"
+      },
+      {
+        "p": "Labour",
+        "n": "Te Pūoho Katene",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Te Tai Tonga",
+    "group": "Māori electorates",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Mananui Ramsden",
+        "c": "#D1424A"
+      }
+    ]
+  },
+  {
+    "name": "Waiariki",
+    "group": "Māori electorates",
+    "cands": [
+      {
+        "p": "Labour",
+        "n": "Toni Boynton",
+        "c": "#D1424A"
+      },
+      {
+        "p": "Green",
+        "n": "Tania Waikato",
+        "c": "#5AA469"
+      }
+    ]
+  }
+]

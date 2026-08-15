@@ -1,0 +1,58 @@
+[
+  {
+    "party": "National",
+    "color": "#2E6FC4",
+    "topic": "Cost of living",
+    "date": "31 Mar 2026",
+    "text": "Confirmed a temporary boost to the in-work tax credit worth about $50/week for roughly 143,000 low- and middle-income families, in response to fuel-price pressure, while cautioning against broader spending that could add to inflation and debt.",
+    "url": "https://www.newsonair.gov.in/new-zealand-pm-defends-his-govts-targeted-cost%E2%80%91of%E2%80%91living-support-amid-soaring-fuel-prices"
+  },
+  {
+    "party": "Labour",
+    "color": "#D1424A",
+    "topic": "Housing",
+    "date": "29 Jun 2026",
+    "text": "Confirmed Labour would not proceed with the Government's planned increase to state house tenants' rent contributions or its changes to the Accommodation Supplement if elected, after earlier calling the rent-contribution increase \"cruel.\"",
+    "url": "https://www.nzherald.co.nz/nz/politics/election-2026-labours-chris-hipkins-clarifies-state-housing-support-policy-after-previously-refusing-to-confirm/UCVK2I5IBJB6ZPF6BT3TRYSRAQ/"
+  },
+  {
+    "party": "ACT",
+    "color": "#F2C230",
+    "topic": "Size of government",
+    "date": "28 Jun 2026",
+    "text": "Announced a plan to cut the number of government departments from 43 to 19, alongside new welfare policy framed around personal responsibility and the value of paid work.",
+    "url": "https://www.rnz.co.nz/news/politics/634881/act-party-leader-david-seymour-takes-aim-at-parliamentary-allies-opponents-but-especially-labour"
+  },
+  {
+    "party": "NZ First",
+    "color": "#1C1C1C",
+    "topic": "Voting rights",
+    "date": "5 Jul 2026",
+    "text": "Announced a policy to restrict general-election voting to NZ citizens, removing the current right of some non-citizen permanent residents to vote after 12 months' residence.",
+    "url": "https://www.nzherald.co.nz/nz/politics/election-2026-winston-peters-announces-citizens-only-voting-policy/YJZGPDKAH5BYNO2SXMXZDY3TFY/"
+  },
+  {
+    "party": "Green",
+    "color": "#5AA469",
+    "topic": "Workers' rights",
+    "date": "20 Jul 2026",
+    "text": "Backed a Members' Bill that would make union membership the default for new employees, arguing unions give workers a stronger voice in the workplace.",
+    "url": "https://www.greens.org.nz/news_marama_davidson"
+  },
+  {
+    "party": "Te Pāti Māori",
+    "color": "#8A1C2B",
+    "topic": "Local government & Treaty",
+    "date": "21 Jul 2026",
+    "text": "Criticised the Government's reported plan to scrap existing Mana Whakahono ā Rohe iwi–council partnership agreements as part of planning-law reform, calling it a step back from honouring Te Tiriti at the local level.",
+    "url": "https://www.maoriparty.org.nz/government_rips_up_another_promise_of_partnership_with_m_ori"
+  },
+  {
+    "party": "The Alliance",
+    "color": "#C0392B",
+    "topic": "Cost of living",
+    "date": "28 Mar 2026",
+    "text": "Announced further South Island candidates, saying they reflect workers who understand the cost-of-living crisis and want a change of government and direction.",
+    "url": "https://auckland.scoop.co.nz/2026/03/alliance-party-announces-eight-further-south-island-candidates-for-2026-general-election/"
+  }
+]

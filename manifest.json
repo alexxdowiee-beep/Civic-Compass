@@ -1,0 +1,17 @@
+{
+  "name": "Civic Compass — NZ 2026 Election Guide",
+  "short_name": "Civic Compass",
+  "description": "Find your council, see who is standing where, and read what MPs are saying ahead of the 2026 NZ general election.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#16231F",
+  "theme_color": "#16231F",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "Far North District": [
+    "Northland",
+    "Te Tai Tokerau"
+  ],
+  "Whangārei District": [
+    "Whangārei",
+    "Te Tai Tokerau"
+  ],
+  "Kaipara District": [
+    "Kaipara ki Mahurangi",
+    "Te Tai Tokerau"
+  ],
+  "Auckland": [
+    "Auckland Central",
+    "Botany",
+    "East Coast Bays",
+    "Epsom",
+    "Glendene",
+    "Henderson",
+    "Kaipara ki Mahurangi",
+    "Māngere",
+    "Manurewa",
+    "Maungakiekie",
+    "Mount Albert",
+    "Mount Roskill",
+    "North Shore",
+    "Northcote",
+    "Ōtāhuhu",
+    "Pakuranga",
+    "Papakura",
+    "Takanini",
+    "Tāmaki",
+    "Upper Harbour",
+    "Waitakere",
+    "Whangaparāoa",
+    "Tāmaki Makaurau",
+    "Hauraki-Waikato"
+  ],
+  "Thames-Coromandel District": [
+    "Coromandel"
+  ],
+  "Hauraki District": [
+    "Coromandel",
+    "Hauraki-Waikato"
+  ],
+  "Waikato District": [
+    "Waikato",
+    "Hauraki-Waikato"
+  ],
+  "Matamata-Piako District": [
+    "Coromandel",
+    "Waikato"
+  ],
+  "Hamilton": [
+    "Hamilton East",
+    "Hamilton West"
+  ],
+  "Waipā District": [
+    "Taranaki-King Country",
+    "Hamilton East"
+  ],
+  "Ōtorohanga District": [
+    "Taranaki-King Country"
+  ],
+  "South Waikato District": [
+    "Taupō",
+    "Waikato"
+  ],
+  "Waitomo District": [
+    "Taranaki-King Country"
+  ],
+  "Taupō District": [
+    "Taupō"
+  ],
+  "Western Bay of Plenty District": [
+    "Tauranga",
+    "Mount Maunganui"
+  ],
+  "Tauranga": [
+    "Tauranga",
+    "Mount Maunganui"
+  ],
+  "Rotorua Lakes": [
+    "Rotorua",
+    "Waiariki"
+  ],
+  "Whakatāne District": [
+    "East Cape",
+    "Waiariki"
+  ],
+  "Kawerau District": [
+    "East Cape",
+    "Waiariki"
+  ],
+  "Ōpōtiki District": [
+    "East Cape",
+    "Waiariki"
+  ],
+  "Gisborne": [
+    "East Cape",
+    "Ikaroa-Rāwhiti"
+  ],
+  "Wairoa District": [
+    "East Cape",
+    "Ikaroa-Rāwhiti"
+  ],
+  "Hastings District": [
+    "Tukituki",
+    "Ikaroa-Rāwhiti"
+  ],
+  "Napier": [
+    "Napier"
+  ],
+  "Central Hawke's Bay District": [
+    "Tukituki"
+  ],
+  "New Plymouth District": [
+    "New Plymouth"
+  ],
+  "Stratford District": [
+    "New Plymouth",
+    "Taranaki-King Country"
+  ],
+  "South Taranaki District": [
+    "Taranaki-King Country"
+  ],
+  "Ruapehu District": [
+    "Taranaki-King Country"
+  ],
+  "Whanganui District": [
+    "Whanganui"
+  ],
+  "Rangitīkei District": [
+    "Rangitīkei"
+  ],
+  "Manawatū District": [
+    "Rangitīkei",
+    "Palmerston North"
+  ],
+  "Palmerston North": [
+    "Palmerston North"
+  ],
+  "Tararua District": [
+    "Wairarapa",
+    "Rangitīkei"
+  ],
+  "Horowhenua District": [
+    "Kāpiti"
+  ],
+  "Kāpiti Coast District": [
+    "Kāpiti"
+  ],
+  "Porirua": [
+    "Kenepuru"
+  ],
+  "Upper Hutt": [
+    "Remutaka",
+    "Hutt South"
+  ],
+  "Lower Hutt": [
+    "Hutt South",
+    "Remutaka"
+  ],
+  "Wellington": [
+    "Wellington Bays",
+    "Wellington North"
+  ],
+  "South Wairarapa District": [
+    "Wairarapa"
+  ],
+  "Carterton District": [
+    "Wairarapa"
+  ],
+  "Masterton District": [
+    "Wairarapa"
+  ],
+  "Tasman District": [
+    "West Coast-Tasman",
+    "Nelson"
+  ],
+  "Nelson": [
+    "Nelson"
+  ],
+  "Marlborough District": [
+    "Kaikōura"
+  ],
+  "Buller District": [
+    "West Coast-Tasman"
+  ],
+  "Grey District": [
+    "West Coast-Tasman"
+  ],
+  "Westland District": [
+    "West Coast-Tasman"
+  ],
+  "Kaikōura District": [
+    "Kaikōura"
+  ],
+  "Hurunui District": [
+    "Kaikōura",
+    "Waimakariri"
+  ],
+  "Waimakariri District": [
+    "Waimakariri"
+  ],
+  "Christchurch": [
+    "Christchurch Central",
+    "Christchurch East",
+    "Ilam",
+    "Wigram",
+    "Banks Peninsula"
+  ],
+  "Selwyn District": [
+    "Selwyn"
+  ],
+  "Ashburton District": [
+    "Rangitata"
+  ],
+  "Timaru District": [
+    "Rangitata"
+  ],
+  "Mackenzie District": [
+    "Waitaki"
+  ],
+  "Waimate District": [
+    "Waitaki"
+  ],
+  "Waitaki District": [
+    "Waitaki"
+  ],
+  "Central Otago District": [
+    "Waitaki",
+    "Taieri"
+  ],
+  "Queenstown-Lakes District": [
+    "Waitaki"
+  ],
+  "Dunedin": [
+    "Dunedin",
+    "Taieri"
+  ],
+  "Clutha District": [
+    "Taieri",
+    "Southland"
+  ],
+  "Southland District": [
+    "Southland"
+  ],
+  "Gore District": [
+    "Southland"
+  ],
+  "Invercargill": [
+    "Invercargill"
+  ],
+  "Chatham Islands": [],
+  "Not sure / other": []
+}

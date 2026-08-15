@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Civic Compass — Admin</title>
+<style>
+  :root{
+    --ink:#16231F; --paper:#F4F1E6; --paper-dim:#E9E4D2;
+    --pounamu:#2F6B54; --pounamu-deep:#1F4B3B; --kowhai:#E3A83B;
+    --line:#C9C2A6; --white:#FFFDF7;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--ink); color:var(--paper);
+    font-family:'IBM Plex Sans','Segoe UI',Arial,sans-serif;
+    min-height:100vh;
+  }
+  .wrap{max-width:640px; margin:0 auto; padding:24px 20px 60px;}
+  h1{font-size:20px; margin:0 0 4px;}
+  .sub{font-size:13px; color:#9FB0A6; margin:0 0 20px; line-height:1.5;}
+  .card{
+    background:var(--paper); color:var(--ink); border-radius:14px;
+    padding:20px; margin-bottom:16px; box-shadow:0 8px 22px rgba(0,0,0,0.2);
+  }
+  .warn{
+    background:rgba(227,168,59,0.12); border:1px solid rgba(227,168,59,0.35);
+    border-radius:10px; padding:14px 16px; font-size:12.5px; line-height:1.6;
+    color:#E9D9B4; margin-bottom:16px;
+  }
+  .warn b{color:var(--kowhai);}
+  label{display:block; font-size:12px; font-weight:700; color:#5B6B62; margin:12px 0 4px;}
+  label:first-child{margin-top:0;}
+  input[type=text], input[type=password], input[type=date], select, textarea{
+    width:100%; padding:10px 12px; border:1px solid var(--line); border-radius:8px;
+    font-family:inherit; font-size:13.5px; background:var(--white); color:var(--ink);
+  }
+  textarea{font-family:'SF Mono',Consolas,monospace; font-size:12.5px; min-height:280px; resize:vertical;}
+  button{
+    font-family:inherit; font-weight:700; font-size:13.5px; cursor:pointer;
+    border:none; border-radius:8px; padding:11px 18px; margin-top:14px;
+  }
+  .btn-primary{background:var(--pounamu); color:var(--white);}
+  .btn-primary:disabled{background:#9BB0A6; cursor:not-allowed;}
+  .btn-secondary{background:var(--paper-dim); color:var(--ink); margin-left:8px;}
+  .btn-danger{background:#C0392B; color:var(--white); padding:6px 10px; font-size:12px; margin:0;}
+  .hint{font-size:11.5px; color:#7C8A80; margin-top:4px; line-height:1.4;}
+  .status{font-size:13px; margin-top:12px; padding:10px 12px; border-radius:8px; display:none;}
+  .status.ok{display:block; background:rgba(47,107,84,0.12); color:var(--pounamu-deep);}
+  .status.err{display:block; background:rgba(192,57,43,0.12); color:#C0392B;}
+  #dashboard{display:none;}
+  .tabs{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;}
+  .tabs button{
+    margin:0; background:var(--paper-dim); color:var(--ink); font-size:12.5px; padding:8px 14px;
+  }
+  .tabs button.active{background:var(--pounamu); color:var(--white);}
+  .stmt-row{
+    border:1px solid var(--paper-dim); border-radius:10px; padding:12px 14px; margin-bottom:10px;
+  }
+  .stmt-row-top{display:flex; justify-content:space-between; align-items:flex-start; gap:8px;}
+  .stmt-row-title{font-weight:700; font-size:13.5px;}
+  .stmt-row-meta{font-size:11.5px; color:#7C8A80; margin-top:2px;}
+  .stmt-row-text{font-size:12.5px; margin-top:6px; line-height:1.5; color:#4A564C;}
+  hr{border:none; border-top:1px solid var(--paper-dim); margin:18px 0;}
+  .logout{background:none; color:#9FB0A6; font-size:12px; text-decoration:underline; padding:0; margin-top:0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Civic Compass — Admin</h1>
+  <p class="sub">Edit the app's data and publish changes directly to GitHub.</p>
+
+  <div class="warn">
+    <b>Read this before using it.</b> The passphrase below is a soft speed-bump, not real security —
+    this is a static page and anyone who finds the URL can view its source. The actual protection is
+    your GitHub token: without a valid token that has write access to your repo, nobody can save changes,
+    no matter what passphrase they guess. Use a <b>fine-grained</b> GitHub token scoped to only this repo,
+    with only "Contents: read and write" permission, and set an expiry date. Never share this page's URL
+    together with your token. Your token is kept only in this browser tab's memory — it is never sent
+    anywhere except directly to api.github.com from your own device.
+  </div>
+
+  <div id="loginCard" class="card">
+    <label for="passphrase">Passphrase</label>
+    <input type="password" id="passphrase" placeholder="Whatever you've agreed with yourself…">
+    <p class="hint">This is just a personal reminder step — nothing is checked against a server.</p>
+
+    <label for="ghOwner">GitHub username / organisation</label>
+    <input type="text" id="ghOwner" placeholder="e.g. yourname">
+
+    <label for="ghRepo">Repository name</label>
+    <input type="text" id="ghRepo" placeholder="e.g. civic-compass-app">
+
+    <label for="ghBranch">Branch</label>
+    <input type="text" id="ghBranch" placeholder="main" value="main">
+
+    <label for="ghToken">GitHub personal access token</label>
+    <input type="password" id="ghToken" placeholder="github_pat_...">
+    <p class="hint">Create one at github.com → Settings → Developer settings → Fine-grained tokens. Scope it to this one repo, "Contents: Read and write" only.</p>
+
+    <button class="btn-primary" onclick="login()">Unlock</button>
+    <div id="loginStatus" class="status"></div>
+  </div>
+
+  <div id="dashboard">
+    <div class="card">
+      <button class="logout" onclick="logout()">Lock and clear session ↺</button>
+    </div>
+
+    <div class="card">
+      <h2 style="font-size:15px;margin:0 0 4px;">Recent Statements</h2>
+      <p class="hint" style="margin-bottom:14px;">The quickest thing to keep fresh — one dated, sourced line per party.</p>
+      <div id="stmtList"></div>
+      <hr>
+      <label>Party name</label>
+      <input type="text" id="newStmtParty" placeholder="e.g. Labour">
+      <label>Party colour (hex)</label>
+      <input type="text" id="newStmtColor" placeholder="#D1424A">
+      <label>Topic</label>
+      <input type="text" id="newStmtTopic" placeholder="e.g. Housing">
+      <label>Date</label>
+      <input type="text" id="newStmtDate" placeholder="e.g. 12 Aug 2026">
+      <label>Statement (your own paraphrase, not a direct quote)</label>
+      <textarea id="newStmtText" style="min-height:80px;"></textarea>
+      <label>Source URL</label>
+      <input type="text" id="newStmtUrl" placeholder="https://...">
+      <button class="btn-primary" onclick="addStatement()">Add statement</button>
+      <button class="btn-primary" style="background:var(--kowhai);color:#20180A;" onclick="saveFile('statements')">Save statements to GitHub</button>
+      <div id="statusstatements" class="status"></div>
+    </div>
+
+    <div class="card">
+      <h2 style="font-size:15px;margin:0 0 4px;">Other data files</h2>
+      <p class="hint" style="margin-bottom:14px;">Raw JSON editing — no form yet for these, so edit carefully and keep the structure intact. Fetches the live version from GitHub each time you switch files.</p>
+      <div class="tabs" id="fileTabs"></div>
+      <textarea id="rawEditor" spellcheck="false"></textarea>
+      <button class="btn-primary" onclick="saveRawFile()">Save to GitHub</button>
+      <button class="btn-secondary" onclick="reloadRawFile()">Discard changes, reload from GitHub</button>
+      <div id="statusraw" class="status"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const OTHER_FILES = ['councils','parties','electorates','candidateBios','councilReps','councilToElectorates'];
+let session = null; // { owner, repo, branch, token }
+let currentRawFile = null;
+let currentRawSha = null;
+let statementsData = null;
+let statementsSha = null;
+
+function b64EncodeUnicode(str){
+  return btoa(new Uint8Array(new TextEncoder().encode(str)).reduce((s,b)=>s+String.fromCharCode(b), ''));
+}
+function b64DecodeUnicode(str){
+  const binary = atob(str);
+  const bytes = new Uint8Array(binary.length);
+  for(let i=0;i<binary.length;i++) bytes[i] = binary.charCodeAt(i);
+  return new TextDecoder().decode(bytes);
+}
+
+async function ghGet(path){
+  const url = `https://api.github.com/repos/${session.owner}/${session.repo}/contents/${path}?ref=${session.branch}`;
+  const res = await fetch(url, { headers: { Authorization: `Bearer ${session.token}`, Accept: 'application/vnd.github+json' } });
+  if(!res.ok) throw new Error(`GET ${path} failed: ${res.status} ${res.statusText}`);
+  const json = await res.json();
+  return { content: JSON.parse(b64DecodeUnicode(json.content)), sha: json.sha };
+}
+
+async function ghPut(path, dataObj, sha, message){
+  const url = `https://api.github.com/repos/${session.owner}/${session.repo}/contents/${path}`;
+  const body = {
+    message: message || `Update ${path} via Civic Compass admin`,
+    content: b64EncodeUnicode(JSON.stringify(dataObj, null, 2)),
+    sha, branch: session.branch,
+  };
+  const res = await fetch(url, {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${session.token}`, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if(!res.ok){
+    const errBody = await res.text();
+    throw new Error(`Save failed: ${res.status} ${res.statusText} — ${errBody.slice(0,200)}`);
+  }
+  return res.json();
+}
+
+function showStatus(id, ok, msg){
+  const el = document.getElementById(id);
+  el.className = 'status ' + (ok ? 'ok' : 'err');
+  el.textContent = msg;
+}
+
+async function login(){
+  const pass = document.getElementById('passphrase').value;
+  const owner = document.getElementById('ghOwner').value.trim();
+  const repo = document.getElementById('ghRepo').value.trim();
+  const branch = document.getElementById('ghBranch').value.trim() || 'main';
+  const token = document.getElementById('ghToken').value.trim();
+
+  if(!pass || !owner || !repo || !token){
+    showStatus('loginStatus', false, 'Fill in every field — the passphrase is just a personal reminder, but the GitHub fields are required to actually connect.');
+    return;
+  }
+  session = { owner, repo, branch, token };
+  try {
+    const testUrl = `https://api.github.com/repos/${owner}/${repo}`;
+    const res = await fetch(testUrl, { headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json' } });
+    if(!res.ok) throw new Error(`Can't access ${owner}/${repo} with this token (${res.status}). Check the repo name and token permissions.`);
+  } catch(e){
+    showStatus('loginStatus', false, e.message);
+    session = null;
+    return;
+  }
+
+  sessionStorage.setItem('cc_admin_session', JSON.stringify(session));
+  document.getElementById('loginCard').style.display = 'none';
+  document.getElementById('dashboard').style.display = 'block';
+  await loadStatements();
+  buildFileTabs();
+}
+
+function logout(){
+  session = null;
+  sessionStorage.removeItem('cc_admin_session');
+  document.getElementById('ghToken').value = '';
+  document.getElementById('dashboard').style.display = 'none';
+  document.getElementById('loginCard').style.display = 'block';
+}
+
+async function loadStatements(){
+  try {
+    const { content, sha } = await ghGet('data/statements.json');
+    statementsData = content;
+    statementsSha = sha;
+    renderStatements();
+  } catch(e){
+    showStatus('statusstatements', false, e.message);
+  }
+}
+
+function renderStatements(){
+  const list = document.getElementById('stmtList');
+  list.innerHTML = '';
+  statementsData.forEach((s, i) => {
+    const row = document.createElement('div');
+    row.className = 'stmt-row';
+    row.innerHTML = `
+      <div class="stmt-row-top">
+        <div>
+          <div class="stmt-row-title">${s.party} <span style="font-weight:400;color:#7C8A80;">— ${s.topic}</span></div>
+          <div class="stmt-row-meta">${s.date}</div>
+        </div>
+        <button class="btn-danger" onclick="deleteStatement(${i})">Remove</button>
+      </div>
+      <div class="stmt-row-text">${s.text}</div>
+    `;
+    list.appendChild(row);
+  });
+}
+
+function deleteStatement(idx){
+  statementsData.splice(idx, 1);
+  renderStatements();
+}
+
+function addStatement(){
+  const party = document.getElementById('newStmtParty').value.trim();
+  const color = document.getElementById('newStmtColor').value.trim() || '#7C8A80';
+  const topic = document.getElementById('newStmtTopic').value.trim();
+  const date = document.getElementById('newStmtDate').value.trim();
+  const text = document.getElementById('newStmtText').value.trim();
+  const url = document.getElementById('newStmtUrl').value.trim();
+  if(!party || !topic || !date || !text || !url){
+    showStatus('statusstatements', false, 'Fill in every field before adding a statement.');
+    return;
+  }
+  statementsData.unshift({ party, color, topic, date, text, url });
+  renderStatements();
+  ['newStmtParty','newStmtColor','newStmtTopic','newStmtDate','newStmtText','newStmtUrl'].forEach(id => document.getElementById(id).value = '');
+  showStatus('statusstatements', true, 'Added locally — click "Save statements to GitHub" to publish it.');
+}
+
+async function saveFile(kind){
+  if(kind === 'statements'){
+    try {
+      const result = await ghPut('data/statements.json', statementsData, statementsSha, 'Update recent statements via Civic Compass admin');
+      statementsSha = result.content.sha;
+      showStatus('statusstatements', true, 'Saved to GitHub. Live within a minute or two once your host rebuilds.');
+    } catch(e){
+      showStatus('statusstatements', false, e.message);
+    }
+  }
+}
+
+function buildFileTabs(){
+  const tabs = document.getElementById('fileTabs');
+  tabs.innerHTML = '';
+  OTHER_FILES.forEach((f, i) => {
+    const btn = document.createElement('button');
+    btn.textContent = f;
+    btn.className = i === 0 ? 'active' : '';
+    btn.onclick = () => selectRawFile(f, btn);
+    tabs.appendChild(btn);
+  });
+  selectRawFile(OTHER_FILES[0]);
+}
+
+async function selectRawFile(name, btnEl){
+  document.querySelectorAll('#fileTabs button').forEach(b => b.classList.remove('active'));
+  if(btnEl) btnEl.classList.add('active');
+  currentRawFile = name;
+  document.getElementById('rawEditor').value = 'Loading…';
+  try {
+    const { content, sha } = await ghGet(`data/${name}.json`);
+    currentRawSha = sha;
+    document.getElementById('rawEditor').value = JSON.stringify(content, null, 2);
+    showStatus('statusraw', true, `Loaded ${name}.json from GitHub.`);
+  } catch(e){
+    document.getElementById('rawEditor').value = '';
+    showStatus('statusraw', false, e.message);
+  }
+}
+
+function reloadRawFile(){
+  const activeBtn = [...document.querySelectorAll('#fileTabs button')].find(b => b.classList.contains('active'));
+  selectRawFile(currentRawFile, activeBtn);
+}
+
+async function saveRawFile(){
+  let parsed;
+  try {
+    parsed = JSON.parse(document.getElementById('rawEditor').value);
+  } catch(e){
+    showStatus('statusraw', false, 'That is not valid JSON — fix the syntax before saving: ' + e.message);
+    return;
+  }
+  try {
+    const result = await ghPut(`data/${currentRawFile}.json`, parsed, currentRawSha, `Update ${currentRawFile} via Civic Compass admin`);
+    currentRawSha = result.content.sha;
+    showStatus('statusraw', true, `Saved ${currentRawFile}.json to GitHub. Live within a minute or two once your host rebuilds.`);
+  } catch(e){
+    showStatus('statusraw', false, e.message);
+  }
+}
+
+(function restoreSession(){
+  const saved = sessionStorage.getItem('cc_admin_session');
+  if(!saved) return;
+  try {
+    session = JSON.parse(saved);
+    document.getElementById('ghOwner').value = session.owner;
+    document.getElementById('ghRepo').value = session.repo;
+    document.getElementById('ghBranch').value = session.branch;
+    document.getElementById('loginCard').style.display = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    loadStatements();
+    buildFileTabs();
+  } catch(e){ /* corrupt session data — ignore, show login */ }
+})();
+</script>
+</body>
+</html>

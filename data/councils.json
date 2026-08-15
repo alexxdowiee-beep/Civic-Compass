@@ -1,0 +1,1123 @@
+[
+  {
+    "area": "Far North District",
+    "region": "Northland",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Far North District Council",
+        "note": "Local services",
+        "url": "https://www.fndc.govt.nz"
+      },
+      {
+        "name": "Northland Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.nrc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Whangārei District",
+    "region": "Northland",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Whangārei District Council",
+        "note": "Local services",
+        "url": "https://www.wdc.govt.nz"
+      },
+      {
+        "name": "Northland Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.nrc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Kaipara District",
+    "region": "Northland",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Kaipara District Council",
+        "note": "Local services",
+        "url": "https://www.kaipara.govt.nz"
+      },
+      {
+        "name": "Northland Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.nrc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Auckland",
+    "region": "Auckland",
+    "tag": "Unitary Council",
+    "links": [
+      {
+        "name": "Auckland Council",
+        "note": "Local services",
+        "url": "https://www.aucklandcouncil.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Thames-Coromandel District",
+    "region": "Waikato",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Thames-Coromandel District Council",
+        "note": "Local services",
+        "url": "https://www.tcdc.govt.nz"
+      },
+      {
+        "name": "Waikato Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.waikatoregion.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Hauraki District",
+    "region": "Waikato",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Hauraki District Council",
+        "note": "Local services",
+        "url": "https://www.hauraki-dc.govt.nz"
+      },
+      {
+        "name": "Waikato Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.waikatoregion.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Waikato District",
+    "region": "Waikato",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Waikato District Council",
+        "note": "Local services",
+        "url": "https://www.waikatodistrict.govt.nz"
+      },
+      {
+        "name": "Waikato Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.waikatoregion.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Matamata-Piako District",
+    "region": "Waikato",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Matamata-Piako District Council",
+        "note": "Local services",
+        "url": "https://www.mpdc.govt.nz"
+      },
+      {
+        "name": "Waikato Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.waikatoregion.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Hamilton",
+    "region": "Waikato",
+    "tag": "City + Regional",
+    "links": [
+      {
+        "name": "Hamilton Council",
+        "note": "Local services",
+        "url": "https://www.hamilton.govt.nz"
+      },
+      {
+        "name": "Waikato Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.waikatoregion.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Waipā District",
+    "region": "Waikato",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Waipā District Council",
+        "note": "Local services",
+        "url": "https://www.waipadc.govt.nz"
+      },
+      {
+        "name": "Waikato Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.waikatoregion.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Ōtorohanga District",
+    "region": "Waikato",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Ōtorohanga District Council",
+        "note": "Local services",
+        "url": "https://www.otodc.govt.nz"
+      },
+      {
+        "name": "Waikato Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.waikatoregion.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "South Waikato District",
+    "region": "Waikato",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "South Waikato District Council",
+        "note": "Local services",
+        "url": "https://www.southwaikato.govt.nz"
+      },
+      {
+        "name": "Waikato Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.waikatoregion.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Waitomo District",
+    "region": "Waikato",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Waitomo District Council",
+        "note": "Local services",
+        "url": "https://www.waitomo.govt.nz"
+      },
+      {
+        "name": "Waikato Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.waikatoregion.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Taupō District",
+    "region": "Waikato",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Taupō District Council",
+        "note": "Local services",
+        "url": "https://www.taupodc.govt.nz"
+      },
+      {
+        "name": "Waikato Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.waikatoregion.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Western Bay of Plenty District",
+    "region": "Bay of Plenty",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Western Bay of Plenty District Council",
+        "note": "Local services",
+        "url": "https://www.westernbay.govt.nz"
+      },
+      {
+        "name": "Bay of Plenty Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.boprc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Tauranga",
+    "region": "Bay of Plenty",
+    "tag": "City + Regional",
+    "links": [
+      {
+        "name": "Tauranga Council",
+        "note": "Local services",
+        "url": "https://www.tauranga.govt.nz"
+      },
+      {
+        "name": "Bay of Plenty Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.boprc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Rotorua Lakes",
+    "region": "Bay of Plenty",
+    "tag": "City + Regional",
+    "links": [
+      {
+        "name": "Rotorua Lakes Council",
+        "note": "Local services",
+        "url": "https://www.rotorualakescouncil.nz"
+      },
+      {
+        "name": "Bay of Plenty Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.boprc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Whakatāne District",
+    "region": "Bay of Plenty",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Whakatāne District Council",
+        "note": "Local services",
+        "url": "https://www.whakatane.govt.nz"
+      },
+      {
+        "name": "Bay of Plenty Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.boprc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Kawerau District",
+    "region": "Bay of Plenty",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Kawerau District Council",
+        "note": "Local services",
+        "url": "https://www.kaweraudc.govt.nz"
+      },
+      {
+        "name": "Bay of Plenty Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.boprc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Ōpōtiki District",
+    "region": "Bay of Plenty",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Ōpōtiki District Council",
+        "note": "Local services",
+        "url": "https://www.odc.govt.nz"
+      },
+      {
+        "name": "Bay of Plenty Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.boprc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Gisborne",
+    "region": "Gisborne",
+    "tag": "Unitary Council",
+    "links": [
+      {
+        "name": "Gisborne Council",
+        "note": "Local services",
+        "url": "https://www.gdc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Wairoa District",
+    "region": "Hawke's Bay",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Wairoa District Council",
+        "note": "Local services",
+        "url": "https://www.wairoadc.govt.nz"
+      },
+      {
+        "name": "Hawke's Bay Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.hbrc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Hastings District",
+    "region": "Hawke's Bay",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Hastings District Council",
+        "note": "Local services",
+        "url": "https://www.hastingsdc.govt.nz"
+      },
+      {
+        "name": "Hawke's Bay Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.hbrc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Napier",
+    "region": "Hawke's Bay",
+    "tag": "City + Regional",
+    "links": [
+      {
+        "name": "Napier Council",
+        "note": "Local services",
+        "url": "https://www.napier.govt.nz"
+      },
+      {
+        "name": "Hawke's Bay Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.hbrc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Central Hawke's Bay District",
+    "region": "Hawke's Bay",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Central Hawke's Bay District Council",
+        "note": "Local services",
+        "url": "https://www.chbdc.govt.nz"
+      },
+      {
+        "name": "Hawke's Bay Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.hbrc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "New Plymouth District",
+    "region": "Taranaki",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "New Plymouth District Council",
+        "note": "Local services",
+        "url": "https://www.npdc.govt.nz"
+      },
+      {
+        "name": "Taranaki Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.trc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Stratford District",
+    "region": "Taranaki",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Stratford District Council",
+        "note": "Local services",
+        "url": "https://www.stratford.govt.nz"
+      },
+      {
+        "name": "Taranaki Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.trc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "South Taranaki District",
+    "region": "Taranaki",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "South Taranaki District Council",
+        "note": "Local services",
+        "url": "https://www.southtaranaki.com"
+      },
+      {
+        "name": "Taranaki Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.trc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Ruapehu District",
+    "region": "Manawatū-Whanganui",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Ruapehu District Council",
+        "note": "Local services",
+        "url": "https://www.ruapehudc.govt.nz"
+      },
+      {
+        "name": "Horizons Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.horizons.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Whanganui District",
+    "region": "Manawatū-Whanganui",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Whanganui District Council",
+        "note": "Local services",
+        "url": "https://www.whanganui.govt.nz"
+      },
+      {
+        "name": "Horizons Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.horizons.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Rangitīkei District",
+    "region": "Manawatū-Whanganui",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Rangitīkei District Council",
+        "note": "Local services",
+        "url": "https://www.rangitikei.govt.nz"
+      },
+      {
+        "name": "Horizons Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.horizons.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Manawatū District",
+    "region": "Manawatū-Whanganui",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Manawatū District Council",
+        "note": "Local services",
+        "url": "https://www.mdc.govt.nz"
+      },
+      {
+        "name": "Horizons Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.horizons.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Palmerston North",
+    "region": "Manawatū-Whanganui",
+    "tag": "City + Regional",
+    "links": [
+      {
+        "name": "Palmerston North Council",
+        "note": "Local services",
+        "url": "https://www.pncc.govt.nz"
+      },
+      {
+        "name": "Horizons Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.horizons.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Tararua District",
+    "region": "Manawatū-Whanganui",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Tararua District Council",
+        "note": "Local services",
+        "url": "https://www.tararuadc.govt.nz"
+      },
+      {
+        "name": "Horizons Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.horizons.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Horowhenua District",
+    "region": "Manawatū-Whanganui",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Horowhenua District Council",
+        "note": "Local services",
+        "url": "https://www.horowhenua.govt.nz"
+      },
+      {
+        "name": "Horizons Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.horizons.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Kāpiti Coast District",
+    "region": "Wellington",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Kāpiti Coast District Council",
+        "note": "Local services",
+        "url": "https://www.kapiticoast.govt.nz"
+      },
+      {
+        "name": "Greater Wellington Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.gw.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Porirua",
+    "region": "Wellington",
+    "tag": "City + Regional",
+    "links": [
+      {
+        "name": "Porirua Council",
+        "note": "Local services",
+        "url": "https://www.poriruacity.govt.nz"
+      },
+      {
+        "name": "Greater Wellington Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.gw.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Upper Hutt",
+    "region": "Wellington",
+    "tag": "City + Regional",
+    "links": [
+      {
+        "name": "Upper Hutt Council",
+        "note": "Local services",
+        "url": "https://www.upperhuttcity.com"
+      },
+      {
+        "name": "Greater Wellington Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.gw.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Lower Hutt",
+    "region": "Wellington",
+    "tag": "City + Regional",
+    "links": [
+      {
+        "name": "Lower Hutt Council",
+        "note": "Local services",
+        "url": "https://www.huttcity.govt.nz"
+      },
+      {
+        "name": "Greater Wellington Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.gw.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Wellington",
+    "region": "Wellington",
+    "tag": "City + Regional",
+    "links": [
+      {
+        "name": "Wellington Council",
+        "note": "Local services",
+        "url": "https://www.wellington.govt.nz"
+      },
+      {
+        "name": "Greater Wellington Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.gw.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "South Wairarapa District",
+    "region": "Wellington",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "South Wairarapa District Council",
+        "note": "Local services",
+        "url": "https://www.swdc.govt.nz"
+      },
+      {
+        "name": "Greater Wellington Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.gw.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Carterton District",
+    "region": "Wellington",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Carterton District Council",
+        "note": "Local services",
+        "url": "https://www.cdc.govt.nz"
+      },
+      {
+        "name": "Greater Wellington Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.gw.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Masterton District",
+    "region": "Wellington",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Masterton District Council",
+        "note": "Local services",
+        "url": "https://www.mstn.govt.nz"
+      },
+      {
+        "name": "Greater Wellington Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.gw.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Tasman District",
+    "region": "Tasman",
+    "tag": "Unitary Council",
+    "links": [
+      {
+        "name": "Tasman District Council",
+        "note": "Local services",
+        "url": "https://www.tasman.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Nelson",
+    "region": "Nelson",
+    "tag": "Unitary Council",
+    "links": [
+      {
+        "name": "Nelson Council",
+        "note": "Local services",
+        "url": "https://www.nelson.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Marlborough District",
+    "region": "Marlborough",
+    "tag": "Unitary Council",
+    "links": [
+      {
+        "name": "Marlborough District Council",
+        "note": "Local services",
+        "url": "https://www.marlborough.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Buller District",
+    "region": "West Coast",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Buller District Council",
+        "note": "Local services",
+        "url": "https://www.bullerdc.govt.nz"
+      },
+      {
+        "name": "West Coast Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.wcrc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Grey District",
+    "region": "West Coast",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Grey District Council",
+        "note": "Local services",
+        "url": "https://www.greydc.govt.nz"
+      },
+      {
+        "name": "West Coast Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.wcrc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Westland District",
+    "region": "West Coast",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Westland District Council",
+        "note": "Local services",
+        "url": "https://www.westlanddc.govt.nz"
+      },
+      {
+        "name": "West Coast Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.wcrc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Kaikōura District",
+    "region": "Canterbury",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Kaikōura District Council",
+        "note": "Local services",
+        "url": "https://www.kaikoura.govt.nz"
+      },
+      {
+        "name": "Environment Canterbury",
+        "note": "Environment, transport",
+        "url": "https://www.ecan.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Hurunui District",
+    "region": "Canterbury",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Hurunui District Council",
+        "note": "Local services",
+        "url": "https://www.hurunui.govt.nz"
+      },
+      {
+        "name": "Environment Canterbury",
+        "note": "Environment, transport",
+        "url": "https://www.ecan.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Waimakariri District",
+    "region": "Canterbury",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Waimakariri District Council",
+        "note": "Local services",
+        "url": "https://www.waimakariri.govt.nz"
+      },
+      {
+        "name": "Environment Canterbury",
+        "note": "Environment, transport",
+        "url": "https://www.ecan.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Christchurch",
+    "region": "Canterbury",
+    "tag": "City + Regional",
+    "links": [
+      {
+        "name": "Christchurch Council",
+        "note": "Local services",
+        "url": "https://www.ccc.govt.nz"
+      },
+      {
+        "name": "Environment Canterbury",
+        "note": "Environment, transport",
+        "url": "https://www.ecan.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Selwyn District",
+    "region": "Canterbury",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Selwyn District Council",
+        "note": "Local services",
+        "url": "https://www.selwyn.govt.nz"
+      },
+      {
+        "name": "Environment Canterbury",
+        "note": "Environment, transport",
+        "url": "https://www.ecan.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Ashburton District",
+    "region": "Canterbury",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Ashburton District Council",
+        "note": "Local services",
+        "url": "https://www.ashburtondc.govt.nz"
+      },
+      {
+        "name": "Environment Canterbury",
+        "note": "Environment, transport",
+        "url": "https://www.ecan.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Timaru District",
+    "region": "Canterbury",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Timaru District Council",
+        "note": "Local services",
+        "url": "https://www.timaru.govt.nz"
+      },
+      {
+        "name": "Environment Canterbury",
+        "note": "Environment, transport",
+        "url": "https://www.ecan.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Mackenzie District",
+    "region": "Canterbury",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Mackenzie District Council",
+        "note": "Local services",
+        "url": "https://www.mackenzie.govt.nz"
+      },
+      {
+        "name": "Environment Canterbury",
+        "note": "Environment, transport",
+        "url": "https://www.ecan.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Waimate District",
+    "region": "Canterbury",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Waimate District Council",
+        "note": "Local services",
+        "url": "https://www.waimatedc.govt.nz"
+      },
+      {
+        "name": "Environment Canterbury",
+        "note": "Environment, transport",
+        "url": "https://www.ecan.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Waitaki District",
+    "region": "Otago",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Waitaki District Council",
+        "note": "Local services",
+        "url": "https://www.waitaki.govt.nz"
+      },
+      {
+        "name": "Otago Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.orc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Central Otago District",
+    "region": "Otago",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Central Otago District Council",
+        "note": "Local services",
+        "url": "https://www.codc.govt.nz"
+      },
+      {
+        "name": "Otago Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.orc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Queenstown-Lakes District",
+    "region": "Otago",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Queenstown-Lakes District Council",
+        "note": "Local services",
+        "url": "https://www.qldc.govt.nz"
+      },
+      {
+        "name": "Otago Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.orc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Dunedin",
+    "region": "Otago",
+    "tag": "City + Regional",
+    "links": [
+      {
+        "name": "Dunedin Council",
+        "note": "Local services",
+        "url": "https://www.dunedin.govt.nz"
+      },
+      {
+        "name": "Otago Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.orc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Clutha District",
+    "region": "Otago",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Clutha District Council",
+        "note": "Local services",
+        "url": "https://www.cluthadc.govt.nz"
+      },
+      {
+        "name": "Otago Regional Council",
+        "note": "Environment, transport",
+        "url": "https://www.orc.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Southland District",
+    "region": "Southland",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Southland District Council",
+        "note": "Local services",
+        "url": "https://www.southlanddc.govt.nz"
+      },
+      {
+        "name": "Environment Southland",
+        "note": "Environment, transport",
+        "url": "https://www.es.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Gore District",
+    "region": "Southland",
+    "tag": "District + Regional",
+    "links": [
+      {
+        "name": "Gore District Council",
+        "note": "Local services",
+        "url": "https://www.goredc.govt.nz"
+      },
+      {
+        "name": "Environment Southland",
+        "note": "Environment, transport",
+        "url": "https://www.es.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Invercargill",
+    "region": "Southland",
+    "tag": "City + Regional",
+    "links": [
+      {
+        "name": "Invercargill Council",
+        "note": "Local services",
+        "url": "https://www.icc.govt.nz"
+      },
+      {
+        "name": "Environment Southland",
+        "note": "Environment, transport",
+        "url": "https://www.es.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Chatham Islands",
+    "region": "Chatham Islands",
+    "tag": "Unitary Council",
+    "links": [
+      {
+        "name": "Chatham Islands Council",
+        "note": "Local services",
+        "url": "https://www.cic.govt.nz"
+      }
+    ]
+  },
+  {
+    "area": "Not sure / other",
+    "region": "Full directory",
+    "tag": "Find yours",
+    "links": [
+      {
+        "name": "LGNZ — all NZ councils",
+        "note": "Search the complete list",
+        "url": "https://www.lgnz.co.nz/local-government-in-nz/councils-in-aotearoa/council-websites-and-maps/"
+      }
+    ]
+  }
+]

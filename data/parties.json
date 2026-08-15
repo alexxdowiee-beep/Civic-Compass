@@ -1,0 +1,122 @@
+[
+  {
+    "group": "parliament",
+    "name": "ACT New Zealand",
+    "slogan": "Campaigns on smaller government, lower tax and individual choice.",
+    "seats": "11 MPs · governing coalition",
+    "url": "https://www.act.org.nz",
+    "color": "#F2C230"
+  },
+  {
+    "group": "parliament",
+    "name": "Green Party",
+    "slogan": "Campaigns on climate action and social and environmental policy.",
+    "seats": "14 MPs · opposition",
+    "url": "https://www.greens.org.nz",
+    "color": "#5AA469"
+  },
+  {
+    "group": "parliament",
+    "name": "Labour Party",
+    "slogan": "Campaigns on jobs, health and housing from a centre-left platform.",
+    "seats": "34 MPs · opposition",
+    "url": "https://www.labour.org.nz",
+    "color": "#D1424A"
+  },
+  {
+    "group": "parliament",
+    "name": "National Party",
+    "slogan": "Campaigns on economic management from a centre-right platform.",
+    "seats": "49 MPs · governing (largest party)",
+    "url": "https://www.national.org.nz",
+    "color": "#2E6FC4"
+  },
+  {
+    "group": "parliament",
+    "name": "New Zealand First",
+    "slogan": "Campaigns on national identity and a 'New Zealand first' platform.",
+    "seats": "8 MPs · governing coalition",
+    "url": "https://www.nzfirst.nz",
+    "color": "#1C1C1C"
+  },
+  {
+    "group": "parliament",
+    "name": "Te Pāti Māori",
+    "slogan": "Campaigns on Māori rights, Te Tiriti and indigenous-led policy.",
+    "seats": "4 MPs · opposition",
+    "url": "https://www.maoriparty.org.nz",
+    "color": "#8A1C2B"
+  },
+  {
+    "group": "registered",
+    "name": "Animal Justice Party Aotearoa NZ",
+    "slogan": "Campaigns on animal rights and welfare policy.",
+    "seats": "Registered party · not in Parliament",
+    "url": "https://animaljustice.org.nz",
+    "color": "#6B4E9E"
+  },
+  {
+    "group": "registered",
+    "name": "Aotearoa Legalise Cannabis Party",
+    "slogan": "Campaigns on cannabis law reform and drug policy.",
+    "seats": "Registered party · not in Parliament",
+    "url": "https://www.alcp.org.nz",
+    "color": "#3E8E41"
+  },
+  {
+    "group": "registered",
+    "name": "Conservative Party NZ",
+    "slogan": "Campaigns on socially conservative and family-values policy.",
+    "seats": "Registered party · not in Parliament",
+    "url": "https://www.conservatives.nz",
+    "color": "#154C79"
+  },
+  {
+    "group": "registered",
+    "name": "NZ Outdoors & Freedom Party",
+    "slogan": "Campaigns on outdoor access rights and personal freedoms.",
+    "seats": "Registered party · not in Parliament",
+    "url": "https://www.nzofp.co.nz",
+    "color": "#4A6B3D"
+  },
+  {
+    "group": "registered",
+    "name": "Opportunities Party (TOP)",
+    "slogan": "Campaigns on evidence-based policy and a universal basic income.",
+    "seats": "Registered party · not in Parliament",
+    "url": "https://www.opportunity.org.nz",
+    "color": "#00A99D"
+  },
+  {
+    "group": "registered",
+    "name": "Vision New Zealand",
+    "slogan": "Campaigns on faith-based community and family policy.",
+    "seats": "Registered party · not in Parliament",
+    "url": "https://www.vision.org.nz",
+    "color": "#7A1F2B"
+  },
+  {
+    "group": "registered",
+    "name": "Women's Rights Party",
+    "slogan": "Campaigns on sex-based rights for women and girls.",
+    "seats": "Registered party · not in Parliament",
+    "url": "https://womensrightsparty.nz",
+    "color": "#B23A6A"
+  },
+  {
+    "group": "unregistered",
+    "name": "The Alliance",
+    "slogan": "Campaigns on public ownership, workers' rights and Treaty partnership.",
+    "seats": "Not yet registered · standing candidates",
+    "url": "https://allianceparty.nz",
+    "color": "#C0392B"
+  },
+  {
+    "group": "unregistered",
+    "name": "Build The Nation",
+    "slogan": "Campaigns on a Northland-founded platform for regional New Zealand.",
+    "seats": "Not yet registered · standing candidates",
+    "url": "https://www.buildthenation.nz",
+    "color": "#8A5A2B"
+  }
+]

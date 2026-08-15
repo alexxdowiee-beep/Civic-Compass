@@ -1,0 +1,387 @@
+{
+  "Selwyn District": {
+    "updated": "as elected Oct 2025",
+    "mayor": {
+      "name": "Lydia Gliddon",
+      "note": "Independent — elected 2025, previously a Selwyn District Councillor"
+    },
+    "councillors": [
+      {
+        "name": "Elizabeth Mundt",
+        "ward": "Ellesmere Ward",
+        "note": "Independent — also NZ First's 2026 candidate for the Selwyn electorate"
+      },
+      {
+        "name": "John Verry",
+        "ward": "Malvern Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Rhys Laraman",
+        "ward": "Rolleston Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Sophie McInnes",
+        "ward": "Rolleston Ward",
+        "note": "Independent — councillor since 2019"
+      },
+      {
+        "name": "Big Red Shefford",
+        "ward": "Rolleston Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Sarah Barnsley",
+        "ward": "Springs Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Denise Carrick",
+        "ward": "Springs Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Aaron McGlinchy",
+        "ward": "Springs Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Tracey MacLeod",
+        "ward": "Councillor at Large",
+        "note": "Independent"
+      },
+      {
+        "name": "Samuel Wilshire",
+        "ward": "Councillor at Large",
+        "note": "Independent"
+      }
+    ],
+    "mp": {
+      "name": "Nicola Grigg",
+      "party": "National",
+      "note": "Sitting MP for Selwyn since 2020, also National's 2026 candidate"
+    },
+    "decisions": [
+      {
+        "date": "Late Jun 2026",
+        "title": "Annual Plan 2026/27 adopted",
+        "outcome": "Confirmed a weighted average rates increase of about 4.5% — down from the 4.9–6.5% range consulted on, and well below the 13.3% signalled in the 2024–2034 Long-Term Plan. Water and wastewater charges are now billed separately by Selwyn Water Limited, adding further to some households' bills (up to ~8.8% combined).",
+        "url": "https://www.chrislynchmedia.com/news-items/selwyn-rates-increase-confirmed-as-annual-plan-adopted/"
+      },
+      {
+        "date": "21 May 2026",
+        "title": "Annual Plan deliberations concluded",
+        "outcome": "Following 964 submissions and near-record engagement, Council agreed to: invest more in land drainage and stormwater; approve $160,000 to support the Sheffield Pool via a community trust; cut council events funding by $107,000; and move toward more user-pays fees (e.g. an $8 increase to dog registration).",
+        "url": "https://www.selwyn.govt.nz/news-And-events/news/selwyn-district-shapes-its-year-ahead-in-annual-plan"
+      }
+    ],
+    "upcoming": [
+      {
+        "deadline": "9 Aug 2026",
+        "title": "Local government reform — \"Head Start\" pathway decision",
+        "detail": "Council must decide whether to submit a voluntary reorganisation proposal under the Government's local government reform process, or leave it to a compulsory process after the 2028 elections.",
+        "url": "https://www.selwyn.govt.nz/news-And-events/news/community-invited-to-help-whats-next-for-selwyn"
+      }
+    ]
+  },
+  "Christchurch": {
+    "updated": "as elected Oct 2025",
+    "mayor": {
+      "name": "Phil Mauger",
+      "note": "Independent (\"Let's Get More Stuff Done\") — re-elected 2025 for a second term"
+    },
+    "councillors": [
+      {
+        "name": "Aaron Keown",
+        "ward": "Harewood Ward",
+        "note": "Elected unopposed"
+      },
+      {
+        "name": "Sam MacDonald",
+        "ward": "Waimairi Ward",
+        "note": "Elected unopposed — chairs the Finance and Performance Committee"
+      },
+      {
+        "name": "Victoria Henstock",
+        "ward": "Papanui Ward",
+        "note": "Independent — Deputy Mayor since 2025"
+      },
+      {
+        "name": "David Cartwright",
+        "ward": "Fendalton Ward",
+        "note": "Independent Citizens"
+      },
+      {
+        "name": "Pauline Cotter",
+        "ward": "Innes Ward",
+        "note": "The People's Choice"
+      },
+      {
+        "name": "Kelly Barber",
+        "ward": "Burwood Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Celeste Donovan",
+        "ward": "Coastal Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Mark Peters",
+        "ward": "Hornby Ward",
+        "note": "Elected unopposed"
+      },
+      {
+        "name": "Andrei Moore",
+        "ward": "Halswell Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Tyla Harrison-Hunt",
+        "ward": "Riccarton Ward",
+        "note": "The People's Choice"
+      },
+      {
+        "name": "Melanie Coker",
+        "ward": "Spreydon Ward",
+        "note": "The People's Choice — Labour"
+      },
+      {
+        "name": "Jake McLellan",
+        "ward": "Central Ward",
+        "note": "Labour"
+      },
+      {
+        "name": "Tim Scandrett",
+        "ward": "Cashmere Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Yani Johanson",
+        "ward": "Linwood Ward",
+        "note": "The People's Choice — Labour"
+      },
+      {
+        "name": "Nathaniel Herz Jardine",
+        "ward": "Heathcote Ward",
+        "note": "The People's Choice"
+      },
+      {
+        "name": "Tyrone Fields",
+        "ward": "Banks Peninsula Ward",
+        "note": "The People's Choice"
+      }
+    ],
+    "mps": [
+      {
+        "name": "Duncan Webb",
+        "party": "Labour",
+        "note": "Sitting MP for Christchurch Central since 2017 — announced his retirement from politics and is not contesting in 2026"
+      },
+      {
+        "name": "Reuben Davidson",
+        "party": "Labour",
+        "note": "Sitting MP for Christchurch East since 2023"
+      },
+      {
+        "name": "Hamish Campbell",
+        "party": "National",
+        "note": "Sitting MP for Ilam, also National's 2026 candidate"
+      },
+      {
+        "name": "Megan Woods",
+        "party": "Labour",
+        "note": "Sitting MP for Wigram — not contesting the electorate in 2026, standing list-only instead"
+      },
+      {
+        "name": "Vanessa Weenink",
+        "party": "National",
+        "note": "Sitting MP for Banks Peninsula since 2023, also National's 2026 candidate"
+      }
+    ],
+    "decisions": [
+      {
+        "date": "23 Jun 2026",
+        "title": "Annual Plan 2026/27 adopted",
+        "outcome": "Confirmed an average household rates increase of about 7.35% (roughly $5.98/week), down from the 7.96% originally proposed. Includes $15m+ towards restoring Christ Church Cathedral and other earthquake-damaged heritage buildings. A ratepayer petition subsequently called for a referendum on the rise.",
+        "url": "https://www.chrislynchmedia.com/news-items/ratepayer-demands-referendum-over-christchurch-rates-rise-and-cathedral-funding/"
+      },
+      {
+        "date": "13 May 2026",
+        "title": "Central city noise rules sent to consultation",
+        "outcome": "The Policy and Planning Committee approved a rewrite of central-city noise rules (Plan Change 21) for public consultation, extending higher permitted noise limits in some areas after live-music venue owners warned a scaled-back map left key venues exposed to complaints.",
+        "url": "https://www.chrislynchmedia.com/news-items/christchurch-noise-plan-headed-to-public-consultation-after-council-vote/"
+      }
+    ],
+    "upcoming": [
+      {
+        "deadline": "Mid-2026",
+        "title": "Future of the old Apollo Projects Stadium site",
+        "detail": "With the new stadium now open, Council is preparing a development plan (informed by public consultation) for the vacated temporary stadium site, including whether to repurpose, sell, or dispose of the infrastructure. An expression-of-interest and tender for decommissioning is due to be released.",
+        "url": "https://www.1news.co.nz/2026/05/08/future-of-christchurchs-apollo-projects-stadium-to-be-decided/"
+      }
+    ]
+  },
+  "Ashburton District": {
+    "updated": "as elected Oct 2025",
+    "mayor": {
+      "name": "Liz McMillan",
+      "note": "Independent — previously Deputy Mayor for 6 years and a Western Ward councillor"
+    },
+    "councillors": [
+      {
+        "name": "Deb Gilkison",
+        "ward": "Western Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Jeanette Maxwell",
+        "ward": "Western Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Carolyn Cameron",
+        "ward": "Ashburton Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Phill Hooper",
+        "ward": "Ashburton Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Tony Todd",
+        "ward": "Ashburton Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Russell Ellis",
+        "ward": "Ashburton Ward",
+        "note": "Independent — stood for Mayor in 2025"
+      },
+      {
+        "name": "Julie Moffett",
+        "ward": "Ashburton Ward",
+        "note": "Independent — new to Council in 2025"
+      },
+      {
+        "name": "Richard Wilson",
+        "ward": "Eastern Ward",
+        "note": "Independent — Deputy Mayor, elected unopposed"
+      },
+      {
+        "name": "Phill Everest",
+        "ward": "Eastern Ward",
+        "note": "Independent — elected unopposed"
+      }
+    ],
+    "mp": {
+      "name": "James Meager",
+      "party": "National",
+      "note": "Sitting MP for Rangitata since 2023, also National's 2026 candidate"
+    },
+    "decisions": [
+      {
+        "date": "~Jun 2026",
+        "title": "Annual Plan 2026/27 adopted",
+        "outcome": "Confirmed an overall average rates increase of 9.15% (5.43% for non-water Council activities, plus 13.05% for water services under the new Water Services Delivery Plan). Includes $19m for the roading network and a $16m loan for road improvements linked to the second Ashburton bridge; the FOGO organics bin rollout was delayed from September 2026 to January 2027.",
+        "url": "https://www.ashburtondc.govt.nz/news/2026-news/council-adopts-annual-plan-for-202627"
+      },
+      {
+        "date": "Mar 2026",
+        "title": "Skipped full public consultation on the draft budget",
+        "outcome": "Council decided not to run a full special-consultative process on its 8.71% proposed rates rise, judging the changes from the Long-Term Plan not significant enough to require it — a decision that drew criticism given the size of the increase.",
+        "url": "https://www.rnz.co.nz/news/regions_local-democracy-reporting/589999/ashburton-council-skips-consultation-on-proposed-8-point-71-percent-rates-rise"
+      }
+    ],
+    "upcoming": [
+      {
+        "deadline": "Late 2026",
+        "title": "Early engagement on the Long-Term Plan 2027–37",
+        "detail": "Council will begin early consultation on its next ten-year plan later in 2026 — the main opportunity for residents to influence spending and rates direction beyond the current Annual Plan.",
+        "url": "https://www.ashburtondc.govt.nz/news/2026-news/mayor-liz-mcmillan-heres-how-the-annual-plan-2026-27-is-tracking"
+      }
+    ]
+  },
+  "Waimakariri District": {
+    "updated": "as elected Oct 2025",
+    "mayor": {
+      "name": "Dan Gordon",
+      "note": "Independent — elected 2019, re-elected 2022 and 2025"
+    },
+    "councillors": [
+      {
+        "name": "Tim Fulton",
+        "ward": "Oxford-Ohoka Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Niki Mealings",
+        "ward": "Oxford-Ohoka Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Wendy Doody",
+        "ward": "Rangiora-Ashley Ward",
+        "note": "Independent — new to Council in 2025"
+      },
+      {
+        "name": "Jason Goldsworthy",
+        "ward": "Rangiora-Ashley Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Bruce McLaren",
+        "ward": "Rangiora-Ashley Ward",
+        "note": "Independent — new to Council in 2025"
+      },
+      {
+        "name": "Joan Ward",
+        "ward": "Rangiora-Ashley Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Tim Bartle",
+        "ward": "Kaiapoi-Woodend Ward",
+        "note": "Independent — new to Council in 2025"
+      },
+      {
+        "name": "Brent Cairns",
+        "ward": "Kaiapoi-Woodend Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Shona Powell",
+        "ward": "Kaiapoi-Woodend Ward",
+        "note": "Independent — new to Council in 2025"
+      },
+      {
+        "name": "Philip Redmond",
+        "ward": "Kaiapoi-Woodend Ward",
+        "note": "Independent — Deputy Mayor"
+      }
+    ],
+    "mp": {
+      "name": "Matt Doocey",
+      "party": "National",
+      "note": "Sitting MP for Waimakariri since 2014, also National's 2026 candidate"
+    },
+    "decisions": [
+      {
+        "date": "16 Jun 2026",
+        "title": "Annual Plan 2026/27 adopted",
+        "outcome": "Confirmed an average rates rise of 4.99% (2.9% excluding water services) — one of the lowest increases of any Canterbury council this year. Council wasn't legally required to run a full consultation but did so anyway, receiving 59 submissions; Deputy Mayor Philip Redmond called it a \"responsible and prudent\" plan.",
+        "url": "https://www.rnz.co.nz/news/ldr/598475/north-canterbury-s-waimakariri-district-council-confirms-rate-rise-just-under-5-percent"
+      }
+    ],
+    "upcoming": [
+      {
+        "deadline": "Jan 2027",
+        "title": "Government rates-capping reform takes effect",
+        "detail": "Central government's proposed rates cap (limiting increases to 2–4% per year, phased in from January 2027 to full implementation by 2029) will constrain Council's future Annual Plans and Long-Term Plan; Council has been formulating its position on the policy.",
+        "url": "https://www.waimakariri.govt.nz/council/local-government-reforms/rates-capping"
+      }
+    ]
+  }
+}
