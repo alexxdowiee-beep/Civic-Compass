@@ -261,6 +261,11 @@
         "p": "Green",
         "n": "Lawrence Xu-Nan",
         "c": "#5AA469"
+      },
+      {
+        "p": "ACT",
+        "n": "David Seymour",
+        "c": "#F2C230"
       }
     ]
   },
@@ -503,6 +508,11 @@
         "p": "Green",
         "n": "Michel Mulipola",
         "c": "#5AA469"
+      },
+      {
+        "p": "Labour",
+        "n": "Lemauga Lydia Sosene",
+        "c": "#D1424A"
       }
     ]
   },
@@ -682,6 +692,11 @@
         "p": "Opportunity",
         "n": "Holly Knill",
         "c": "#00A99D"
+      },
+      {
+        "p": "National",
+        "n": "Simon Watts",
+        "c": "#2E6FC4"
       }
     ]
   },
@@ -698,6 +713,16 @@
         "p": "Green",
         "n": "Bhen Goodsir",
         "c": "#5AA469"
+      },
+      {
+        "p": "National",
+        "n": "Dan Bidois",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Shanan Halbert",
+        "c": "#D1424A"
       }
     ]
   },
