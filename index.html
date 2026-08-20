@@ -753,6 +753,7 @@ function toggleCand(id, chipEl){
   detail.classList.toggle('open', !isOpen);
   chipEl.classList.toggle('open', !isOpen);
 }
+window.toggleCand = toggleCand;
 
 function showCouncillor(idx){
   const detail = document.getElementById('councillorDetail');
@@ -761,6 +762,7 @@ function showCouncillor(idx){
   detail.className = 'councillor-detail open';
   detail.innerHTML = `<div class="rep-name">${cl.name}</div><div class="rep-ward" style="margin-bottom:4px;">${cl.ward}</div><div class="rep-note" style="text-align:left;max-width:100%;">${cl.note}</div>`;
 }
+window.showCouncillor = showCouncillor;
 
 // Restore last visit — remembers your council and which tab you were on,
 // so you land back where you left off instead of starting from scratch each time.
