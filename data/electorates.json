@@ -358,6 +358,16 @@
         "p": "Labour",
         "n": "Janice Lee",
         "c": "#D1424A"
+      },
+      {
+        "p": "National",
+        "n": "Penny Simmonds",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "Green",
+        "n": "Dave Kennedy",
+        "c": "#5AA469"
       }
     ]
   },
@@ -369,6 +379,16 @@
         "p": "Labour",
         "n": "Matthew Flight",
         "c": "#D1424A"
+      },
+      {
+        "p": "National",
+        "n": "Stuart Smith",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "NZ First",
+        "n": "Jamie Arbuckle",
+        "c": "#1C1C1C"
       }
     ]
   },
@@ -740,6 +760,11 @@
         "p": "National",
         "n": "James Meager",
         "c": "#2E6FC4"
+      },
+      {
+        "p": "Labour",
+        "n": "Sange Malama",
+        "c": "#D1424A"
       }
     ]
   },
