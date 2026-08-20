@@ -415,7 +415,6 @@
     <input type="text" id="areaSearch" class="area-search" placeholder="Search your city or district…" autocomplete="off">
     <div class="area-search-meta" id="areaSearchMeta"></div>
     <div class="elect-jump" id="areaJump"></div>
-    <div id="areaList"></div>
     <div id="resultCard">
       <div class="council-card">
         <span class="tag" id="rc-tag">Council</span>
@@ -427,6 +426,7 @@
         <div id="rc-news"></div>
       </div>
     </div>
+    <div id="areaList"></div>
   </section>
 
   <section class="page" id="page-map">
@@ -640,6 +640,8 @@ function selectCouncil(index){
     linksDiv.appendChild(a);
   });
   card.style.display='block';
+  const raf = window.requestAnimationFrame || function(cb){ setTimeout(cb, 50); };
+  raf(()=>{ card.scrollIntoView({behavior:'smooth', block:'start'}); });
 
   // Current representatives — mayor, councillors, and sitting MP.
   // NZ local body elections are officially non-partisan, so almost all councillors
