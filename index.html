@@ -293,12 +293,34 @@
     border:none; border-radius:12px; padding:14px 16px; font-size:15px;
     font-family:inherit; box-shadow:0 8px 22px rgba(0,0,0,0.28);
   }
-  .elect-group{margin-top:22px;}
+  .elect-jump{
+    display:flex; gap:6px; flex-wrap:wrap; margin-top:14px;
+  }
+  .elect-jump button{
+    font-family:inherit; font-size:11.5px; font-weight:600;
+    background:rgba(244,241,230,0.06); color:#C8CFC9;
+    border:1px solid rgba(244,241,230,0.14); border-radius:100px;
+    padding:6px 12px; cursor:pointer;
+  }
+  .elect-jump button:active{background:var(--kowhai); color:#20180A;}
+  .elect-group{margin-top:14px; scroll-margin-top:70px;}
   .elect-group:first-child{margin-top:16px;}
+  .elect-group-header{
+    display:flex; align-items:center; justify-content:space-between;
+    cursor:pointer; padding:10px 0; border-bottom:1px solid rgba(244,241,230,0.1);
+  }
   .elect-group-label{
     font-size:12px; letter-spacing:0.1em; text-transform:uppercase;
-    color:var(--kowhai); font-weight:700; margin-bottom:10px;
+    color:var(--kowhai); font-weight:700;
   }
+  .elect-group-count{
+    font-size:11px; color:#7C8A80; font-weight:400; text-transform:none; letter-spacing:0;
+    margin-left:6px;
+  }
+  .elect-group-caret{ color:var(--kowhai); font-size:13px; transition:transform .15s ease; }
+  .elect-group.open .elect-group-caret{ transform:rotate(180deg); }
+  .elect-group-body{ display:none; padding-top:12px; }
+  .elect-group.open .elect-group-body{ display:block; }
   .elect-card{
     background:var(--paper); border-radius:14px; padding:14px 16px;
     margin-bottom:10px; box-shadow:0 6px 16px rgba(0,0,0,0.18);
@@ -413,6 +435,7 @@
     </div>
     <input class="elect-search" id="electSearch" type="text" placeholder="Search your electorate or a candidate name…">
     <div class="elect-search-meta" id="electSearchMeta"></div>
+    <div class="elect-jump" id="electJump"></div>
     <div id="electList"></div>
     <div class="warn-note">
       <b>Read before relying on this:</b> candidate selection is ongoing right up to nominations closing shortly before 7 Nov 2026, and a few parties (especially National, which mostly re-stands sitting MPs) aren't fully reflected here. This list is compiled from published candidate announcements as tracked publicly — treat it as a snapshot, not the full or final field, and check the linked source for each electorate's latest confirmed line-up. Local council elections aren't due until 2028, so there are no local candidates to map yet — see "My Area" for current councils instead. Tap a candidate to expand their summary — these are only written up where I could verify real, sourced information (mostly incumbents and higher-profile candidates); everyone else shows a search link instead of a guess, since fabricating a stranger's political stance isn't something I'll do on a voting tool.
@@ -725,8 +748,34 @@ renderParties();
 
 const electList=document.getElementById('electList');
 const electSearch=document.getElementById('electSearch');
-const electGroupOrder=["Northland","Auckland","Waikato","Waikato/BOP","Bay of Plenty","Gisborne/Hawke's Bay","Taranaki","Manaw\u0101tu-Whanganui","Wellington","South Island","M\u0101ori electorates"];
-const electGroupOrderFixed=["Northland","Auckland","Waikato","Waikato/BOP","Bay of Plenty","Gisborne/Hawke's Bay","Taranaki","Manaw\u0101t\u016b-Whanganui","Wellington","South Island","M\u0101ori electorates"];
+const electJump=document.getElementById('electJump');
+const openGroups = new Set();
+
+function buildJumpChips(){
+  const seen = new Set();
+  const orderedGroups = [];
+  electorates.forEach(e=>{ if(!seen.has(e.group)){ seen.add(e.group); orderedGroups.push(e.group);} });
+  electJump.innerHTML = '';
+  orderedGroups.forEach(g=>{
+    const btn = document.createElement('button');
+    btn.textContent = g;
+    btn.addEventListener('click', ()=>{
+      electSearch.value = '';
+      openGroups.add(g);
+      renderElectorates('');
+      const target = document.getElementById('group-'+g.replace(/[^a-zA-Z0-9]/g,''));
+      if(target) target.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+    electJump.appendChild(btn);
+  });
+}
+
+function toggleGroup(groupName, headerEl){
+  const groupDiv = headerEl.closest('.elect-group');
+  const isOpen = groupDiv.classList.contains('open');
+  groupDiv.classList.toggle('open', !isOpen);
+  if(isOpen) openGroups.delete(groupName); else openGroups.add(groupName);
+}
 
 function renderElectorates(filter){
   electList.innerHTML='';
@@ -743,11 +792,20 @@ function renderElectorates(filter){
     }
     if(!items.length) return;
     const groupDiv=document.createElement('div');
-    groupDiv.className='elect-group';
-    const label=document.createElement('div');
-    label.className='elect-group-label';
-    label.textContent=g;
-    groupDiv.appendChild(label);
+    const groupId = 'group-'+g.replace(/[^a-zA-Z0-9]/g,'');
+    groupDiv.id = groupId;
+    const isOpen = !!f || openGroups.has(g);
+    groupDiv.className='elect-group' + (isOpen ? ' open' : '');
+
+    const header=document.createElement('div');
+    header.className='elect-group-header';
+    header.innerHTML = `<span class="elect-group-label">${g}<span class="elect-group-count">(${items.length})</span></span><span class="elect-group-caret">\u25be</span>`;
+    header.addEventListener('click', ()=>toggleGroup(g, header));
+    groupDiv.appendChild(header);
+
+    const body=document.createElement('div');
+    body.className='elect-group-body';
+
     items.forEach(e=>{
       const card=document.createElement('div');
       card.className='elect-card';
@@ -775,8 +833,9 @@ function renderElectorates(filter){
         candsHtml = '<span class="elect-none">Candidates not yet publicly confirmed</span>';
       }
       card.innerHTML = `<div class="elect-name">${e.name}</div>${candsHtml}`;
-      groupDiv.appendChild(card);
+      body.appendChild(card);
     });
+    groupDiv.appendChild(body);
     electList.appendChild(groupDiv);
   });
   const meta = document.getElementById('electSearchMeta');
@@ -800,6 +859,7 @@ function renderElectorates(filter){
     meta.innerHTML = '';
   }
 }
+buildJumpChips();
 electSearch.addEventListener('input', ()=>renderElectorates(electSearch.value));
 renderElectorates();
 
