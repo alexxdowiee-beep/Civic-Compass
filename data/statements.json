@@ -2,18 +2,18 @@
   {
     "party": "National",
     "color": "#2E6FC4",
-    "topic": "Cost of living",
-    "date": "31 Mar 2026",
-    "text": "Confirmed a temporary boost to the in-work tax credit worth about $50/week for roughly 143,000 low- and middle-income families, in response to fuel-price pressure, while cautioning against broader spending that could add to inflation and debt.",
-    "url": "https://www.newsonair.gov.in/new-zealand-pm-defends-his-govts-targeted-cost%E2%80%91of%E2%80%91living-support-amid-soaring-fuel-prices"
+    "topic": "Transport & regulation",
+    "date": "21 Aug 2026",
+    "text": "Transport Minister Chris Bishop confirmed the Government will retain a Clean Vehicle Standard for new and used vehicle imports, following a review of its settings.",
+    "url": "https://www.national.org.nz/"
   },
   {
     "party": "Labour",
     "color": "#D1424A",
-    "topic": "Housing",
-    "date": "29 Jun 2026",
-    "text": "Confirmed Labour would not proceed with the Government's planned increase to state house tenants' rent contributions or its changes to the Accommodation Supplement if elected, after earlier calling the rent-contribution increase \"cruel.\"",
-    "url": "https://www.nzherald.co.nz/nz/politics/election-2026-labours-chris-hipkins-clarifies-state-housing-support-policy-after-previously-refusing-to-confirm/UCVK2I5IBJB6ZPF6BT3TRYSRAQ/"
+    "topic": "Small business & jobs",
+    "date": "6 Aug 2026",
+    "text": "Chris Hipkins unveiled the final stage of Labour's Small Business Action Plan in Rotorua, including a $2m annual AI small-business fund, an expanded AI Advisory pilot, and a boost to the Founder and Startup Support Programme.",
+    "url": "https://www.nzherald.co.nz/rotorua-daily-post/news/election-2026-labour-leader-chris-hipkins-in-rotorua-unveils-ai-start-up-support-plan-for-small-businesses/67B6KJZI7NBSDDVMQEEEZI5OZE/"
   },
   {
     "party": "ACT",
@@ -34,10 +34,10 @@
   {
     "party": "Green",
     "color": "#5AA469",
-    "topic": "Workers' rights",
-    "date": "20 Jul 2026",
-    "text": "Backed a Members' Bill that would make union membership the default for new employees, arguing unions give workers a stronger voice in the workplace.",
-    "url": "https://www.greens.org.nz/news_marama_davidson"
+    "topic": "Cost of living / supermarkets",
+    "date": "17 Aug 2026",
+    "text": "Co-leader Chlöe Swarbrick and MP Ricardo Menéndez March announced a Member's Bill, the Commerce (Excessive Pricing in Retail Grocery Industry) Amendment Bill, aiming to make it illegal for supermarkets to charge unreasonably high grocery prices.",
+    "url": "https://www.greens.org.nz/chloe_swarbrick"
   },
   {
     "party": "Te Pāti Māori",
