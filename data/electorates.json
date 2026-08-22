@@ -1179,7 +1179,13 @@
   {
     "name": "Taranaki-King Country",
     "group": "Taranaki",
-    "cands": []
+    "cands": [
+      {
+        "p": "National",
+        "n": "Barbara Kuriger",
+        "c": "#2E6FC4"
+      }
+    ]
   },
   {
     "name": "Taupō",
