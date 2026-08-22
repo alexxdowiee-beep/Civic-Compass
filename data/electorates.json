@@ -22,6 +22,11 @@
         "p": "ACT",
         "n": "Antonia Modkova",
         "c": "#F2C230"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Johan Chang",
+        "c": "#00A99D"
       }
     ]
   },
@@ -276,6 +281,11 @@
         "p": "NZ First",
         "n": "Martin Gummer",
         "c": "#1C1C1C"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Paul Jackson",
+        "c": "#00A99D"
       }
     ]
   },
@@ -533,6 +543,11 @@
         "p": "NZ First",
         "n": "Vicky Hau",
         "c": "#1C1C1C"
+      },
+      {
+        "p": "Opportunity",
+        "n": "Ben Lane",
+        "c": "#00A99D"
       }
     ]
   },
@@ -563,7 +578,7 @@
     "cands": [
       {
         "p": "Opportunity",
-        "n": "Derrick Paull",
+        "n": "Derrick Paul",
         "c": "#00A99D"
       },
       {
