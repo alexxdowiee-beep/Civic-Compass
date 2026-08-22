@@ -987,6 +987,26 @@
         "p": "Opportunity",
         "n": "Luke Ross",
         "c": "#00A99D"
+      },
+      {
+        "p": "Labour",
+        "n": "Chris Hipkins",
+        "c": "#D1424A"
+      },
+      {
+        "p": "National",
+        "n": "Zabeen Lateef",
+        "c": "#2E6FC4"
+      },
+      {
+        "p": "ACT",
+        "n": "Nigel Elder",
+        "c": "#F2C230"
+      },
+      {
+        "p": "NZ First",
+        "n": "Andy Foster",
+        "c": "#1C1C1C"
       }
     ]
   },
