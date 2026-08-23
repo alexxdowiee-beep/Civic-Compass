@@ -788,7 +788,76 @@
     "slogan": "Campaigns on faith-based community and family policy.",
     "seats": "Registered party · not in Parliament",
     "url": "https://www.vision.org.nz",
-    "color": "#7A1F2B"
+    "color": "#7A1F2B",
+    "details": {
+      "overview": "Vision New Zealand is a socially conservative political party that emphasises strong families, parental authority, national sovereignty, individual freedom, law and order, traditional values and opposition to what it describes as race-based or ideological politics. The party was founded in 2019.",
+      "currentStatus": "It is led by Hannah Tamaki, with Heke Robertson as deputy leader, and currently has no representation in Parliament. Vision NZ is continuing to campaign nationally for the 2026 election, with a current policy platform considerably more detailed than some older descriptions of the party.",
+      "policyAreas": [
+        {
+          "title": "Family & parenting",
+          "text": "Make the family the central focus of social policy, strengthen parental authority and reduce what Vision NZ considers unnecessary state intervention in family life. Proposals include a Ministry for Families and financial incentives for families and marriage."
+        },
+        {
+          "title": "Taxation & cost of living",
+          "text": "Make the first $25,000 of personal income tax-free, remove income tax from superannuation, student loans and welfare benefits, and introduce policies aimed at making locally produced food more affordable."
+        },
+        {
+          "title": "Employment",
+          "text": "Replace the minimum wage with an annually adjusted Living Wage, and give preference to New Zealand citizens in employment by foreign-owned companies."
+        },
+        {
+          "title": "Education",
+          "text": "Refocus schools on literacy, numeracy, science and history, while removing what the party considers ideological content from the curriculum. Vision NZ specifically opposes gender theory and Relationship and Sexuality Education in schools."
+        },
+        {
+          "title": "Law & order",
+          "text": "Support stronger enforcement alongside community-based crime prevention, including community support officers and services addressing addiction, truancy, debt and family instability."
+        },
+        {
+          "title": "Housing & infrastructure",
+          "text": "Unlock government land for housing, reform planning rules to enable additional homes and prioritise infrastructure spending in rapidly growing communities."
+        },
+        {
+          "title": "Immigration",
+          "text": "Pause what the party describes as mass immigration and review visa settings. It proposes extending the citizenship residency requirement to 10 years and ending dual citizenship for new applicants."
+        },
+        {
+          "title": "National identity & sovereignty",
+          "text": "Promote a unified national identity under the principle \"One Nation, One People, One Vote.\" The party supports declaring English an official language, ending what it describes as race-based politics, leaving the United Nations and withdrawing from the Paris Agreement."
+        },
+        {
+          "title": "Māori & Te Tiriti",
+          "text": "Oppose what Vision NZ describes as race-based government policy and policies associated with He Puapua, while advocating equal citizenship and a unified national political system."
+        },
+        {
+          "title": "Women's rights & sex-based policy",
+          "text": "Define biological sex in law as male or female, maintain biological-sex-based single-sex spaces and sports categories, and prohibit medical gender-transition interventions for minors."
+        },
+        {
+          "title": "Healthcare",
+          "text": "Increase frontline healthcare funding, improve GP access and specialist waiting times, increase health-professional salaries and remove race-based targeted healthcare policies. The party also supports increased support for mothers, infants and Plunket."
+        },
+        {
+          "title": "Abortion",
+          "text": "Support stronger legal protection for unborn children and review legislation that Vision NZ believes does not adequately protect them."
+        },
+        {
+          "title": "Democracy & Parliament",
+          "text": "Replace New Zealand's current MMP party-list system with an electorate-only Parliament, reduce the number of MPs and introduce political term limits. The party also proposes regular drug testing for sitting MPs."
+        },
+        {
+          "title": "Freedom of speech",
+          "text": "Strongly emphasise freedom of expression and opposition to government overreach. This was particularly prominent in Vision NZ's response to COVID-era government restrictions and its involvement in Freedoms NZ."
+        },
+        {
+          "title": "Economic development",
+          "text": "Support productive enterprise, local businesses and policies intended to increase economic independence and opportunity for New Zealand families."
+        }
+      ],
+      "position": "Vision New Zealand is generally positioned on the socially conservative right, with strong emphasis on traditional family structures, national sovereignty, immigration restriction, parental rights and opposition to progressive social policies. Economically, it combines lower-tax proposals and reduced government intervention with targeted government support for families, healthcare and local industry.",
+      "simpleTerms": "Vision NZ's approach is broadly pro-family, socially conservative and focused on national sovereignty, parental rights, freedom of speech and reducing what it sees as government overreach, alongside tighter immigration and opposition to race-based political structures.",
+      "caveat": "This describes Vision New Zealand's stated policies and political position, rather than assessing whether those policies would work. Some of its proposals — particularly leaving the UN and Paris Agreement, replacing MMP's party-list component, ending dual citizenship for new applicants and substantially changing Treaty-related government policy — would represent significant changes to New Zealand's current political and constitutional arrangements."
+    }
   },
   {
     "group": "registered",
