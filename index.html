@@ -688,7 +688,8 @@ const areaSearch = document.getElementById('areaSearch');
 const areaSearchMeta = document.getElementById('areaSearchMeta');
 const areaJump = document.getElementById('areaJump');
 const areaList = document.getElementById('areaList');
-const areaOpenGroups = new Set();
+let activeAreaGroup = null;
+const areaChipButtons = {};
 let selectedAreaIndex = null;
 
 function buildAreaJumpChips(){
@@ -698,14 +699,17 @@ function buildAreaJumpChips(){
   seen.forEach(region => {
     const btn = document.createElement('button');
     btn.textContent = region;
+    areaChipButtons[region] = btn;
     btn.addEventListener('click', ()=>{
-      const nowSelected = !areaOpenGroups.has(region);
+      const nowSelected = activeAreaGroup !== region;
+      if(activeAreaGroup && areaChipButtons[activeAreaGroup]){
+        areaChipButtons[activeAreaGroup].classList.remove('active');
+      }
       if(nowSelected){
-        areaOpenGroups.add(region);
+        activeAreaGroup = region;
         btn.classList.add('active');
       } else {
-        areaOpenGroups.delete(region);
-        btn.classList.remove('active');
+        activeAreaGroup = null;
       }
       renderAreaList(areaSearch.value);
       if(nowSelected){
@@ -736,7 +740,7 @@ function renderAreaList(filterText){
   let matchCount = 0;
   let placedResultCard = false;
   seen.forEach(region => {
-    if(!f && !areaOpenGroups.has(region)) return;
+    if(!f && region !== activeAreaGroup) return;
     const matches = [];
     councils.forEach((c, i) => {
       if (c.region === region && (!f || c.area.toLowerCase().includes(f))) matches.push([c, i]);
@@ -1003,7 +1007,8 @@ renderParties();
 const electList=document.getElementById('electList');
 const electSearch=document.getElementById('electSearch');
 const electJump=document.getElementById('electJump');
-const openGroups = new Set();
+let activeElectGroup = null;
+const groupChipButtons = {};
 
 function buildJumpChips(){
   const seen = new Set();
@@ -1013,14 +1018,17 @@ function buildJumpChips(){
   orderedGroups.forEach(g=>{
     const btn = document.createElement('button');
     btn.textContent = g;
+    groupChipButtons[g] = btn;
     btn.addEventListener('click', ()=>{
-      const nowSelected = !openGroups.has(g);
+      const nowSelected = activeElectGroup !== g;
+      if(activeElectGroup && groupChipButtons[activeElectGroup]){
+        groupChipButtons[activeElectGroup].classList.remove('active');
+      }
       if(nowSelected){
-        openGroups.add(g);
+        activeElectGroup = g;
         btn.classList.add('active');
       } else {
-        openGroups.delete(g);
-        btn.classList.remove('active');
+        activeElectGroup = null;
       }
       renderElectorates(electSearch.value);
       if(nowSelected){
@@ -1041,7 +1049,7 @@ function renderElectorates(filter){
   const nameMatchChipIds = [];
   let nameMatchCount = 0;
   orderedGroups.forEach(g=>{
-    if(!f && !openGroups.has(g)) return;
+    if(!f && g !== activeElectGroup) return;
     let items=electorates.filter(e=>e.group===g);
     if(f){
       items=items.filter(e=> e.name.toLowerCase().includes(f) || e.cands.some(c=>c.n.toLowerCase().includes(f) || c.p.toLowerCase().includes(f)) );
