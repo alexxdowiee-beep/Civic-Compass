@@ -714,5 +714,142 @@
         "url": "https://www.thepress.co.nz/nz-news/360977511/timaru-district-councillors-approve-draft-annual-plan-average-rates-rise-9"
       }
     ]
+  },
+  "Mackenzie District": {
+    "mayor": {
+      "name": "Scott Aronsen",
+      "note": "No party affiliation stated — elected Mayor in 2025 with 1,132 votes. Has a background in local business and community affairs in the Mackenzie District. Campaign priorities centred on maintaining local decision-making, responsible council spending, infrastructure, and supporting the district's communities and economy."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Rit Fisher",
+        "ward": "Opuha Ward",
+        "note": "No party affiliation stated — Deputy Mayor"
+      },
+      {
+        "name": "Mark Adams",
+        "ward": "Opuha Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Phillipa Guerin",
+        "ward": "Opuha Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Brian Finn",
+        "ward": "Pukaki Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Frank Hocken",
+        "ward": "Pukaki Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Jan Spriggs",
+        "ward": "Pukaki Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Sue Allan",
+        "ward": "Tekapo Ward",
+        "note": "No party affiliation stated"
+      }
+    ],
+    "mp": {
+      "name": "Miles Anderson",
+      "party": "National",
+      "note": "MP for Waitaki, the electorate that includes the Mackenzie District. First elected in 2023."
+    },
+    "profile": {
+      "population": "5,520",
+      "medianAge": "42.0",
+      "medianIncome": "$44,800",
+      "bornOverseas": "24.7%",
+      "bornOverseas2013": "19.7%"
+    },
+    "keyIssues": [
+      {
+        "title": "Rates & council spending",
+        "text": "Mackenzie Council is under pressure to maintain essential services while controlling rates and expenditure. The draft 2026/27 Annual Plan initially indicated an 8.6% rates requirement, subject to the final plan and council decisions."
+      },
+      {
+        "title": "Local government reform",
+        "text": "Mackenzie Council has decided to participate in the Government's Head Start pathway for local-government reform and work with neighbouring councils on an outline proposal. This could potentially change how local government is structured across the region."
+      },
+      {
+        "title": "Water services",
+        "text": "The district is working through the Local Water Done Well reforms. Mackenzie has proposed continuing water services largely in-house while considering future shared or multi-council arrangements."
+      },
+      {
+        "title": "Roads & infrastructure",
+        "text": "Maintaining the district's extensive roading network is a significant financial issue. Council has been increasing the proportion of depreciation funded for roads and using forestry-reserve dividends to help offset roading costs."
+      },
+      {
+        "title": "Tourism & community services",
+        "text": "Tourism is particularly important to Mackenzie, with destinations such as Aoraki/Mount Cook and Takapō/Tekapo attracting large numbers of visitors. Council has been reviewing tourism spending and community services as part of its efforts to control costs."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 16.3
+      },
+      {
+        "label": "15–29",
+        "pct": 17.3
+      },
+      {
+        "label": "30–64",
+        "pct": 48.0
+      },
+      {
+        "label": "65+",
+        "pct": 18.4
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 85.8
+      },
+      {
+        "label": "Māori",
+        "pct": 9.3
+      },
+      {
+        "label": "Asian",
+        "pct": 6.4
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 3.5
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 1.4
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 1.6
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "Aug 2026: Mackenzie Council continued work on its proposed local-government reform / Head Start proposal",
+        "Jun 2026: Council made budget changes for the 2026/27 Annual Plan, including reductions in community development, tourism and other discretionary spending",
+        "Jun 2026: An independent investigation into a Code of Conduct incident involving Councillor Frank Hocken was considered by Council, with follow-up actions approved",
+        "2026: Council continued implementing its water-services delivery model under Local Water Done Well",
+        "2026: Council continued reviewing rates, roading expenditure and essential services as part of its Annual Plan process"
+      ],
+      "url": "https://www.mackenzie.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Scott Aronsen",
+      "turnout": "60.43%",
+      "votesReturned": "approx. 1,700"
+    }
   }
 }
