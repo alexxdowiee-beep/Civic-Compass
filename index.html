@@ -244,8 +244,8 @@
     color:#000; font-weight:700; margin-top:16px; margin-bottom:6px;
   }
   .pd-label:first-of-type{margin-top:14px;}
-  .pd-policy{display:flex; gap:10px; margin-bottom:10px; font-size:13px; line-height:1.5; color:#000;}
-  .pd-policy-title{font-weight:700; color:#000;}
+  .pd-policy{margin-bottom:14px; font-size:13px; line-height:1.5; color:#000;}
+  .pd-policy-title{font-weight:700; color:#000; display:block; margin-bottom:3px;}
   .pd-simple{
     background:rgba(227,168,59,0.1); border:1px solid rgba(227,168,59,0.25);
     border-radius:10px; padding:12px 14px; font-size:13px; line-height:1.55; color:#000;
@@ -922,7 +922,7 @@ function makeCard(p){
     html += `<div class="pd-label">Current status</div><div class="pd-section" style="margin-top:0;">${d.currentStatus}</div>`;
     html += `<div class="pd-label">Main policy areas</div>`;
     d.policyAreas.forEach(pa=>{
-      html += `<div class="pd-policy"><span class="pd-policy-title">${pa.title}:</span> ${pa.text}</div>`;
+      html += `<div class="pd-policy"><span class="pd-policy-title">${pa.title}</span>${pa.text}</div>`;
     });
     html += `<div class="pd-label">Political position</div><div class="pd-section" style="margin-top:0;">${d.position}</div>`;
     html += `<div class="pd-simple"><b>In simple terms:</b> ${d.simpleTerms}</div>`;
