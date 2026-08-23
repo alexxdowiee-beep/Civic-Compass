@@ -865,7 +865,72 @@
     "slogan": "Campaigns on sex-based rights for women and girls.",
     "seats": "Registered party · not in Parliament",
     "url": "https://womensrightsparty.nz",
-    "color": "#B23A6A"
+    "color": "#B23A6A",
+    "details": {
+      "overview": "The Women's Rights Party is a political party focused specifically on protecting what it describes as the sex-based rights of women and girls. The party emphasises equality, freedom of speech, single-sex spaces, reproductive autonomy, protection from violence, fair treatment in employment and sport, and evidence-based healthcare and education.",
+      "currentStatus": "It was registered as a political party in August 2023 and currently has no representation in Parliament. It was still a small political party at the 2023 general election, receiving 0.08% of the party vote and no parliamentary seats.",
+      "policyAreas": [
+        {
+          "title": "Women's rights",
+          "text": "Protect women's rights and opportunities on the basis of biological sex, including access to single-sex spaces, services and activities."
+        },
+        {
+          "title": "Single-sex spaces",
+          "text": "Support the availability and protection of women-only and girls-only spaces, including changing rooms, refuges, prisons and other services where the party considers sex separation important for safety or privacy."
+        },
+        {
+          "title": "Sport",
+          "text": "Support sex-based sporting categories and what the party describes as fair play for women and girls in competitive sport."
+        },
+        {
+          "title": "Free speech",
+          "text": "Strongly support freedom of speech and expression, particularly around discussion of sex, women's rights and gender-related issues."
+        },
+        {
+          "title": "Reproductive rights",
+          "text": "Support women's control over their own bodies, including reproductive autonomy."
+        },
+        {
+          "title": "Violence against women",
+          "text": "Support stronger protection of women and girls from violence and recognise women's safety as a specific policy concern."
+        },
+        {
+          "title": "Equality & employment",
+          "text": "Support equal treatment and equitable recognition and reward for women's paid and unpaid contributions to society."
+        },
+        {
+          "title": "Motherhood",
+          "text": "Support recognition of motherhood as a female-specific biological role and believe that language used in law, healthcare and public policy should accurately reflect biological sex."
+        },
+        {
+          "title": "Healthcare",
+          "text": "Support evidence-based healthcare and informed consent, with particular emphasis on women's health and sex-specific medical considerations."
+        },
+        {
+          "title": "Education",
+          "text": "Support evidence-based education and oppose educational approaches that the party believes blur or deny biological sex."
+        },
+        {
+          "title": "Children",
+          "text": "Support stronger protection of children and parental involvement in decisions affecting children."
+        },
+        {
+          "title": "Language",
+          "text": "Support the use of clear and plain language when referring to women in government, healthcare, education, media and other public institutions."
+        },
+        {
+          "title": "Environment",
+          "text": "Support a safe and clean environment and policies intended to protect the environment for future generations."
+        },
+        {
+          "title": "Democracy",
+          "text": "Support democratic participation, freedom of association and peaceful assembly, alongside the protection of women's political and civil rights."
+        }
+      ],
+      "position": "The Women's Rights Party does not fit particularly neatly onto the traditional left-right economic spectrum. Its defining political position is sex-based women's rights, particularly around single-sex spaces, sport, healthcare, education, language and legal protections. Its constitution describes the party as comprising both women and men who believe in democracy, equality and the biological reality of sex.",
+      "simpleTerms": "The Women's Rights Party's approach is broadly focused on protecting women's sex-based rights, safety and equality, with particular emphasis on single-sex spaces, reproductive autonomy, fair sporting competition, freedom of speech and evidence-based healthcare and education.",
+      "caveat": "This describes the Women's Rights Party's stated principles and policies — it isn't an assessment of whether those policies would produce their intended outcomes. The party's position on sex and gender is politically contested, so its descriptions of proposed changes should be distinguished from claims about their effects."
+    }
   },
   {
     "group": "unregistered",
