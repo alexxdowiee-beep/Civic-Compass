@@ -557,7 +557,80 @@
     "slogan": "Campaigns on socially conservative and family-values policy.",
     "seats": "Registered party · not in Parliament",
     "url": "https://www.conservatives.nz",
-    "color": "#154C79"
+    "color": "#154C79",
+    "details": {
+      "overview": "The Conservative Party NZ is a socially and fiscally conservative political party that emphasises traditional family values, individual responsibility, freedom of speech, limited government, lower taxation, national sovereignty and stronger controls on immigration. The party was originally established as the Conservative Party in 2011, later becoming New Conservative, and is now registered as Conservative Party NZ.",
+      "currentStatus": "It currently has no MPs in Parliament. The Electoral Commission currently lists the registered party as Conservative Party NZ, with Helen Houghton as its leader.",
+      "policyAreas": [
+        {
+          "title": "Economy & taxation",
+          "text": "Support lower taxation, reduced government spending and a smaller public sector, with greater emphasis on individual responsibility and private enterprise."
+        },
+        {
+          "title": "Government",
+          "text": "Reduce bureaucracy and the size of government, while increasing accountability and giving citizens a greater role in political decision-making."
+        },
+        {
+          "title": "Direct democracy",
+          "text": "Strongly support binding citizens-initiated referendums. The party's current proposal would allow a referendum to become binding if it received at least a two-thirds majority with minimum voter participation."
+        },
+        {
+          "title": "Family & social policy",
+          "text": "Place strong emphasis on traditional family structures, parental responsibility and protecting children from what the party considers inappropriate ideological influence."
+        },
+        {
+          "title": "Education",
+          "text": "Support greater parental choice and oppose the teaching of what the party describes as \"gender ideology\" in schools. The party campaigned on this position during the 2023 election."
+        },
+        {
+          "title": "Law & justice",
+          "text": "Support stronger consequences for serious offending while also emphasising rehabilitation and the rights of victims."
+        },
+        {
+          "title": "Free speech",
+          "text": "Strongly support freedom of expression and oppose government restrictions that the party believes unnecessarily limit political or social debate."
+        },
+        {
+          "title": "Immigration",
+          "text": "Support tighter immigration controls, with greater emphasis on immigration levels, skills, integration and the interests of existing New Zealand citizens. The party has recently focused particularly on the scale and effects of migration from India."
+        },
+        {
+          "title": "Māori & Te Tiriti",
+          "text": "Emphasise equal citizenship and oppose policies that the party considers create different legal or political rights based on ethnicity. This places the party in opposition to some forms of Māori-specific representation and policy."
+        },
+        {
+          "title": "Environment",
+          "text": "Support environmental protection while favouring approaches that the party considers economically practical and compatible with property rights, agriculture and economic development."
+        },
+        {
+          "title": "Agriculture & rural New Zealand",
+          "text": "Support farmers and rural communities and generally favour reducing regulatory burdens that the party believes restrict agricultural production."
+        },
+        {
+          "title": "Energy & resources",
+          "text": "Support greater development of New Zealand's domestic natural resources and energy resources where the party believes this would improve energy security and economic growth."
+        },
+        {
+          "title": "Health",
+          "text": "Support a publicly funded healthcare system while favouring greater efficiency, individual choice and a role for private healthcare providers."
+        },
+        {
+          "title": "Housing",
+          "text": "Support increasing housing supply and affordability through reducing regulatory barriers and encouraging private development."
+        },
+        {
+          "title": "Firearms",
+          "text": "Historically supported greater firearm ownership rights and opposed some of the firearms restrictions introduced after the Christchurch mosque attacks, although the party's current policy position should be checked against its latest election platform."
+        },
+        {
+          "title": "Constitution & sovereignty",
+          "text": "Support greater protection of individual rights, New Zealand's constitutional independence and democratic control by New Zealand citizens."
+        }
+      ],
+      "position": "The Conservative Party NZ is generally positioned on the right, combining social conservatism with fiscally conservative economic policies. Compared with National, it generally takes a stronger position on traditional social values, immigration restriction, direct democracy and limiting government intervention in areas such as speech and individual behaviour. It is also generally more socially conservative than ACT.",
+      "simpleTerms": "The Conservative Party NZ's approach is broadly pro-traditional values, pro-free speech and individual responsibility, with a preference for smaller government, lower taxes, tighter immigration controls and greater direct public influence over political decisions.",
+      "caveat": "This describes the Conservative Party NZ's stated political position and policies — it isn't an assessment of whether those policies would work or whether the party's claims are correct. The party has changed its name, leadership and some policy positions over time, so older descriptions of the former New Conservative Party should not automatically be treated as its current 2026 platform."
+    }
   },
   {
     "group": "registered",
