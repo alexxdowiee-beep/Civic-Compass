@@ -1614,5 +1614,181 @@
       "turnout": "68.34%",
       "votesReturned": "300"
     }
+  },
+  "Southland District": {
+    "mayor": {
+      "name": "Rob Scott",
+      "note": "No party affiliation stated — re-elected Mayor in 2025 with 6,017 votes, ahead of former Mayor Gary Tong (1,291) and Wendy Joy Baker (420). Previously served as mayor and returned to the position in the 2022 election."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Sarah Greaney",
+        "ward": "Mararoa Waimea Ward",
+        "note": "No affiliation stated — elected unopposed"
+      },
+      {
+        "name": "Matt Wilson",
+        "ward": "Mararoa Waimea Ward",
+        "note": "Independent — elected unopposed"
+      },
+      {
+        "name": "Tom O'Brien",
+        "ward": "Mararoa Waimea Ward",
+        "note": "No affiliation stated — elected unopposed"
+      },
+      {
+        "name": "Jaspreet Boparai",
+        "ward": "Waiau Aparima Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Don Byars",
+        "ward": "Waiau Aparima Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Michael Weusten",
+        "ward": "Waiau Aparima Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Christine Menzies",
+        "ward": "Ōreti Ward",
+        "note": "No affiliation stated — Deputy Mayor"
+      },
+      {
+        "name": "Brian Somerville",
+        "ward": "Ōreti Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Phil Dobson",
+        "ward": "Ōreti Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Paul Duffy",
+        "ward": "Waihōpai Toetoe Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Julie Keast",
+        "ward": "Waihōpai Toetoe Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Jon Spraggon",
+        "ward": "Stewart Island/Rakiura Ward",
+        "note": "No affiliation stated — elected unopposed"
+      }
+    ],
+    "mp": {
+      "name": "Joseph Mooney",
+      "party": "National",
+      "note": "MP for Southland since 2020. Currently Chairperson of the Social Services and Community Committee and a member of the Regulations Review Committee."
+    },
+    "profile": {
+      "population": "31,833",
+      "medianAge": "40.3",
+      "medianIncome": "approx. $41,000",
+      "bornOverseas": "approx. 15.7%",
+      "bornOverseas2013": "11.5%"
+    },
+    "keyIssues": [
+      {
+        "title": "Local government reform",
+        "text": "Southland District Council has agreed to enter the Government's Head Start reorganisation process. The Local Government Commission is investigating potential changes to Southland's local-government structure."
+      },
+      {
+        "title": "Rates & affordability",
+        "text": "The 2026/27 average rates increase excluding water is 4.97%. Including the impact of water-service costs, the average increase is 9.82%."
+      },
+      {
+        "title": "Water services",
+        "text": "Water infrastructure is a major financial issue. Council estimates average residential water-service rates could rise from about $1,465 in 2024 to more than $4,310 by 2034 under the existing arrangements."
+      },
+      {
+        "title": "Roads & infrastructure",
+        "text": "Southland has an extensive rural infrastructure network, including around 4,951 km of roads and 880 bridges, creating significant maintenance and renewal costs."
+      },
+      {
+        "title": "Growth & community planning",
+        "text": "Council is developing Community Spatial Plans for towns where residential land, infrastructure capacity and natural hazards are affecting future growth."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 20
+      },
+      {
+        "label": "15–29",
+        "pct": 16
+      },
+      {
+        "label": "30–64",
+        "pct": 47
+      },
+      {
+        "label": "65+",
+        "pct": 18
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 86.3
+      },
+      {
+        "label": "Māori",
+        "pct": 13.0
+      },
+      {
+        "label": "Asian",
+        "pct": 7.6
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 1.4
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.8
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 1.9
+      }
+    ],
+    "decisions": [
+      {
+        "title": "2026/27 rates increase set",
+        "date": "2026",
+        "outcome": "Council implemented a significant rates increase — 4.97% excluding water, or 9.82% including water-service costs — driven particularly by water infrastructure depreciation and costs.",
+        "url": "https://www.southlanddc.govt.nz"
+      },
+      {
+        "title": "Head Start local government reform proposal",
+        "date": "6 Aug 2026",
+        "outcome": "Council agreed to put forward a proposal under the Government's Head Start local-government reform process.",
+        "url": "https://www.southlanddc.govt.nz"
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "7 Aug 2026: Council announced investment benefiting residents and visitors",
+        "6 Aug 2026: Council agreed to put forward a proposal under the Head Start local-government reform process",
+        "5 Aug 2026: Te Anau Airport Manapōuri RFP process continued, with proposals being considered for the airport's future",
+        "2026: Council implemented a significant rates increase, driven particularly by water infrastructure depreciation and costs",
+        "2026: Council continued developing Community Spatial Plans to address growth, infrastructure capacity and natural hazards"
+      ],
+      "url": "https://www.southlanddc.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Rob Scott",
+      "turnout": "42.26%",
+      "votesReturned": "approx. 8,730"
+    }
   }
 }
