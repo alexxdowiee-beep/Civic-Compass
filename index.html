@@ -238,28 +238,27 @@
 
   .party-detail{display:none; padding:0 18px 18px; border-top:1px solid rgba(244,241,230,0.08);}
   .party-item.open .party-detail{display:block;}
-  .pd-section{font-size:13.5px; line-height:1.6; color:var(--ink); margin-top:14px;}
+  .pd-section{font-size:13.5px; line-height:1.6; color:#000; margin-top:14px;}
   .pd-label{
     font-size:11px; letter-spacing:0.08em; text-transform:uppercase;
-    color:var(--kowhai); font-weight:700; margin-top:16px; margin-bottom:6px;
+    color:#000; font-weight:700; margin-top:16px; margin-bottom:6px;
   }
   .pd-label:first-of-type{margin-top:14px;}
-  .pd-policy{display:flex; gap:10px; margin-bottom:10px; font-size:13px; line-height:1.5;}
-  .pd-policy-emoji{flex-shrink:0; font-size:15px;}
-  .pd-policy-title{font-weight:700; color:var(--pounamu-deep);}
+  .pd-policy{display:flex; gap:10px; margin-bottom:10px; font-size:13px; line-height:1.5; color:#000;}
+  .pd-policy-title{font-weight:700; color:#000;}
   .pd-simple{
     background:rgba(227,168,59,0.1); border:1px solid rgba(227,168,59,0.25);
-    border-radius:10px; padding:12px 14px; font-size:13px; line-height:1.55; color:var(--ink);
+    border-radius:10px; padding:12px 14px; font-size:13px; line-height:1.55; color:#000;
   }
   .pd-caveat{
     background:rgba(47,107,84,0.14); border:1px solid rgba(47,107,84,0.35);
-    border-radius:10px; padding:12px 14px; font-size:12.5px; line-height:1.55; color:#CFE0D6; margin-top:14px;
+    border-radius:10px; padding:12px 14px; font-size:12.5px; line-height:1.55; color:#000; margin-top:14px;
   }
   .pd-link{
     display:inline-flex; align-items:center; gap:6px; margin-top:14px;
     font-size:13px; font-weight:600; color:var(--pounamu); text-decoration:none;
   }
-  .pd-nodetail{font-size:13px; line-height:1.55; color:#5B6B62; margin-top:14px;}
+  .pd-nodetail{font-size:13px; line-height:1.55; color:#000; margin-top:14px;}
 
   .gov-note{
     background:rgba(47,107,84,0.14); border:1px solid rgba(47,107,84,0.35);
@@ -923,7 +922,7 @@ function makeCard(p){
     html += `<div class="pd-label">Current status</div><div class="pd-section" style="margin-top:0;">${d.currentStatus}</div>`;
     html += `<div class="pd-label">Main policy areas</div>`;
     d.policyAreas.forEach(pa=>{
-      html += `<div class="pd-policy"><span class="pd-policy-emoji">${pa.emoji}</span><span><span class="pd-policy-title">${pa.title}:</span> ${pa.text}</span></div>`;
+      html += `<div class="pd-policy"><span class="pd-policy-title">${pa.title}:</span> ${pa.text}</div>`;
     });
     html += `<div class="pd-label">Political position</div><div class="pd-section" style="margin-top:0;">${d.position}</div>`;
     html += `<div class="pd-simple"><b>In simple terms:</b> ${d.simpleTerms}</div>`;
