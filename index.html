@@ -215,6 +215,49 @@
     color:#7C5A12; background:rgba(227,168,59,0.25); padding:2px 8px; border-radius:6px; margin-bottom:6px;
   }
 
+  .quick-stats{
+    display:grid; grid-template-columns:repeat(2,1fr); gap:8px;
+    margin-bottom:14px;
+  }
+  .quick-stat{ background:var(--paper-dim); border-radius:10px; padding:10px 12px; }
+  .quick-stat-label{ font-size:10.5px; text-transform:uppercase; letter-spacing:0.06em; color:#7C8A80; }
+  .quick-stat-value{ font-size:16px; font-weight:700; color:var(--pounamu-deep); margin-top:2px; }
+
+  .issue-card{ background:var(--paper); border-radius:12px; padding:12px 14px; margin-bottom:8px; }
+  .issue-title{ font-size:13.5px; font-weight:700; color:var(--pounamu-deep); margin-bottom:4px; }
+  .issue-text{ font-size:13px; line-height:1.5; color:var(--ink); }
+
+  .demo-block{ background:var(--paper); border-radius:12px; padding:14px 16px; margin-bottom:10px; }
+  .demo-subhead{ font-size:11.5px; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; color:#7C8A80; margin-bottom:10px; }
+  .demo-subhead:not(:first-child){ margin-top:16px; }
+  .demo-row{ margin-bottom:9px; }
+  .demo-row-top{ display:flex; justify-content:space-between; font-size:12.5px; margin-bottom:3px; }
+  .demo-label{ color:var(--ink); }
+  .demo-pct{ font-weight:700; color:var(--pounamu-deep); }
+  .demo-bar-track{ background:var(--line); border-radius:100px; height:6px; overflow:hidden; }
+  .demo-bar-fill{ background:var(--pounamu); height:100%; border-radius:100px; }
+  .demo-other-row{ display:flex; justify-content:space-between; font-size:12.5px; padding:5px 0; border-bottom:1px solid rgba(0,0,0,0.06); }
+  .demo-other-row:last-child{ border-bottom:none; }
+  .demo-other-label{ color:#5B6B62; }
+  .demo-other-value{ font-weight:700; color:var(--pounamu-deep); }
+
+  .news-list{ list-style:none; margin:0; padding:0; }
+  .news-list li{
+    font-size:13px; line-height:1.5; color:var(--ink);
+    padding:8px 0 8px 16px; border-bottom:1px solid rgba(0,0,0,0.06);
+    position:relative;
+  }
+  .news-list li:last-child{ border-bottom:none; }
+  .news-list li::before{ content:"•"; position:absolute; left:0; color:var(--kowhai); font-weight:700; }
+
+  .election-summary{
+    background:var(--paper); border-radius:12px; padding:14px 16px;
+    display:flex; flex-wrap:wrap; gap:14px;
+  }
+  .election-stat{ flex:1 1 auto; min-width:90px; }
+  .election-stat-label{ font-size:10.5px; text-transform:uppercase; letter-spacing:0.05em; color:#7C8A80; }
+  .election-stat-value{ font-size:14px; font-weight:700; color:var(--pounamu-deep); margin-top:2px; }
+
   .party-grid{display:flex; flex-direction:column; gap:10px; margin-top:16px;}
   .party-item{
     background:var(--paper-dim); border:1px solid rgba(244,241,230,0.08);
@@ -892,7 +935,17 @@ function selectCouncil(index){
   const repsDiv=document.getElementById('rc-reps');
   const reps = councilReps[c.area];
   if(reps){
-    let rhtml = `<div class="reps-block"><div class="reps-label">Mayor</div>
+    let rhtml = '';
+    if(reps.profile){
+      const p = reps.profile;
+      rhtml += `<div class="quick-stats">
+        <div class="quick-stat"><div class="quick-stat-label">Population</div><div class="quick-stat-value">${p.population}</div></div>
+        <div class="quick-stat"><div class="quick-stat-label">Median age</div><div class="quick-stat-value">${p.medianAge}</div></div>
+        <div class="quick-stat"><div class="quick-stat-label">Councillors</div><div class="quick-stat-value">${reps.councillors.length}</div></div>
+        <div class="quick-stat"><div class="quick-stat-label">Next local election</div><div class="quick-stat-value">2028</div></div>
+      </div>`;
+    }
+    rhtml += `<div class="reps-block"><div class="reps-label">Mayor</div>
       <div class="rep-row"><div><div class="rep-name">${reps.mayor.name}</div></div><div class="rep-note">${reps.mayor.note}</div></div>
       <div class="reps-label" style="margin-top:12px;">Councillors <span style="font-weight:400;text-transform:none;color:#6B7A70;">(${reps.updated})</span></div>
       <select class="rep-select" id="councillorSelect" onchange="showCouncillor(this.value)">
@@ -909,6 +962,12 @@ function selectCouncil(index){
       rhtml += `<div class="reps-label" style="margin-top:12px;">Sitting MPs <span style="font-weight:400;text-transform:none;color:#6B7A70;">(area spans several electorates)</span></div>`;
       reps.mps.forEach(m=>{
         rhtml += `<div class="rep-mp-card" style="margin-bottom:6px;"><div class="rep-name">${m.name} <span style="font-weight:400;color:#6B7A70;">· ${m.party}</span></div><div class="rep-note" style="text-align:left;max-width:100%;">${m.note}</div></div>`;
+      });
+    }
+    if(reps.keyIssues && reps.keyIssues.length){
+      rhtml += `<div class="reps-label" style="margin-top:12px;">Key local issues</div>`;
+      reps.keyIssues.forEach(ki=>{
+        rhtml += `<div class="issue-card"><div class="issue-title">${ki.title}</div><div class="issue-text">${ki.text}</div></div>`;
       });
     }
     if(reps.decisions && reps.decisions.length){
@@ -931,6 +990,50 @@ function selectCouncil(index){
           <a class="decision-src" href="${u.url}" target="_blank" rel="noopener">Read the source \u2197</a>
         </div>`;
       });
+    }
+    if(reps.ageBreakdown || reps.ethnicityBreakdown || reps.profile){
+      rhtml += `<div class="reps-label" style="margin-top:12px;">Demographics</div><div class="demo-block">`;
+      if(reps.ageBreakdown && reps.ageBreakdown.length){
+        rhtml += `<div class="demo-subhead">Age</div>`;
+        reps.ageBreakdown.forEach(a=>{
+          rhtml += `<div class="demo-row">
+            <div class="demo-row-top"><span class="demo-label">${a.label}</span><span class="demo-pct">${a.pct}%</span></div>
+            <div class="demo-bar-track"><div class="demo-bar-fill" style="width:${a.pct}%"></div></div>
+          </div>`;
+        });
+      }
+      if(reps.ethnicityBreakdown && reps.ethnicityBreakdown.length){
+        rhtml += `<div class="demo-subhead">Ethnicity</div>`;
+        reps.ethnicityBreakdown.forEach(e2=>{
+          rhtml += `<div class="demo-row">
+            <div class="demo-row-top"><span class="demo-label">${e2.label}</span><span class="demo-pct">${e2.pct}%</span></div>
+            <div class="demo-bar-track"><div class="demo-bar-fill" style="width:${e2.pct}%"></div></div>
+          </div>`;
+        });
+        rhtml += `<div class="issue-text" style="margin-top:2px;color:#7C8A80;font-size:11.5px;">Ethnicity percentages can add to more than 100% because people can identify with more than one ethnicity.</div>`;
+      }
+      if(reps.profile){
+        const p = reps.profile;
+        rhtml += `<div class="demo-subhead">Other demographics</div>
+          <div class="demo-other-row"><span class="demo-other-label">Median personal income</span><span class="demo-other-value">${p.medianIncome}</span></div>
+          <div class="demo-other-row"><span class="demo-other-label">Born overseas</span><span class="demo-other-value">${p.bornOverseas}</span></div>
+          <div class="demo-other-row"><span class="demo-other-label">Born overseas (2013)</span><span class="demo-other-value">${p.bornOverseas2013}</span></div>`;
+      }
+      rhtml += `</div>`;
+    }
+    if(reps.recentNews && reps.recentNews.items && reps.recentNews.items.length){
+      rhtml += `<div class="reps-label" style="margin-top:12px;">Recent news</div>
+        <ul class="news-list">${reps.recentNews.items.map(n=>`<li>${n}</li>`).join('')}</ul>
+        <a class="decision-src" href="${reps.recentNews.url}" target="_blank" rel="noopener" style="display:inline-block;margin-top:6px;">Read more on Council's news page \u2197</a>`;
+    }
+    if(reps.election2025){
+      const el = reps.election2025;
+      rhtml += `<div class="reps-label" style="margin-top:12px;">2025 election</div>
+        <div class="election-summary">
+          <div class="election-stat"><div class="election-stat-label">Mayor elected</div><div class="election-stat-value">${el.mayorElected}</div></div>
+          <div class="election-stat"><div class="election-stat-label">Turnout</div><div class="election-stat-value">${el.turnout}</div></div>
+          <div class="election-stat"><div class="election-stat-label">Votes returned</div><div class="election-stat-value">${el.votesReturned}</div></div>
+        </div>`;
     }
     rhtml += `<div class="note" style="margin-top:10px;">NZ local elections are officially non-partisan — almost all councillors stand as "Independent" even when they have a known party connection (flagged above where I found one). Councillor list reflects the October 2025 election. Decisions and upcoming items are a snapshot, not everything the council votes on — see the live <a href="https://www.selwyn.govt.nz/your-council/meetings/agendas-and-minutes" target="_blank" rel="noopener" style="color:var(--pounamu)">agendas &amp; minutes</a> for the full record.</div></div>`;
     repsDiv.innerHTML = rhtml;
