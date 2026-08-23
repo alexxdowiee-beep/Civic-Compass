@@ -494,6 +494,7 @@
     </div>
     <input type="text" id="areaSearch" class="area-search" placeholder="Search your city or district…" autocomplete="off">
     <div class="area-search-meta" id="areaSearchMeta"></div>
+    <div class="elect-jump" id="areaJump"></div>
     <div id="areaList"></div>
     <div id="resultCard">
       <div class="council-card">
@@ -685,15 +686,35 @@ tabnav.querySelectorAll('button').forEach(btn=>{
 
 const areaSearch = document.getElementById('areaSearch');
 const areaSearchMeta = document.getElementById('areaSearchMeta');
+const areaJump = document.getElementById('areaJump');
 const areaList = document.getElementById('areaList');
 const areaOpenGroups = new Set();
 let selectedAreaIndex = null;
 
-function toggleAreaGroup(regionName, headerEl){
-  const groupDiv = headerEl.closest('.elect-group');
-  const isOpen = groupDiv.classList.contains('open');
-  groupDiv.classList.toggle('open', !isOpen);
-  if(isOpen) areaOpenGroups.delete(regionName); else areaOpenGroups.add(regionName);
+function buildAreaJumpChips(){
+  const seen = [];
+  councils.forEach(c => { if(!seen.includes(c.region)) seen.push(c.region); });
+  areaJump.innerHTML = '';
+  seen.forEach(region => {
+    const btn = document.createElement('button');
+    btn.textContent = region;
+    btn.addEventListener('click', ()=>{
+      const nowSelected = !areaOpenGroups.has(region);
+      if(nowSelected){
+        areaOpenGroups.add(region);
+        btn.classList.add('active');
+      } else {
+        areaOpenGroups.delete(region);
+        btn.classList.remove('active');
+      }
+      renderAreaList(areaSearch.value);
+      if(nowSelected){
+        const target = document.getElementById('areagroup-'+region.replace(/[^a-zA-Z0-9]/g,''));
+        if(target) target.scrollIntoView({behavior:'smooth', block:'start'});
+      }
+    });
+    areaJump.appendChild(btn);
+  });
 }
 
 function renderAreaList(filterText){
@@ -715,6 +736,7 @@ function renderAreaList(filterText){
   let matchCount = 0;
   let placedResultCard = false;
   seen.forEach(region => {
+    if(!f && !areaOpenGroups.has(region)) return;
     const matches = [];
     councils.forEach((c, i) => {
       if (c.region === region && (!f || c.area.toLowerCase().includes(f))) matches.push([c, i]);
@@ -725,13 +747,11 @@ function renderAreaList(filterText){
     const groupDiv = document.createElement('div');
     const groupId = 'areagroup-'+region.replace(/[^a-zA-Z0-9]/g,'');
     groupDiv.id = groupId;
-    const isOpen = !!f || areaOpenGroups.has(region);
-    groupDiv.className = 'elect-group' + (isOpen ? ' open' : '');
+    groupDiv.className = 'elect-group open';
 
     const header = document.createElement('div');
     header.className = 'elect-group-header';
-    header.innerHTML = `<span class="elect-group-label">${region}<span class="elect-group-count">(${matches.length})</span></span><span class="elect-group-caret">\u25be</span>`;
-    header.addEventListener('click', ()=>toggleAreaGroup(region, header));
+    header.innerHTML = `<span class="elect-group-label">${region}<span class="elect-group-count">(${matches.length})</span></span>`;
     groupDiv.appendChild(header);
 
     const body = document.createElement('div');
@@ -763,6 +783,12 @@ function renderAreaList(filterText){
     resultCardEl.style.display = 'none';
   }
 
+  if (!areaList.children.length) {
+    areaList.innerHTML = f
+      ? '<p class="elect-none" style="padding:20px 0;">No matches \u2014 try a different search.</p>'
+      : '<p class="elect-empty-hint">Select a region above to see its councils.</p>';
+  }
+
   if (f) {
     areaSearchMeta.innerHTML = matchCount
       ? `Found <b>${matchCount}</b> area${matchCount > 1 ? 's' : ''} matching "${filterText}"`
@@ -772,6 +798,7 @@ function renderAreaList(filterText){
   }
 }
 
+buildAreaJumpChips();
 renderAreaList('');
 areaSearch.addEventListener('input', () => renderAreaList(areaSearch.value));
 
