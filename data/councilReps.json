@@ -1349,5 +1349,156 @@
       "turnout": "39.55%",
       "votesReturned": "3,845"
     }
+  },
+  "Kaikōura District": {
+    "mayor": {
+      "name": "Craig Mackle",
+      "note": "Independent / no party affiliation stated — re-elected Mayor in 2025 for his third term, receiving 1,342 votes, comfortably ahead of John Diver (400) and Dave Anderson (89). A born-and-bred Kaikōura local, married with three children, involved with Council for more than 11 years. Priorities following the 2025 election included completing the new Kaikōura-Hurunui water services organisation, finishing the Wakatu Quay projects, and improving access for Clarence Valley residents."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Vicki Gulleford",
+        "ward": "At Large",
+        "note": "No party affiliation stated — Deputy Mayor (first time, 2025). Has lived in Kaikōura since 1994 and works at Te Hā o Mātauranga, the local learning hub."
+      },
+      {
+        "name": "Tony Blunt",
+        "ward": "At Large",
+        "note": "No party affiliation stated — Kaikōura-born farmer and former Federated Farmers contact person, with a B.Com in Agriculture and extensive farming, forestry and fishing experience. Councillor for 11 years."
+      },
+      {
+        "name": "Kevin Heays",
+        "ward": "At Large",
+        "note": "No party affiliation stated — former Kaikōura Mayor, local high-school teacher and radio DJ."
+      },
+      {
+        "name": "John Diver",
+        "ward": "At Large",
+        "note": "No party affiliation stated — more than 19 years' experience as an elected member, including six years as Deputy Mayor. Stated interests include economic development, financial prudence, community engagement and the aquatic-centre project."
+      },
+      {
+        "name": "Corrina Smith",
+        "ward": "At Large",
+        "note": "No party affiliation stated — Kaikōura resident for 23 years and local business owner, operating Beach House Cafe and Smith Building with her husband."
+      },
+      {
+        "name": "Joshua McInnes",
+        "ward": "At Large",
+        "note": "No party affiliation stated — first-term councillor who grew up locally, spent nearly six years in mining construction in Perth, and returned to Kaikōura with his family. Works as a builder."
+      },
+      {
+        "name": "Mark Redwood",
+        "ward": "At Large",
+        "note": "No party affiliation stated — first-term councillor and third-generation Clarence Valley farmer; a qualified veterinary epidemiologist who spent much of his career in the Middle East."
+      }
+    ],
+    "mp": {
+      "name": "Stuart Smith",
+      "party": "National",
+      "note": "MP for Kaikōura since 2014, an electorate covering the district and extending through parts of Marlborough and north Canterbury. Currently a National Party Senior Whip."
+    },
+    "profile": {
+      "population": "4,340",
+      "medianAge": "50.3",
+      "medianIncome": "$33,300",
+      "bornOverseas": "15.6%",
+      "bornOverseas2013": "12.2%"
+    },
+    "keyIssues": [
+      {
+        "title": "Local government reform",
+        "text": "Kaikōura has chosen to pursue a joint unitary-authority proposal with Marlborough District Council under the Government's Head Start programme. The proposal was formally submitted on 10 August 2026 and would create an expanded Marlborough–Kaikōura unitary authority from 2028 if approved."
+      },
+      {
+        "title": "Water services",
+        "text": "From 1 July 2026, responsibility for drinking water, wastewater and stormwater services transferred to Kaikōura Hurunui Water Services Ltd (KHWS). Council is now a shareholder rather than directly delivering the services."
+      },
+      {
+        "title": "Flood recovery",
+        "text": "Kaikōura remains in the recovery phase following the July 2026 flooding event, with the transition period currently extended until 7 September 2026. Landslide risks and infrastructure recovery remain active issues."
+      },
+      {
+        "title": "Roads & Clarence Valley access",
+        "text": "Access to Clarence Valley remains an important issue following the loss of the Glen Alton Bridge in the 2016 earthquake. Council continues to look at options for restoring reliable access after NZTA funding for a full replacement bridge was withdrawn."
+      },
+      {
+        "title": "Rates & infrastructure spending",
+        "text": "The 2026/27 Annual Plan includes substantial spending on infrastructure, including roading renewals, flood-related projects and community facilities. The draft plan proposed a 3.8% rates increase excluding water, with an estimated 6.3% overall impact including water charges."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 15.3
+      },
+      {
+        "label": "15–29",
+        "pct": 12.6
+      },
+      {
+        "label": "30–64",
+        "pct": 45.3
+      },
+      {
+        "label": "65+",
+        "pct": 26.8
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 87.0
+      },
+      {
+        "label": "Māori",
+        "pct": 19.0
+      },
+      {
+        "label": "Asian",
+        "pct": 3.9
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 1.0
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.7
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 3.7
+      }
+    ],
+    "decisions": [
+      {
+        "title": "Marlborough–Kaikōura unitary authority proposal submitted",
+        "date": "10 Aug 2026",
+        "outcome": "Kaikōura and Marlborough formally submitted their joint Head Start proposal, which would create an expanded Marlborough–Kaikōura unitary authority from 2028 if approved — chosen over a competing North Canterbury option after resident consultation.",
+        "url": "https://www.kaikoura.govt.nz"
+      },
+      {
+        "title": "2026/27 Annual Plan rates",
+        "date": "Jun–Jul 2026",
+        "outcome": "Draft plan proposed a 3.8% rates increase excluding water, with an estimated 6.3% overall impact including water charges, alongside substantial infrastructure spending on roading renewals, flood-related projects and community facilities.",
+        "url": "https://www.kaikoura.govt.nz"
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "10 Aug 2026: Kaikōura and Marlborough formally submitted their joint Head Start proposal for a possible unitary authority",
+        "Late Jul 2026: Kaikōura continued flood recovery following the significant July weather event",
+        "28 Jul 2026: The Peketa and Kincaid boil-water notice was lifted following water-quality work",
+        "1 Jul 2026: Kaikōura Hurunui Water Services assumed responsibility for the district's three waters services",
+        "Jun–Jul 2026: Council consulted residents on the competing local-government reform options, ultimately selecting the Marlborough partnership over the North Canterbury option"
+      ],
+      "url": "https://www.kaikoura.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Craig Mackle",
+      "turnout": "60.85%",
+      "votesReturned": "1,881"
+    }
   }
 }
