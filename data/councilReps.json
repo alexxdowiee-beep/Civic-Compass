@@ -705,6 +705,14 @@
       "mayorElected": "Nigel Bowen",
       "turnout": "48.2%",
       "votesReturned": "16,260"
-    }
+    },
+    "decisions": [
+      {
+        "title": "2026/27 Annual Plan rates increase",
+        "date": "Apr 2026",
+        "outcome": "Council adopted an average 9% rates increase for 2026/27 — three percentage points lower than the 12% forecast in the Long Term Plan, after a report identified options to trim an initially estimated 13% increase.",
+        "url": "https://www.thepress.co.nz/nz-news/360977511/timaru-district-councillors-approve-draft-annual-plan-average-rates-rise-9"
+      }
+    ]
   }
 }
