@@ -938,7 +938,84 @@
     "slogan": "Campaigns on public ownership, workers' rights and Treaty partnership.",
     "seats": "Not yet registered · standing candidates",
     "url": "https://allianceparty.nz",
-    "color": "#C0392B"
+    "color": "#C0392B",
+    "details": {
+      "overview": "The Alliance is a democratic socialist political party that emphasises workers' rights, public ownership, universal public services, economic equality, environmental protection and greater government intervention in the economy. The party has recently returned to national politics.",
+      "currentStatus": "It was officially registered to contest the 2026 general election on 5 August 2026 and is led by Victor Billot, a Dunedin-based trade unionist and writer. The current Alliance is a revived political organisation and shouldn't automatically be treated as identical to the much larger Alliance that existed in the 1990s and early 2000s.",
+      "policyAreas": [
+        {
+          "title": "Economy & taxation",
+          "text": "Support a more progressive tax system in which higher-income earners and wealthier people contribute a greater proportion of their income. The party favours using taxation to reduce inequality and fund public services."
+        },
+        {
+          "title": "Public ownership",
+          "text": "Support public ownership and re-nationalisation of key infrastructure and services where the party believes privatisation has failed to serve the public interest."
+        },
+        {
+          "title": "Workers & employment",
+          "text": "Support secure, well-paid employment, stronger workers' rights, collective bargaining and greater union representation."
+        },
+        {
+          "title": "Health",
+          "text": "Support a fully publicly funded healthcare system, with greater investment in hospitals, primary healthcare and frontline health services."
+        },
+        {
+          "title": "Education",
+          "text": "Support free, high-quality public education, including accessible tertiary education and greater public investment in schools and educational institutions."
+        },
+        {
+          "title": "Housing",
+          "text": "Support affordable and secure housing, with a greater role for government in providing and regulating housing rather than relying primarily on the private market."
+        },
+        {
+          "title": "Cost of living",
+          "text": "Support measures intended to reduce the cost of essential goods and services, particularly housing, power, healthcare and education."
+        },
+        {
+          "title": "Infrastructure",
+          "text": "Support public ownership and investment in essential infrastructure, including transport, energy and communications."
+        },
+        {
+          "title": "Environment & climate",
+          "text": "Support stronger environmental protection, sustainable economic development and policies addressing climate change. The party links environmental protection with public ownership and long-term national planning."
+        },
+        {
+          "title": "Agriculture & rural New Zealand",
+          "text": "Support farmers and rural communities while favouring policies that protect the environment and strengthen domestic food production."
+        },
+        {
+          "title": "Energy",
+          "text": "Support publicly controlled energy infrastructure and affordable access to electricity as an essential service."
+        },
+        {
+          "title": "Māori & Te Tiriti",
+          "text": "Support Māori rights and the principles of Te Tiriti o Waitangi, while advocating a political system based on equality, cooperation and collective interests."
+        },
+        {
+          "title": "Foreign affairs & defence",
+          "text": "Support an independent New Zealand foreign policy and oppose unnecessary overseas military intervention. The Alliance has historically supported New Zealand's nuclear-free status and a less militarised foreign policy."
+        },
+        {
+          "title": "Democracy",
+          "text": "Support proportional representation and democratic reforms intended to give citizens and communities greater political influence."
+        },
+        {
+          "title": "Social policy",
+          "text": "Support reducing poverty and inequality and strengthening social welfare and public services."
+        },
+        {
+          "title": "Women & equality",
+          "text": "Support women's rights, gender equality and protections against discrimination."
+        },
+        {
+          "title": "Trade & globalisation",
+          "text": "Favour stronger domestic economic control and are generally critical of trade and economic policies that the party believes give multinational corporations excessive influence over New Zealand."
+        }
+      ],
+      "position": "The Alliance is generally positioned on the left, specifically within the democratic socialist and socialist tradition. It is further to the left economically than Labour and generally advocates a substantially larger role for public ownership, redistribution and government provision of essential services. The party describes its current programme as offering a \"genuine democratic socialist alternative\" to the established parties.",
+      "simpleTerms": "The Alliance's approach is broadly pro-worker, pro-public ownership and focused on economic equality, with government playing a major role in healthcare, education, housing, infrastructure and essential services.",
+      "caveat": "This describes the Alliance's stated political position and policies, rather than assessing whether those policies would work. The present party was officially registered again in August 2026 and is contesting the 2026 election under its current leadership."
+    }
   },
   {
     "group": "unregistered",
