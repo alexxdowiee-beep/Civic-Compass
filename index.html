@@ -995,6 +995,10 @@ function makeCard(p){
     }
     wrap.classList.toggle('open', willOpen);
     currentOpenParty = willOpen ? wrap : null;
+    if(willOpen){
+      const raf = window.requestAnimationFrame || function(cb){ setTimeout(cb, 50); };
+      raf(()=>{ card.scrollIntoView({behavior:'smooth', block:'start'}); });
+    }
   });
   wrap.appendChild(card);
 
