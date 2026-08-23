@@ -851,5 +851,161 @@
       "turnout": "60.43%",
       "votesReturned": "approx. 1,700"
     }
+  },
+  "Waimate District": {
+    "mayor": {
+      "name": "Craig Rowley",
+      "note": "Independent — re-elected in 2025 for his fifth consecutive term, receiving 1,090 votes. Has around 15 years of local-government experience. In his 2025 candidate statement, identified completing local water infrastructure, sustainable delivery of services, bottom-up decision-making, listening to residents, transparency, and maintaining strong relationships with regional and central government as priorities."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Sandy McAlwee",
+        "ward": "Pareora-Otaio-Makikihi Ward",
+        "note": "No party affiliation stated — Deputy Mayor"
+      },
+      {
+        "name": "Stacey Swale",
+        "ward": "Pareora-Otaio-Makikihi Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Jakki Guilford",
+        "ward": "Waimate Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "John Begg",
+        "ward": "Waimate Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Peter Paterson",
+        "ward": "Waimate Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Rick Stevens",
+        "ward": "Waimate Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Paul Harrison",
+        "ward": "Hakataramea-Waihaorunga Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Lisa Small",
+        "ward": "Lower Waihao Ward",
+        "note": "No party affiliation stated"
+      }
+    ],
+    "mp": {
+      "name": "Miles Anderson",
+      "party": "National",
+      "note": "MP for Waitaki since 2023. Currently Chairperson of the Primary Production Committee and a member of the Regulations Review Committee."
+    },
+    "profile": {
+      "population": "8,450",
+      "medianAge": "47.1",
+      "medianIncome": "$34,200",
+      "bornOverseas": "17.2%",
+      "bornOverseas2013": "12.5%"
+    },
+    "keyIssues": [
+      {
+        "title": "Rates & council finances",
+        "text": "Waimate's 2026/27 Annual Plan confirmed a 5.2% overall rates increase. Council is balancing rising infrastructure and regulatory costs with its stated aim of keeping debt low."
+      },
+      {
+        "title": "Water infrastructure",
+        "text": "Water remains one of the district's major issues. Council has chosen to retain direct local control of drinking water, wastewater and stormwater, while continuing significant investment in water infrastructure."
+      },
+      {
+        "title": "Lower Waihao water supply",
+        "text": "Council is investing in a new water source and water infrastructure for the Lower Waihao Rural Water Scheme, including a new watermain project and work addressing water-quality and supply concerns."
+      },
+      {
+        "title": "Roads & infrastructure",
+        "text": "Maintaining the district's rural roading network is a significant financial challenge. Council's long-term plan includes funding to address a shortfall in roading expenditure while continuing essential infrastructure maintenance."
+      },
+      {
+        "title": "Local government reform",
+        "text": "Government reforms are putting pressure on council finances, staffing and service delivery. Waimate has been considering how the changing local-government environment will affect the district while continuing to advocate for local decision-making."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 16.9
+      },
+      {
+        "label": "15–29",
+        "pct": 13.9
+      },
+      {
+        "label": "30–64",
+        "pct": 45.1
+      },
+      {
+        "label": "65+",
+        "pct": 24.0
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 88.4
+      },
+      {
+        "label": "Māori",
+        "pct": 8.7
+      },
+      {
+        "label": "Asian",
+        "pct": 6.5
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 1.5
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.9
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 1.8
+      }
+    ],
+    "decisions": [
+      {
+        "title": "2026/27 Annual Plan rates increase",
+        "date": "3 Jul 2026",
+        "outcome": "Council adopted its 2026/27 Annual Plan, confirming an overall rates increase of 5.2%.",
+        "url": "https://www.waimatedc.govt.nz"
+      },
+      {
+        "title": "Lower Waihao water infrastructure investment",
+        "date": "26 Mar 2026",
+        "outcome": "Council announced a $4.7 million investment in water infrastructure for improved quality and capacity in rural areas.",
+        "url": "https://www.waimatedc.govt.nz"
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "20 Aug 2026: Update on Lower Waihao nitrate levels and water supply",
+        "3 Jul 2026: Council adopted its 2026/27 Annual Plan with a 5.2% rates increase",
+        "26 Mar 2026: Council announced a $4.7 million investment in water infrastructure for improved quality and capacity in rural areas",
+        "20 Feb 2026: Work began on the new Lower Waihao watermain to improve reliability of the rural water supply",
+        "2 Dec 2025: Mayor Craig Rowley addressed the impact of local-government reforms on Waimate"
+      ],
+      "url": "https://www.waimatedc.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Craig Rowley",
+      "turnout": "53.21%",
+      "votesReturned": "2,954"
+    }
   }
 }
