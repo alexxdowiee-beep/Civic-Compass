@@ -29,7 +29,61 @@
     "slogan": "Campaigns on economic management from a centre-right platform.",
     "seats": "49 MPs · governing (largest party)",
     "url": "https://www.national.org.nz",
-    "color": "#2E6FC4"
+    "color": "#2E6FC4",
+    "details": {
+      "overview": "National is a centre-right political party that emphasises economic growth, lower taxes, individual responsibility, private enterprise, public-service performance and law and order. Its stated values include ambition, success, rewarding hard work and equal opportunity.",
+      "currentStatus": "National currently leads the New Zealand Government under Prime Minister Christopher Luxon. Its current political programme is centred on \"fixing the basics and building the future.\"",
+      "policyAreas": [
+        {
+          "emoji": "💰",
+          "title": "Economy & taxation",
+          "text": "Promote economic growth, productivity, investment and exports; maintain relatively low taxes; reduce government spending and debt."
+        },
+        {
+          "emoji": "🏗️",
+          "title": "Infrastructure",
+          "text": "Increase investment in roads, housing-enabling infrastructure, schools, hospitals and other major projects, alongside resource-management reform intended to make development easier."
+        },
+        {
+          "emoji": "👮",
+          "title": "Law & order",
+          "text": "Tougher penalties for serious offending, stronger action against gangs, additional police powers and greater police visibility."
+        },
+        {
+          "emoji": "🏥",
+          "title": "Health",
+          "text": "Increase access to healthcare, reduce waiting times, expand medicines and surgical capacity, and improve primary and after-hours care."
+        },
+        {
+          "emoji": "📚",
+          "title": "Education",
+          "text": "Greater emphasis on reading, writing and mathematics, classroom resources and measurable educational achievement. National is also replacing NCEA with a new national qualification framework."
+        },
+        {
+          "emoji": "🏠",
+          "title": "Housing",
+          "text": "Increase housing supply through planning and resource-management reform, infrastructure investment and changes intended to make development easier."
+        },
+        {
+          "emoji": "🌾",
+          "title": "Agriculture & business",
+          "text": "Support the primary sector, exports, investment and business growth, with an emphasis on reducing regulatory barriers."
+        },
+        {
+          "emoji": "🌏",
+          "title": "Foreign affairs & defence",
+          "text": "Strengthen New Zealand's defence capability and international partnerships, particularly interoperability with Australia. National has stated that it intends to increase defence spending substantially if re-elected."
+        },
+        {
+          "emoji": "🌱",
+          "title": "Environment & climate",
+          "text": "Supports emissions reduction while placing greater emphasis on economic impacts, technological solutions and maintaining productive industries."
+        }
+      ],
+      "position": "National is generally positioned on the centre-right, economically favouring lower taxation, private enterprise and restrained government spending, while supporting government provision of core services such as health, education, infrastructure and policing.",
+      "simpleTerms": "National's approach is broadly pro-business, pro-growth and fiscally conservative, combined with a strong emphasis on public-service performance, infrastructure development, education standards and tougher law-and-order policies.",
+      "caveat": "This describes National's stated political position and policies — it isn't an assessment of whether those policies have succeeded. Where National makes claims about its record (such as reductions in crime or improvements in the economy), those should be independently assessed rather than treated as established facts."
+    }
   },
   {
     "group": "parliament",
