@@ -406,9 +406,18 @@
   }
   .elect-group.open .elect-group-body{ max-height:6000px; opacity:1; padding-top:12px; }
   .elect-card{
-    background:var(--paper); border-radius:14px; padding:14px 16px;
+    background:var(--paper); border-radius:14px;
     margin-bottom:10px; box-shadow:0 6px 16px rgba(0,0,0,0.18);
+    border:2px solid transparent; overflow:hidden;
   }
+  .elect-card-header{
+    padding:14px 16px; cursor:pointer;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .elect-card-header:active{ opacity:0.85; }
+  .elect-card.open{ border-color:var(--kowhai); background:var(--white); }
+  .elect-card-arrow{color:var(--pounamu); font-size:16px; flex-shrink:0; transition:transform .25s ease;}
+  .elect-card.open .elect-card-arrow{ transform:rotate(180deg); }
   .area-card{
     background:var(--paper); border-radius:14px; padding:14px 16px;
     margin-bottom:10px; box-shadow:0 6px 16px rgba(0,0,0,0.18);
@@ -420,7 +429,13 @@
   .area-card-name{font-size:15px; font-weight:700; color:var(--pounamu-deep);}
   .area-card-tag{font-size:11px; color:#7C8A80; margin-top:2px;}
   .area-card-arrow{color:var(--pounamu); font-size:16px; flex-shrink:0;}
-  .elect-name{font-size:15px; font-weight:700; color:var(--pounamu-deep); margin-bottom:8px;}
+  .elect-name{font-size:15px; font-weight:700; color:var(--pounamu-deep);}
+  .elect-name-count{font-size:11px; color:#7C8A80; font-weight:400; margin-top:2px;}
+  .elect-cands-wrap{
+    max-height:0; overflow:hidden; opacity:0;
+    transition: max-height .35s ease, opacity .3s ease, padding .35s ease;
+  }
+  .elect-card.open .elect-cands-wrap{ max-height:3000px; opacity:1; padding:0 16px 14px; }
   .elect-cands{display:flex; flex-wrap:wrap; gap:6px;}
   .cand-chip{
     display:flex; align-items:center; gap:6px;
@@ -1057,6 +1072,7 @@ const electList=document.getElementById('electList');
 const electSearch=document.getElementById('electSearch');
 const electJump=document.getElementById('electJump');
 let activeElectGroup = null;
+let openElectorateName = null;
 const groupChipButtons = {};
 
 function buildJumpChips(){
@@ -1099,6 +1115,7 @@ function renderElectorates(filter){
   const geoOrderedGroups = sortByGeoOrder(orderedGroups, ELECTORATE_GROUP_ORDER);
   const nameMatchChipIds = [];
   let nameMatchCount = 0;
+  let firstOpenElectId = null;
   geoOrderedGroups.forEach(g=>{
     if(!f && g !== activeElectGroup) return;
     let items=electorates.filter(e=>e.group===g);
@@ -1120,8 +1137,33 @@ function renderElectorates(filter){
     body.className='elect-group-body';
 
     items.forEach(e=>{
+      const electId = 'elect-'+e.name.replace(/[^a-zA-Z0-9]/g,'');
+      const hasMatch = !!(f && (e.name.toLowerCase().includes(f) || e.cands.some(c=>c.n.toLowerCase().includes(f) || c.p.toLowerCase().includes(f))));
+      const isOpen = f ? hasMatch : (e.name === openElectorateName);
+      if(isOpen && !firstOpenElectId) firstOpenElectId = electId;
+
       const card=document.createElement('div');
-      card.className='elect-card';
+      card.className='elect-card' + (isOpen ? ' open' : '');
+      card.id = electId;
+
+      const cardHeader=document.createElement('div');
+      cardHeader.className='elect-card-header';
+      cardHeader.innerHTML = `<div><div class="elect-name">${e.name}</div><div class="elect-name-count">${e.cands.length} candidate${e.cands.length===1?'':'s'}</div></div><span class="elect-card-arrow">\u25be</span>`;
+      cardHeader.addEventListener('click', ()=>{
+        openElectorateName = (openElectorateName === e.name) ? null : e.name;
+        renderElectorates(electSearch.value);
+        if(openElectorateName === e.name){
+          const raf = window.requestAnimationFrame || function(cb){ setTimeout(cb, 50); };
+          raf(()=>{
+            const el = document.getElementById(electId);
+            if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+          });
+        }
+      });
+      card.appendChild(cardHeader);
+
+      const candsWrap=document.createElement('div');
+      candsWrap.className='elect-cands-wrap';
       let candsHtml;
       if(e.cands.length){
         candsHtml = '<div class="elect-cands">' + e.cands.map((c,ci)=>{
@@ -1145,7 +1187,8 @@ function renderElectorates(filter){
       } else {
         candsHtml = '<span class="elect-none">Candidates not yet publicly confirmed</span>';
       }
-      card.innerHTML = `<div class="elect-name">${e.name}</div>${candsHtml}`;
+      candsWrap.innerHTML = candsHtml;
+      card.appendChild(candsWrap);
       body.appendChild(card);
     });
     groupDiv.appendChild(body);
