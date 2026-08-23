@@ -63,6 +63,8 @@
     font-size:12px; color:#9FB0A6;
   }
   .datebar b{color:var(--paper);font-weight:600;}
+  #electionCountdown{color:var(--kowhai); font-weight:600;}
+  #electionCountdown b{color:var(--kowhai);}
 
   .proto-banner{
     background:rgba(227,168,59,0.1); border-bottom:1px solid rgba(227,168,59,0.25);
@@ -427,6 +429,7 @@
     <div class="datebar">
       <span>🗳️ <b>General election:</b> 7 Nov 2026</span>
       <span>🏛️ <b>Current government:</b> National–ACT–NZ First</span>
+      <span id="electionCountdown"></span>
     </div>
   </div>
 </header>
@@ -572,6 +575,25 @@
 </div>
 
 <script>
+(function(){
+  const electionDate = new Date('2026-11-07T00:00:00');
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const msPerDay = 1000 * 60 * 60 * 24;
+  const daysLeft = Math.round((electionDate - today) / msPerDay);
+  const el = document.getElementById('electionCountdown');
+  if(!el) return;
+  if(daysLeft > 1){
+    el.innerHTML = `📅 <b>${daysLeft} days</b> until election day`;
+  } else if(daysLeft === 1){
+    el.innerHTML = `📅 <b>1 day</b> until election day`;
+  } else if(daysLeft === 0){
+    el.innerHTML = `📅 <b>Election day is today!</b>`;
+  } else {
+    el.innerHTML = `📅 <b>Election day has passed</b>`;
+  }
+})();
+
 let councils, parties, statements, electorates, candidateBios, councilReps, councilToElectorates;
 
 async function loadDataAndInit(){
