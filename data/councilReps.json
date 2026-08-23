@@ -83,7 +83,95 @@
         "detail": "Council must decide whether to submit a voluntary reorganisation proposal under the Government's local government reform process, or leave it to a compulsory process after the 2028 elections.",
         "url": "https://www.selwyn.govt.nz/news-And-events/news/community-invited-to-help-whats-next-for-selwyn"
       }
-    ]
+    ],
+    "profile": {
+      "population": "87,600",
+      "medianAge": "37.6",
+      "medianIncome": "$51,900",
+      "bornOverseas": "23.9%",
+      "bornOverseas2013": "16.3%"
+    },
+    "keyIssues": [
+      {
+        "title": "Population growth",
+        "text": "Selwyn has experienced rapid population growth, increasing pressure on infrastructure, roads, water and community facilities."
+      },
+      {
+        "title": "Rates",
+        "text": "The 2026/27 Annual Plan resulted in a 4.5% weighted-average rates increase."
+      },
+      {
+        "title": "Water",
+        "text": "Water and wastewater infrastructure and the transition to direct water charging are significant issues for the district."
+      },
+      {
+        "title": "Roads & transport",
+        "text": "Rapid growth is putting pressure on the road network, particularly around Rolleston and other growing communities."
+      },
+      {
+        "title": "Local government reform",
+        "text": "Selwyn District Council has pursued a proposal for Selwyn to become a unitary authority, combining district and regional council functions."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 21.4
+      },
+      {
+        "label": "15–29",
+        "pct": 17.0
+      },
+      {
+        "label": "30–64",
+        "pct": 49.2
+      },
+      {
+        "label": "65+",
+        "pct": 12.9
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 88.3
+      },
+      {
+        "label": "Māori",
+        "pct": 9.0
+      },
+      {
+        "label": "Asian",
+        "pct": 7.5
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 2.0
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 1.5
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 2.2
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "Lincoln town-centre construction and support for affected businesses",
+        "Selwyn and Waimakariri call for a pause and review of Fast-track legislation",
+        "Safety upgrades for Southfield Drive",
+        "Council consultation on Selwyn's international relationships",
+        "Debate over Selwyn's proposed future governance structure"
+      ],
+      "url": "https://www.selwyn.govt.nz/news-And-events/news"
+    },
+    "election2025": {
+      "mayorElected": "Lydia Gliddon",
+      "turnout": "47.94%",
+      "votesReturned": "26,442"
+    }
   },
   "Christchurch": {
     "updated": "as elected Oct 2025",
