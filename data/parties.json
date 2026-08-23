@@ -946,6 +946,55 @@
     "slogan": "Campaigns on a Northland-founded platform for regional New Zealand.",
     "seats": "Not yet registered · standing candidates",
     "url": "https://www.buildthenation.nz",
-    "color": "#8A5A2B"
+    "color": "#8A5A2B",
+    "details": {
+      "overview": "Build the Nation is a new political party focused on rebuilding New Zealand's domestic capacity, strengthening national identity and sovereignty, protecting democracy and citizenship, and protecting New Zealand's land and waterways. The party was founded in Northland.",
+      "currentStatus": "It is led by Richard McIntosh, a conservation worker and business owner, who is standing in the Northland electorate for the 2026 general election. Build the Nation is a new and relatively small party, so its publicly available policy platform is considerably less developed than those of the established parliamentary parties.",
+      "policyAreas": [
+        {
+          "title": "National capacity",
+          "text": "Reduce New Zealand's reliance on overseas ownership and private contracting, with greater emphasis on developing domestic capability and nationally owned infrastructure."
+        },
+        {
+          "title": "Privatisation",
+          "text": "Oppose further privatisation and contracting-out of important public assets and services. The party explicitly says it wants to leave the era of privatisation and selling off public assets behind."
+        },
+        {
+          "title": "National identity",
+          "text": "Strengthen New Zealand's sense of national identity and encourage greater pride in New Zealand's history, communities and institutions."
+        },
+        {
+          "title": "Democracy & citizenship",
+          "text": "Strengthen democratic institutions and place greater emphasis on citizenship, democratic participation and New Zealanders having control over decisions affecting the country."
+        },
+        {
+          "title": "Sovereignty",
+          "text": "Increase New Zealand's economic and political independence and reduce reliance on overseas interests where the party believes this compromises national sovereignty."
+        },
+        {
+          "title": "Land & natural resources",
+          "text": "Protect New Zealand's land and waterways while ensuring natural resources are managed in the national interest."
+        },
+        {
+          "title": "Infrastructure",
+          "text": "Support rebuilding and expanding nationally important infrastructure and developing domestic capability to undertake major projects."
+        },
+        {
+          "title": "Regional New Zealand",
+          "text": "Place particular emphasis on regional and rural communities, with the party originating in Northland and holding meetings throughout smaller Northland towns."
+        },
+        {
+          "title": "Economy",
+          "text": "Favour an economy with stronger domestic ownership and productive capacity rather than relying heavily on privatisation, overseas ownership and contracting-out."
+        },
+        {
+          "title": "Government",
+          "text": "Support a stronger role for the state in maintaining national capability and providing essential infrastructure, while seeking greater democratic accountability."
+        }
+      ],
+      "position": "Build the Nation describes itself as seeking the centre vote. Its emphasis on public ownership, national infrastructure and government capacity gives it some similarities with economic nationalism and parts of the centre-left, while its emphasis on national identity, sovereignty and citizenship can overlap with themes found among populist and nationalist parties. It therefore doesn't fit neatly into the conventional left-right spectrum.",
+      "simpleTerms": "Build the Nation's approach is broadly pro-national ownership, pro-sovereignty and focused on rebuilding New Zealand's domestic capability, while protecting democracy, citizenship, land and waterways.",
+      "caveat": "Build the Nation is a new and relatively small party, so its publicly available policy platform is considerably less developed than those of the established parliamentary parties. Its current published platform is centred around three broad priorities: building national capacity and identity, defending democracy and citizenship, and protecting New Zealand's lands and waters."
+    }
   }
 ]
