@@ -233,6 +233,43 @@
     color:#CFE0D6; margin-top:16px;
   }
 
+  .learn-subhead{
+    font-size:12px; letter-spacing:0.1em; text-transform:uppercase;
+    color:var(--kowhai); font-weight:700; margin:26px 0 12px;
+  }
+  .learn-subhead:first-child{margin-top:0;}
+  .date-card{
+    display:flex; gap:14px; align-items:flex-start;
+    background:var(--paper); border-radius:14px; padding:14px 16px;
+    margin-bottom:10px; box-shadow:0 6px 16px rgba(0,0,0,0.18);
+  }
+  .date-card.urgent{ border:2px solid var(--kowhai); }
+  .date-badge{
+    flex-shrink:0; text-align:center; background:var(--pounamu-deep); color:var(--paper);
+    border-radius:10px; padding:8px 10px; min-width:52px;
+  }
+  .date-badge .day{font-size:19px; font-weight:800; line-height:1;}
+  .date-badge .mon{font-size:10px; text-transform:uppercase; letter-spacing:0.05em; margin-top:2px;}
+  .date-title{font-size:14.5px; font-weight:700; color:var(--pounamu-deep); margin-bottom:3px;}
+  .date-desc{font-size:13px; line-height:1.5; color:#4A5A50;}
+  .elig-list{
+    background:var(--paper); border-radius:14px; padding:16px 18px;
+    box-shadow:0 6px 16px rgba(0,0,0,0.18); margin-bottom:10px;
+  }
+  .elig-list li{font-size:13.5px; line-height:1.6; color:var(--ink); margin-left:18px; margin-bottom:4px;}
+  .glossary-item{
+    background:var(--paper); border-radius:12px; margin-bottom:8px;
+    overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.14);
+  }
+  .glossary-q{
+    padding:13px 16px; cursor:pointer; display:flex; align-items:center; justify-content:space-between;
+    font-size:14px; font-weight:700; color:var(--pounamu-deep);
+  }
+  .glossary-caret{color:var(--kowhai); font-size:13px; transition:transform .15s ease; flex-shrink:0; margin-left:10px;}
+  .glossary-item.open .glossary-caret{transform:rotate(180deg);}
+  .glossary-a{display:none; padding:0 16px 15px; font-size:13.5px; line-height:1.55; color:#4A5A50;}
+  .glossary-item.open .glossary-a{display:block;}
+
   .updated-chip{
     display:inline-flex; align-items:center; gap:6px;
     font-size:11px; color:#9FB0A6; background:rgba(244,241,230,0.06);
@@ -401,6 +438,7 @@
 <nav class="tabnav" id="tabnav">
   <button data-page="home" class="active">My Area</button>
   <button data-page="map">Election Map</button>
+  <button data-page="learn">How to Vote</button>
   <button data-page="statements">Recent Statements</button>
   <button data-page="parties">All Parties</button>
 </nav>
@@ -443,6 +481,57 @@
     </div>
     <div class="note" style="margin-top:10px;color:#9FB0A6;">
       Source: <a href="https://en.wikipedia.org/wiki/Candidates_in_the_2026_New_Zealand_general_election_by_electorate" target="_blank" rel="noopener" style="color:var(--kowhai)">Wikipedia — Candidates in the 2026 NZ general election by electorate</a>, cross-checked against news reporting. Snapshot as of 21 Jul 2026.
+    </div>
+  </section>
+
+  <section class="page" id="page-learn">
+    <div class="section-head">
+      <h2 class="stitle">How to vote</h2>
+      <p class="shint">The practical steps, key dates, and the terms you'll see everywhere but nobody explains.</p>
+    </div>
+
+    <div class="learn-subhead">Key dates</div>
+    <div class="date-card urgent">
+      <div class="date-badge"><div class="day">25</div><div class="mon">Oct</div></div>
+      <div>
+        <div class="date-title">Enrolment closes at midnight</div>
+        <div class="date-desc">This is a genuine change for 2026 — in past elections you could enrol right up to and including election day. Not this time. If you're not enrolled (or your enrolled address is out of date) by midnight on this day, you can't vote. Check or update in under a minute at <a href="https://vote.nz" target="_blank" rel="noopener" style="color:var(--pounamu)">vote.nz</a>.</div>
+      </div>
+    </div>
+    <div class="date-card">
+      <div class="date-badge"><div class="day">26</div><div class="mon">Oct</div></div>
+      <div>
+        <div class="date-title">Advance voting opens</div>
+        <div class="date-desc">You can vote any day from here through to the day before election day — no need to wait for 7 Nov, and no reason given required. Advance voting places are usually open longer hours and are less busy than election day.</div>
+      </div>
+    </div>
+    <div class="date-card">
+      <div class="date-badge"><div class="day">7</div><div class="mon">Nov</div></div>
+      <div>
+        <div class="date-title">Election Day</div>
+        <div class="date-desc">Voting places are open 9am–7pm. If you're enrolled, you can vote at any voting place in the country, not just ones in your own electorate — though it may take a little longer if you're outside your electorate, since your vote is processed as a "special vote."</div>
+      </div>
+    </div>
+
+    <div class="learn-subhead">Am I eligible?</div>
+    <ul class="elig-list">
+      <li>You're 18 or older on election day</li>
+      <li>You're a NZ citizen, or a permanent resident who's lived here continuously for at least 12 months at some point</li>
+      <li>You're enrolled by the 25 October deadline above</li>
+    </ul>
+
+    <div class="learn-subhead">What to bring / what happens</div>
+    <ul class="elig-list">
+      <li>If you've enrolled and it's close to the election, you'll get an EasyVote card in the post or by email — bring it if you have it, it speeds things up, but it's not required</li>
+      <li>No card? You'll just be asked your name and address — it may take a bit longer while staff find you on the roll</li>
+      <li>You'll get two votes: one for your local <b>electorate MP</b>, one for your <b>party vote</b> — see the glossary below for what the difference actually means</li>
+    </ul>
+
+    <div class="learn-subhead">Common terms, explained</div>
+    <div id="glossaryList"></div>
+
+    <div class="gov-note" style="margin-top:16px;">
+      This section covers the practical mechanics of voting, not policy. For your specific enrolment status, electorate, or ID options, <a href="https://vote.nz" target="_blank" rel="noopener" style="color:#CFE0D6;text-decoration:underline;">vote.nz</a> is the authoritative source — this is a starting point, not a replacement for it.
     </div>
   </section>
 
@@ -903,6 +992,31 @@ function renderElectorates(filter){
 buildJumpChips();
 electSearch.addEventListener('input', ()=>renderElectorates(electSearch.value));
 renderElectorates();
+
+const glossaryTerms = [
+  {q:"MMP (Mixed Member Proportional)", a:"New Zealand's voting system. It combines local electorate MPs with party-list MPs so that a party's total number of seats in Parliament roughly matches its share of the party vote, rather than just who won the most local seats."},
+  {q:"Electorate vote", a:"Your first vote — for the person you want to represent your local area (your electorate) in Parliament. Whoever gets the most votes in your electorate wins that seat, regardless of party."},
+  {q:"Party vote", a:"Your second vote — for the party you want in Parliament. This is the one that actually decides how many total seats each party gets, since it sets each party's overall share of Parliament."},
+  {q:"Electorate MP", a:"An MP who won their seat by getting the most electorate votes in a specific area — they represent that geographic electorate directly."},
+  {q:"List MP", a:"An MP who enters Parliament from their party's ranked candidate list, based on the party vote, rather than by winning a specific electorate. Every party sets its own list order before the election."},
+  {q:"5% threshold", a:"A party generally needs to win at least 5% of the total party vote to get any list seats in Parliament. There's one exception below."},
+  {q:"Electorate seat exception", a:"A party that wins at least one electorate seat gets to keep list MPs in proportion to its party vote, even if it's under the 5% threshold. This is how very small parties have entered Parliament in the past."},
+  {q:"Overhang", a:"If a party wins more electorate seats than its party vote share would normally entitle it to, it keeps those extra seats — temporarily making Parliament slightly larger than 120 seats until the next election."},
+  {q:"Coalition government", a:"When no single party wins an outright majority (61+ seats) — which is the norm under MMP — parties negotiate to govern together, or one party governs with the guaranteed support of others."},
+  {q:"Confidence and supply", a:"A weaker form of coalition agreement — a smaller party agrees to support the government on confidence votes and budget bills, without taking up ministerial positions itself."},
+  {q:"Māori roll / General roll", a:"People of Māori descent can choose to enrol on either the Māori roll (voting in one of the 7 Māori electorates) or the General roll. This choice doesn't affect your party vote — only which electorate MP you help elect."},
+  {q:"Special vote", a:"A vote cast outside the normal process — for example, voting outside your own electorate, voting overseas, or enrolling close to the deadline. These are counted after election night, which is part of why final results can shift from the preliminary count."},
+  {q:"EasyVote card", a:"A card sent to enrolled voters shortly before the election, listing your electorate's candidates and your assigned voting place. It speeds up the process but isn't required to vote."}
+];
+
+const glossaryList = document.getElementById('glossaryList');
+glossaryTerms.forEach((term, i) => {
+  const item = document.createElement('div');
+  item.className = 'glossary-item';
+  item.innerHTML = `<div class="glossary-q">${term.q}<span class="glossary-caret">\u25be</span></div><div class="glossary-a">${term.a}</div>`;
+  item.querySelector('.glossary-q').addEventListener('click', () => item.classList.toggle('open'));
+  glossaryList.appendChild(item);
+});
 
 function toggleCand(id, chipEl){
   const detail = document.getElementById(id);
