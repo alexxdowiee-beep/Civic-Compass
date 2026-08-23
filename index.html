@@ -657,6 +657,19 @@
 
 let councils, parties, statements, electorates, candidateBios, councilReps, councilToElectorates;
 
+// Geographic north-to-south order for region chips/groups on each tab.
+// Anything not listed falls back to the end, in whatever order it's first seen.
+const ELECTORATE_GROUP_ORDER = ["Northland","Auckland","Waikato/BOP","Waikato","Bay of Plenty","Gisborne/Hawke's Bay","Taranaki","Manawatū-Whanganui","Wellington","Nelson/West Coast-Tasman","Canterbury","Otago","Southland","Māori electorates"];
+const COUNCIL_REGION_ORDER = ["Northland","Auckland","Waikato","Bay of Plenty","Gisborne","Hawke's Bay","Taranaki","Manawatū-Whanganui","Wellington","Tasman","Nelson","Marlborough","West Coast","Canterbury","Otago","Southland","Chatham Islands","Full directory"];
+
+function sortByGeoOrder(names, orderList){
+  return names.slice().sort((a,b)=>{
+    let ia = orderList.indexOf(a); if(ia===-1) ia = orderList.length;
+    let ib = orderList.indexOf(b); if(ib===-1) ib = orderList.length;
+    return ia - ib;
+  });
+}
+
 async function loadDataAndInit(){
   try {
     const files = ['councils','parties','statements','electorates','candidateBios','councilReps','councilToElectorates'];
@@ -717,8 +730,9 @@ let selectedAreaIndex = null;
 function buildAreaJumpChips(){
   const seen = [];
   councils.forEach(c => { if(!seen.includes(c.region)) seen.push(c.region); });
+  const ordered = sortByGeoOrder(seen, COUNCIL_REGION_ORDER);
   areaJump.innerHTML = '';
-  seen.forEach(region => {
+  ordered.forEach(region => {
     const btn = document.createElement('button');
     btn.textContent = region;
     areaChipButtons[region] = btn;
@@ -758,10 +772,11 @@ function renderAreaList(filterText){
   areaList.innerHTML = '';
   const seen = [];
   councils.forEach(c => { if(!seen.includes(c.region)) seen.push(c.region); });
+  const orderedRegions = sortByGeoOrder(seen, COUNCIL_REGION_ORDER);
 
   let matchCount = 0;
   let placedResultCard = false;
-  seen.forEach(region => {
+  orderedRegions.forEach(region => {
     if(!f && region !== activeAreaGroup) return;
     const matches = [];
     councils.forEach((c, i) => {
@@ -1036,8 +1051,9 @@ function buildJumpChips(){
   const seen = new Set();
   const orderedGroups = [];
   electorates.forEach(e=>{ if(!seen.has(e.group)){ seen.add(e.group); orderedGroups.push(e.group);} });
+  const geoOrdered = sortByGeoOrder(orderedGroups, ELECTORATE_GROUP_ORDER);
   electJump.innerHTML = '';
-  orderedGroups.forEach(g=>{
+  geoOrdered.forEach(g=>{
     const btn = document.createElement('button');
     btn.textContent = g;
     groupChipButtons[g] = btn;
@@ -1068,9 +1084,10 @@ function renderElectorates(filter){
   const seen = new Set();
   const orderedGroups = [];
   electorates.forEach(e=>{ if(!seen.has(e.group)){ seen.add(e.group); orderedGroups.push(e.group);} });
+  const geoOrderedGroups = sortByGeoOrder(orderedGroups, ELECTORATE_GROUP_ORDER);
   const nameMatchChipIds = [];
   let nameMatchCount = 0;
-  orderedGroups.forEach(g=>{
+  geoOrderedGroups.forEach(g=>{
     if(!f && g !== activeElectGroup) return;
     let items=electorates.filter(e=>e.group===g);
     if(f){
