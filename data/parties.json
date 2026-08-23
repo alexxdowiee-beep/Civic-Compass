@@ -13,7 +13,72 @@
     "slogan": "Campaigns on climate action and social and environmental policy.",
     "seats": "14 MPs · opposition",
     "url": "https://www.greens.org.nz",
-    "color": "#5AA469"
+    "color": "#5AA469",
+    "details": {
+      "overview": "The Green Party is a left-wing political party that emphasises environmental protection, climate action, social and economic equality, strong public services, workers' rights and the principles of Te Tiriti o Waitangi. Its political philosophy combines environmentalism with social justice and a greater role for government in addressing inequality and providing essential services.",
+      "currentStatus": "The party's current campaign slogan is \"For All of Us.\"",
+      "policyAreas": [
+        {
+          "title": "Economy & taxation",
+          "text": "Support a more progressive tax system in which higher-income and high-wealth individuals contribute more, with additional government investment directed towards public services, housing, infrastructure and reducing poverty."
+        },
+        {
+          "title": "Climate & environment",
+          "text": "Make rapid reductions in greenhouse-gas emissions, phase down fossil-fuel use, expand renewable energy and protect native ecosystems, waterways and biodiversity. The Greens are proposing a national electrification plan covering homes, transport and industry."
+        },
+        {
+          "title": "Health",
+          "text": "Increase public investment in healthcare and improve access to timely, affordable services, including greater support for mental-health services and the health workforce."
+        },
+        {
+          "title": "Housing",
+          "text": "Treat access to a warm, safe and affordable home as a basic need. Policies focus on increasing public and affordable housing, improving housing quality and addressing housing costs."
+        },
+        {
+          "title": "Workers & employment",
+          "text": "Support higher incomes, stronger employment protections, collective bargaining and policies intended to improve workers' living standards."
+        },
+        {
+          "title": "Education",
+          "text": "Support well-funded public education from early childhood through tertiary education, with an emphasis on accessibility, inclusion and reducing financial barriers to study."
+        },
+        {
+          "title": "Cost of living",
+          "text": "Reduce household costs through measures involving housing, public transport, electricity and essential services. The Greens' current priorities specifically include making housing, transport, groceries and power bills more affordable."
+        },
+        {
+          "title": "Agriculture & land use",
+          "text": "Promote more sustainable farming and forestry practices, protect waterways and soils, and support a food and fibre sector that reduces environmental impacts while maintaining rural employment."
+        },
+        {
+          "title": "Law & justice",
+          "text": "Focus more strongly on preventing crime and addressing its underlying causes, alongside rehabilitation and reform of the justice system. The Greens generally favour a less punitive approach than National or ACT."
+        },
+        {
+          "title": "Māori & Te Tiriti",
+          "text": "Support a stronger role for Te Tiriti o Waitangi in government and public decision-making, including greater recognition of Māori self-determination and the rights of iwi and hapū."
+        },
+        {
+          "title": "Drug policy",
+          "text": "Support a health-based approach to drug use and drug-law reform, placing greater emphasis on harm reduction and treatment rather than criminal punishment."
+        },
+        {
+          "title": "Foreign affairs & defence",
+          "text": "Promote an independent New Zealand foreign policy, international cooperation, human rights, peace and climate action, with opposition to greater military alignment where the Greens believe it compromises New Zealand's independence."
+        },
+        {
+          "title": "Social policy",
+          "text": "Place strong emphasis on reducing poverty and inequality and improving outcomes for children, disabled people, women, rainbow communities and other groups experiencing disadvantage."
+        },
+        {
+          "title": "Business & industry",
+          "text": "Support small and local businesses and sustainable industries, while favouring stronger regulation of large corporations where the Greens believe corporate power or environmental impacts are harming the public interest."
+        }
+      ],
+      "position": "The Greens are generally positioned on the left, with a combination of environmentalism, social democracy, progressive social policy and stronger government intervention in the economy. Compared with Labour, the Greens generally advocate more aggressive climate action, greater redistribution of wealth, stronger environmental regulation and a larger expansion of public services.",
+      "simpleTerms": "The Greens' approach is broadly pro-environment, pro-public services and focused on reducing inequality, with government playing a significant role in redistributing wealth, providing essential services, addressing climate change and protecting the environment.",
+      "caveat": "This describes the Green Party's stated political position and current policies — it isn't an assessment of whether those policies would work or whether previous Green policies have succeeded. Claims made by the Greens about the economy, climate, poverty or government performance should be independently assessed rather than treated as established facts."
+    }
   },
   {
     "group": "parliament",
