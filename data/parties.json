@@ -496,7 +496,60 @@
     "slogan": "Campaigns on cannabis law reform and drug policy.",
     "seats": "Registered party · not in Parliament",
     "url": "https://www.alcp.org.nz",
-    "color": "#3E8E41"
+    "color": "#3E8E41",
+    "details": {
+      "overview": "The Aotearoa Legalise Cannabis Party (ALCP) is a single-issue political party primarily focused on legalising and regulating cannabis in New Zealand. The party argues that cannabis prohibition causes unnecessary criminalisation and that a regulated legal market would allow cannabis to be controlled, taxed and subject to quality and safety standards.",
+      "currentStatus": "The party has contested every general election since its formation in 1996 but has never won a seat in Parliament.",
+      "policyAreas": [
+        {
+          "title": "Cannabis legalisation",
+          "text": "Legalise the possession, cultivation and use of cannabis by adults, with a regulated legal framework rather than criminal prohibition."
+        },
+        {
+          "title": "Cannabis regulation",
+          "text": "Establish a regulated cannabis market covering production, distribution and sale, with controls intended to manage potential harms."
+        },
+        {
+          "title": "Medical cannabis",
+          "text": "Expand access to cannabis for medicinal purposes and reduce barriers for people using cannabis for medical conditions."
+        },
+        {
+          "title": "Cannabis taxation",
+          "text": "Tax the legal cannabis industry, with government revenue replacing some of the economic activity currently associated with the illegal market. The party argues that regulation could reduce criminal-market revenue while generating legitimate economic activity."
+        },
+        {
+          "title": "Cannabis convictions",
+          "text": "Support removing or expunging criminal records for people convicted of offences relating to cannabis possession or use that would no longer be criminal under a legalised system. Its 2026 campaign material specifically advocates cannabis conviction expungement."
+        },
+        {
+          "title": "Hemp",
+          "text": "Support wider cultivation and use of industrial hemp, including removing unnecessary licensing barriers and encouraging hemp-based products and industries."
+        },
+        {
+          "title": "Drug education",
+          "text": "Support greater investment in drug education and research, with an emphasis on providing factual information about cannabis and other drugs rather than relying primarily on prohibition."
+        },
+        {
+          "title": "Police & justice",
+          "text": "Reduce the criminal-justice resources devoted to cannabis possession and personal use and redirect the focus towards serious crime and drug-related harm."
+        },
+        {
+          "title": "Personal freedom",
+          "text": "Emphasise individual autonomy and the right of adults to make decisions about cannabis use without unnecessary criminal penalties."
+        },
+        {
+          "title": "Economic development",
+          "text": "Support development of a legitimate cannabis and hemp industry, including opportunities for agriculture, manufacturing, research and exports where legally and economically viable."
+        },
+        {
+          "title": "Human rights",
+          "text": "Argue that cannabis prohibition can result in disproportionate policing and criminalisation and advocate greater protection of the rights of cannabis users."
+        }
+      ],
+      "position": "The ALCP does not fit particularly neatly onto the traditional left-right spectrum. Its defining issue is cannabis legalisation and drug-law reform. On this issue it takes a substantially more liberal position than the major parties. Its broader policies have historically included themes of personal freedom, human rights, environmental sustainability and social justice.",
+      "simpleTerms": "The ALCP's approach is broadly pro-cannabis legalisation, pro-regulation and focused on personal freedom, with the aim of replacing cannabis prohibition with a legal, regulated system covering adult use, medical access, cultivation, taxation and industry.",
+      "caveat": "This describes the Aotearoa Legalise Cannabis Party's stated political position and policies — it isn't an assessment of whether legalisation would produce the claimed economic, health or criminal-justice outcomes. The party's current 2026 policy platform should be checked against its latest election material, as its publicly available policy information is less extensive and less frequently updated than that of the larger parliamentary parties."
+    }
   },
   {
     "group": "registered",
