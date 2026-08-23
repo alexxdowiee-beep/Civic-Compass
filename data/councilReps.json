@@ -177,7 +177,7 @@
     "updated": "as elected Oct 2025",
     "mayor": {
       "name": "Phil Mauger",
-      "note": "Independent (\"Let's Get More Stuff Done\") — re-elected 2025 for a second term"
+      "note": "Independent (\"Let's Get More Stuff Done\") — re-elected Mayor in October 2025 with 60,137 votes, defeating Sara Templeton (40,533). A former Christchurch businessman and former city councillor. Current priorities include controlling council debt and spending, maintaining the city's infrastructure and services, and improving Christchurch's liveability."
     },
     "councillors": [
       {
@@ -292,8 +292,8 @@
       {
         "date": "23 Jun 2026",
         "title": "Annual Plan 2026/27 adopted",
-        "outcome": "Confirmed an average household rates increase of about 7.35% (roughly $5.98/week), down from the 7.96% originally proposed. Includes $15m+ towards restoring Christ Church Cathedral and other earthquake-damaged heritage buildings. A ratepayer petition subsequently called for a referendum on the rise.",
-        "url": "https://www.chrislynchmedia.com/news-items/ratepayer-demands-referendum-over-christchurch-rates-rise-and-cathedral-funding/"
+        "outcome": "Confirmed an average household rates increase of 7.83%. Council also approved $1.37 billion in operational expenditure and $597.4 million in capital spending for 2026/27, including $15m+ towards restoring Christ Church Cathedral and other earthquake-damaged heritage buildings. A ratepayer petition subsequently called for a referendum on the rise.",
+        "url": "https://newsline.ccc.govt.nz"
       },
       {
         "date": "13 May 2026",
@@ -309,7 +309,95 @@
         "detail": "With the new stadium now open, Council is preparing a development plan (informed by public consultation) for the vacated temporary stadium site, including whether to repurpose, sell, or dispose of the infrastructure. An expression-of-interest and tender for decommissioning is due to be released.",
         "url": "https://www.1news.co.nz/2026/05/08/future-of-christchurchs-apollo-projects-stadium-to-be-decided/"
       }
-    ]
+    ],
+    "profile": {
+      "population": "419,200",
+      "medianAge": "37.5",
+      "medianIncome": "$40,400",
+      "bornOverseas": "28.0%",
+      "bornOverseas2013": "22.2%"
+    },
+    "keyIssues": [
+      {
+        "title": "Rates & council finances",
+        "text": "The 2026/27 Annual Plan resulted in an average rates increase of 7.83%. Council also approved $1.37 billion in operational expenditure and $597.4 million in capital spending."
+      },
+      {
+        "title": "Water & wastewater",
+        "text": "Christchurch is working through the Government's Local Water Done Well reforms, including the future structure and financing of water services. Stormwater and flood protection are also significant infrastructure issues."
+      },
+      {
+        "title": "Local government reform",
+        "text": "Christchurch is considering major changes to Canterbury's local-government structure under the Government's Head Start pathway. Options examined include Christchurch becoming a unitary authority, combining with Selwyn and/or Waimakariri, or creating a single Canterbury-wide authority."
+      },
+      {
+        "title": "Heritage buildings",
+        "text": "Council has committed significant funding towards restoring Christchurch's earthquake-damaged iconic buildings, including $15 million for Canterbury Museum, $15 million for Christ Church Cathedral, and $4 million for the Christchurch School of Music."
+      },
+      {
+        "title": "Infrastructure & growth",
+        "text": "Transport, roading, three-waters infrastructure, community facilities and the ongoing development of Christchurch remain major areas of Council spending and decision-making."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 16.4
+      },
+      {
+        "label": "15–29",
+        "pct": 21.6
+      },
+      {
+        "label": "30–64",
+        "pct": 45.7
+      },
+      {
+        "label": "65+",
+        "pct": 16.3
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 75.9
+      },
+      {
+        "label": "Māori",
+        "pct": 11.2
+      },
+      {
+        "label": "Asian",
+        "pct": 17.1
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 4.3
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 1.9
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 1.1
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "17 Jul 2026: Council opened consultation on possible local-government reorganisation across Christchurch and Canterbury",
+        "23 Jun 2026: Council adopted the 2026/27 Annual Plan, including a 7.83% average rates increase and major heritage-building funding",
+        "3 Jul 2026: Council proposed new approaches to waste management and minimisation",
+        "26 Jun 2026: Council provided an update on the Christchurch Wastewater Treatment Plant",
+        "Jul 2026: Council continued work on potential future Canterbury council structures, with options ranging from Christchurch-only to a single Canterbury-wide authority"
+      ],
+      "url": "https://newsline.ccc.govt.nz"
+    },
+    "election2025": {
+      "mayorElected": "Phil Mauger",
+      "turnout": "38.12%",
+      "votesReturned": "107,553"
+    }
   },
   "Ashburton District": {
     "updated": "as elected Oct 2025",
