@@ -559,5 +559,152 @@
         "url": "https://www.waimakariri.govt.nz/council/local-government-reforms/rates-capping"
       }
     ]
+  },
+  "Timaru District": {
+    "mayor": {
+      "name": "Nigel Bowen",
+      "note": "Independent — re-elected Mayor in October 2025 with 8,424 votes, defeating Stu Piddington and Peter Bennett. Has previously served as mayor; background in hospitality, having owned and operated the Speight's Ale House and Street Food Kitchen with his wife. Stated priorities include delivering major capital projects, promoting Timaru District, navigating government reforms, and maintaining local community influence in decision-making."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Philip Harper",
+        "ward": "Geraldine Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Michelle Pye",
+        "ward": "Pleasant Point–Temuka Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Scott Shannon",
+        "ward": "Pleasant Point–Temuka Ward",
+        "note": "Independent — Deputy Mayor"
+      },
+      {
+        "name": "Stacey Scott",
+        "ward": "Timaru Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Stu Piddington",
+        "ward": "Timaru Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Owen (OJ) Jackson",
+        "ward": "Timaru Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Graeme Wilson",
+        "ward": "Timaru Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Peter Burt",
+        "ward": "Timaru Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Chris Thomas",
+        "ward": "Timaru Ward",
+        "note": "Independent"
+      }
+    ],
+    "mp": {
+      "name": "James Meager",
+      "party": "National",
+      "note": "MP for Rangitata, the electorate covering Timaru and surrounding South Canterbury communities. Elected in 2023, retaining the seat for National."
+    },
+    "profile": {
+      "population": "49,500",
+      "medianAge": "44.6",
+      "medianIncome": "$38,600",
+      "bornOverseas": "16.0%",
+      "bornOverseas2013": "11.5%"
+    },
+    "keyIssues": [
+      {
+        "title": "Rates & financial pressure",
+        "text": "Council proposed increasing the total amount of rates collected by 9% for 2026/27, citing rising costs for core services including roads and replacement pipes. Individual rate increases vary depending on the property and services received."
+      },
+      {
+        "title": "Water services",
+        "text": "Timaru has been working through the Government's Local Water Done Well reforms and has been developing a water-services organisation model. Questions around ownership, costs, governance and future partnerships remain important issues."
+      },
+      {
+        "title": "Local government reform",
+        "text": "Timaru and Mackenzie councils consulted residents in July 2026 about possible unitary council arrangements under the Government's Head Start programme. Options included South Canterbury-focused arrangements and potentially larger regional structures."
+      },
+      {
+        "title": "Roads & infrastructure",
+        "text": "Road maintenance, water infrastructure, sewerage and transport projects remain significant council responsibilities. Current works include road renewals, sewer and watermain upgrades, and bridge and intersection projects."
+      },
+      {
+        "title": "Regional economic development & employment",
+        "text": "Timaru's economy is strongly connected to agriculture, food processing, manufacturing, engineering and the Port of Timaru. Recent industrial closures, including the Smithfield meatworks closure, have made regional employment and economic resilience a significant issue."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 17.6
+      },
+      {
+        "label": "15–29",
+        "pct": 15.7
+      },
+      {
+        "label": "30–64",
+        "pct": 43.9
+      },
+      {
+        "label": "65+",
+        "pct": 22.9
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 87.3
+      },
+      {
+        "label": "Māori",
+        "pct": 10.4
+      },
+      {
+        "label": "Asian",
+        "pct": 5.8
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 3.5
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.9
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 2.9
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "8 Jul 2026: Council launched consultation on potential unitary council / local government reform under the Head Start programme",
+        "26 May 2026: Timaru joined neighbouring councils in discussions about a regional response to the Government's local-government reforms",
+        "7 May 2026: Major central Timaru traffic-signal upgrades began, alongside stormwater and electrical works",
+        "2026: Council continued preparing for major changes to water-service delivery under Local Water Done Well",
+        "2026: Roading, sewer and watermain projects continued across Timaru, Temuka, Geraldine and surrounding rural areas"
+      ],
+      "url": "https://www.timaru.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Nigel Bowen",
+      "turnout": "48.2%",
+      "votesReturned": "16,260"
+    }
   }
 }
