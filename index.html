@@ -662,11 +662,22 @@ function toggleAreaGroup(regionName, headerEl){
 
 function renderAreaList(filterText){
   const f = (filterText || '').toLowerCase().trim();
+
+  // The result card gets moved INSIDE areaList when a district is selected
+  // (so it can pop in right under that card). Detach it safely first, before
+  // wiping areaList's contents — otherwise it gets destroyed along with the
+  // old markup and later lookups for it silently fail, breaking the rebuild.
+  const resultCardEl = document.getElementById('resultCard');
+  if (resultCardEl && resultCardEl.parentNode) {
+    resultCardEl.parentNode.removeChild(resultCardEl);
+  }
+
   areaList.innerHTML = '';
   const seen = [];
   councils.forEach(c => { if(!seen.includes(c.region)) seen.push(c.region); });
 
   let matchCount = 0;
+  let placedResultCard = false;
   seen.forEach(region => {
     const matches = [];
     councils.forEach((c, i) => {
@@ -701,11 +712,20 @@ function renderAreaList(filterText){
     if (selectedCardEl) {
       // Move the (single, shared) result card so it pops in right under the
       // area the user just tapped, instead of sitting fixed at the bottom.
-      body.insertBefore(document.getElementById('resultCard'), selectedCardEl.nextSibling);
+      body.insertBefore(resultCardEl, selectedCardEl.nextSibling);
+      placedResultCard = true;
     }
     groupDiv.appendChild(body);
     areaList.appendChild(groupDiv);
   });
+
+  if (!placedResultCard) {
+    // Selected area isn't currently shown (no selection yet, or it's been
+    // filtered out) — park the card right after the list so it stays in the
+    // document and hide it, rather than leaving it detached altogether.
+    areaList.insertAdjacentElement('afterend', resultCardEl);
+    resultCardEl.style.display = 'none';
+  }
 
   if (f) {
     areaSearchMeta.innerHTML = matchCount
