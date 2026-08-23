@@ -261,7 +261,76 @@
     "slogan": "Campaigns on national identity and a 'New Zealand first' platform.",
     "seats": "8 MPs · governing coalition",
     "url": "https://www.nzfirst.nz",
-    "color": "#1C1C1C"
+    "color": "#1C1C1C",
+    "details": {
+      "overview": "New Zealand First is a nationalist and populist political party that emphasises New Zealand sovereignty, equal citizenship, tighter immigration controls, stronger law and order, support for seniors and regional development. The party describes itself as pragmatic and focused on putting the interests of New Zealand and New Zealanders first.",
+      "currentStatus": "It was founded in 1993 and is led by Winston Peters.",
+      "policyAreas": [
+        {
+          "title": "Economy & taxation",
+          "text": "Support economic growth, export development and domestic industry, while maintaining a long-term objective of lower and simpler taxation. NZ First also favours government support for strategically important industries and infrastructure."
+        },
+        {
+          "title": "Cost of living",
+          "text": "Target high grocery and power prices through stronger competition and regulation. Current policies include breaking up the supermarket duopoly and separating electricity generation and retail businesses."
+        },
+        {
+          "title": "Immigration",
+          "text": "Support immigration where it provides skills and economic benefits, while placing greater emphasis on training and employing New Zealanders. NZ First currently proposes restricting voting rights to New Zealand citizens."
+        },
+        {
+          "title": "Law & order",
+          "text": "Support tougher action against crime, stronger policing and measures targeting organised crime and gangs. The party's current priorities include additional frontline policing and stronger border security."
+        },
+        {
+          "title": "Health",
+          "text": "Support a strong public health system and investment in healthcare services. Current government priorities supported by NZ First include maternity services and frontline health provision."
+        },
+        {
+          "title": "Education",
+          "text": "Treat education as a long-term investment, with emphasis on improving skills, employment prospects and vocational training. Current policies include expanding Trades Academy places and Youth Guarantee opportunities."
+        },
+        {
+          "title": "Housing & infrastructure",
+          "text": "Support increased infrastructure investment and development, particularly where it strengthens regional economies and national resilience."
+        },
+        {
+          "title": "Agriculture & regional development",
+          "text": "Support the primary sector and greater value-added processing in New Zealand. Current policies include returning a share of mining royalties to the regions and encouraging domestic dairy manufacturing."
+        },
+        {
+          "title": "Energy & resources",
+          "text": "Support greater domestic energy security and development of New Zealand's natural resources. Current proposals include additional strategic fuel reserves and investment in identifying and developing domestic energy resources."
+        },
+        {
+          "title": "Seniors",
+          "text": "Strongly support superannuation and services for older New Zealanders. Current policies include modernising the SuperGold Card and expanding support for seniors."
+        },
+        {
+          "title": "Māori & Treaty policy",
+          "text": "Emphasise equal citizenship and oppose what NZ First describes as race-based government policies and separatism. The party supports a referendum on the future of the Māori electorates and has proposed changes to the role of Treaty principles in government."
+        },
+        {
+          "title": "Democracy & sovereignty",
+          "text": "Place strong emphasis on New Zealand's constitutional independence and national decision-making. Policies include greater scrutiny of international organisations and a proposed referendum on a four-year parliamentary term."
+        },
+        {
+          "title": "Environment",
+          "text": "Support environmental protection while emphasising economic development, domestic resource security and what the party describes as pragmatic environmental policy."
+        },
+        {
+          "title": "Business & industry",
+          "text": "Support New Zealand-owned businesses and strategic domestic industries. Current policies include proposals for a New Zealand-owned bank, stronger domestic dairy processing and greater regional control over resource revenues."
+        },
+        {
+          "title": "Defence & foreign affairs",
+          "text": "Emphasise national sovereignty, New Zealand's independence in foreign policy and maintaining strong relationships within the region."
+        }
+      ],
+      "position": "New Zealand First is generally positioned around the centre to centre-right, although it combines economic and social policies that don't fit neatly into a conventional left-right classification. It is particularly distinctive on national sovereignty, immigration, Treaty/Māori policy, regional development and opposition to what it considers excessive government bureaucracy or political correctness. Its economic approach can be interventionist where it believes strategic industries or consumers need government protection.",
+      "simpleTerms": "New Zealand First's approach is broadly pro-national sovereignty, pro-New Zealand ownership and focused on immigration control, law and order, regional development and protecting the interests of New Zealand citizens, while taking a pragmatic approach to economic policy rather than consistently following either free-market or socialist principles.",
+      "caveat": "This describes New Zealand First's stated political position and current policies — it isn't an assessment of whether those policies would work or whether the party's claims about government performance are correct. New Zealand First's current policy programme is evolving as the 2026 election campaign develops, so individual policies should be checked against the party's latest announcements."
+    }
   },
   {
     "group": "parliament",
