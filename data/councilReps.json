@@ -572,7 +572,7 @@
     "updated": "as elected Oct 2025",
     "mayor": {
       "name": "Dan Gordon",
-      "note": "Independent — elected 2019, re-elected 2022 and 2025"
+      "note": "Independent — re-elected Mayor in 2025 for a third term, receiving 15,766 votes compared with 5,132 for Paul Williams. Mayor since 2019. Following his re-election, said his focus would remain on working for all Waimakariri communities, listening to residents and keeping the district thriving."
     },
     "councillors": [
       {
@@ -608,17 +608,17 @@
       {
         "name": "Tim Bartle",
         "ward": "Kaiapoi-Woodend Ward",
-        "note": "Independent — new to Council in 2025"
+        "note": "Standing Together For Waimakariri — new to Council in 2025"
       },
       {
         "name": "Brent Cairns",
         "ward": "Kaiapoi-Woodend Ward",
-        "note": "Independent"
+        "note": "Community Comes First"
       },
       {
         "name": "Shona Powell",
         "ward": "Kaiapoi-Woodend Ward",
-        "note": "Independent — new to Council in 2025"
+        "note": "A Voice For You — new to Council in 2025"
       },
       {
         "name": "Philip Redmond",
@@ -629,7 +629,7 @@
     "mp": {
       "name": "Matt Doocey",
       "party": "National",
-      "note": "Sitting MP for Waimakariri since 2014, also National's 2026 candidate"
+      "note": "MP for Waimakariri since 2014. Currently Minister of Mental Health and Associate Minister of Health."
     },
     "decisions": [
       {
@@ -646,7 +646,95 @@
         "detail": "Central government's proposed rates cap (limiting increases to 2–4% per year, phased in from January 2027 to full implementation by 2029) will constrain Council's future Annual Plans and Long-Term Plan; Council has been formulating its position on the policy.",
         "url": "https://www.waimakariri.govt.nz/council/local-government-reforms/rates-capping"
       }
-    ]
+    ],
+    "profile": {
+      "population": "69,800",
+      "medianAge": "44.7",
+      "medianIncome": "$40,200",
+      "bornOverseas": "18.2%",
+      "bornOverseas2013": "16.4%"
+    },
+    "keyIssues": [
+      {
+        "title": "Local government reform",
+        "text": "Waimakariri is actively involved in the Government's Head Start local-government reform programme. In August 2026, Council voted unanimously to work with Hurunui on a proposed North Canterbury Council, potentially combining district and regional functions."
+      },
+      {
+        "title": "Rates & council finances",
+        "text": "Council adopted a 4.99% average rates increase for 2026/27, including Three Waters. The average general rates increase excluding Three Waters is around 2.9% for most ratepayers."
+      },
+      {
+        "title": "Water services",
+        "text": "From 1 July 2026, Waimakariri established an in-house Water Services business unit to manage drinking water, wastewater and stormwater under the Government's Local Water Done Well framework."
+      },
+      {
+        "title": "Growth & infrastructure",
+        "text": "Waimakariri continues to experience rapid population growth, increasing demand for roads, water infrastructure, community facilities and housing. The Rangiora Eastern Link is one of the major infrastructure projects currently being considered."
+      },
+      {
+        "title": "Transport funding",
+        "text": "Council is facing transport funding pressure following a $13.5 million NZ Transport Agency co-funding shortfall over three years, affecting its capital programme and roading priorities."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 17.7
+      },
+      {
+        "label": "15–29",
+        "pct": 15.3
+      },
+      {
+        "label": "30–64",
+        "pct": 45.5
+      },
+      {
+        "label": "65+",
+        "pct": 21.4
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 92.1
+      },
+      {
+        "label": "Māori",
+        "pct": 9.9
+      },
+      {
+        "label": "Asian",
+        "pct": 3.8
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 1.6
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.7
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 1.3
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "14 Aug 2026: Council retained its AA credit rating with a stable outlook from Fitch",
+        "14 Aug 2026: Waimakariri and Selwyn supported calls for a pause and review of Fast-track housing decisions",
+        "12 Aug 2026: The new Parking and Traffic Bylaw 2026 came into effect",
+        "5 Aug 2026: Council voted to work with Hurunui on a proposed North Canterbury Council under the Head Start reform process",
+        "7 Jul 2026: Council reported strong community support for a North Canterbury-focused future, with 54.2% of first-preference responses favouring a North Canterbury unitary council"
+      ],
+      "url": "https://www.waimakariri.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Dan Gordon",
+      "turnout": "42.91%",
+      "votesReturned": "21,171"
+    }
   },
   "Timaru District": {
     "mayor": {
