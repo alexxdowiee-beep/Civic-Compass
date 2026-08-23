@@ -717,7 +717,6 @@ function selectCouncil(index){
   const card=document.getElementById('resultCard');
   const c=councils[index];
   if(!c){ card.style.display='none'; return; }
-  appStorage.set('lastArea', c.area);
   document.getElementById('rc-tag').textContent=c.tag;
   document.getElementById('rc-name').textContent=c.area;
   document.getElementById('rc-region').textContent=c.region;
@@ -1036,22 +1035,13 @@ function showCouncillor(idx){
 }
 window.showCouncillor = showCouncillor;
 
-// Restore last visit — remembers your council and which tab you were on,
-// so you land back where you left off instead of starting from scratch each time.
+// Restore last visit — remembers which tab you were on, so you land back
+// where you left off. Your council/region info is intentionally NOT
+// auto-restored: it stays hidden and collapsed every time the app opens,
+// only appearing once you tap an area yourself.
 (async function restoreLastVisit(){
   try {
-    const [savedArea, savedTab] = await Promise.all([
-      appStorage.get('lastArea'),
-      appStorage.get('lastTab'),
-    ]);
-    if(savedArea){
-      let matchIdx = -1;
-      councils.forEach((c,i)=>{ if(c.area===savedArea) matchIdx = i; });
-      if(matchIdx>=0){
-        areaOpenGroups.add(councils[matchIdx].region);
-        selectCouncil(matchIdx);
-      }
-    }
+    const savedTab = await appStorage.get('lastTab');
     if(savedTab){
       switchTab(savedTab, false);
     }
