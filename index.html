@@ -948,8 +948,18 @@ function selectCouncil(index){
       </div>`;
     }
     rhtml += `<div class="reps-block"><div class="reps-label">Mayor</div>
-      <div class="rep-row"><div><div class="rep-name">${reps.mayor.name}</div></div><div class="rep-note">${reps.mayor.note}</div></div>
-      <div class="reps-label" style="margin-top:12px;">Councillors <span style="font-weight:400;text-transform:none;color:#6B7A70;">(${reps.updated})</span></div>`;
+      <div class="rep-row"><div><div class="rep-name">${reps.mayor.name}</div></div><div class="rep-note">${reps.mayor.note}</div></div>`;
+    if(reps.mp){
+      rhtml += `<div class="reps-label" style="margin-top:12px;">Sitting MP</div>
+        <div class="rep-mp-card"><div class="rep-name">${reps.mp.name} <span style="font-weight:400;color:#6B7A70;">· ${reps.mp.party}</span></div><div class="rep-note" style="text-align:left;max-width:100%;">${reps.mp.note}</div></div>`;
+    }
+    if(reps.mps && reps.mps.length){
+      rhtml += `<div class="reps-label" style="margin-top:12px;">Sitting MPs <span style="font-weight:400;text-transform:none;color:#6B7A70;">(area spans several electorates)</span></div>`;
+      reps.mps.forEach(m=>{
+        rhtml += `<div class="rep-mp-card" style="margin-bottom:6px;"><div class="rep-name">${m.name} <span style="font-weight:400;color:#6B7A70;">· ${m.party}</span></div><div class="rep-note" style="text-align:left;max-width:100%;">${m.note}</div></div>`;
+      });
+    }
+    rhtml += `<div class="reps-label" style="margin-top:12px;">Councillors <span style="font-weight:400;text-transform:none;color:#6B7A70;">(${reps.updated})</span></div>`;
     {
       const wardGroups = {};
       const wardOrder = [];
@@ -969,16 +979,6 @@ function selectCouncil(index){
             <div class="councillor-detail">${cl.note}</div>
           </div>`;
         });
-      });
-    }
-    if(reps.mp){
-      rhtml += `<div class="reps-label" style="margin-top:12px;">Sitting MP</div>
-        <div class="rep-mp-card"><div class="rep-name">${reps.mp.name} <span style="font-weight:400;color:#6B7A70;">· ${reps.mp.party}</span></div><div class="rep-note" style="text-align:left;max-width:100%;">${reps.mp.note}</div></div>`;
-    }
-    if(reps.mps && reps.mps.length){
-      rhtml += `<div class="reps-label" style="margin-top:12px;">Sitting MPs <span style="font-weight:400;text-transform:none;color:#6B7A70;">(area spans several electorates)</span></div>`;
-      reps.mps.forEach(m=>{
-        rhtml += `<div class="rep-mp-card" style="margin-bottom:6px;"><div class="rep-name">${m.name} <span style="font-weight:400;color:#6B7A70;">· ${m.party}</span></div><div class="rep-note" style="text-align:left;max-width:100%;">${m.note}</div></div>`;
       });
     }
     if(reps.keyIssues && reps.keyIssues.length){
