@@ -415,7 +415,80 @@
     "slogan": "Campaigns on animal rights and welfare policy.",
     "seats": "Registered party · not in Parliament",
     "url": "https://animaljustice.org.nz",
-    "color": "#6B4E9E"
+    "color": "#6B4E9E",
+    "details": {
+      "overview": "The Animal Justice Party Aotearoa New Zealand (AJP) is a political party focused primarily on animal rights and welfare, environmental sustainability and creating a society that considers the interests of animals alongside those of people. The party argues that animals are sentient beings rather than commodities or resources and supports significant changes to the way animals are treated in agriculture, research, entertainment and society. Its broader policy platform also covers environmental, social and economic issues.",
+      "currentStatus": "The party is currently campaigning for the 2026 general election under the message \"Animals. Environment. People.\"",
+      "policyAreas": [
+        {
+          "title": "Animal rights & welfare",
+          "text": "Give animals stronger legal protection and greater consideration in government decision-making. The party supports recognising animals as individuals with inherent value rather than primarily as resources for human use."
+        },
+        {
+          "title": "Agriculture",
+          "text": "Move away from intensive animal agriculture and support a transition towards plant-based and more sustainable food production. The party opposes practices it considers harmful to animal welfare, including intensive winter grazing."
+        },
+        {
+          "title": "Fishing & hunting",
+          "text": "Ban recreational fishing and fishing competitions, as well as recreational hunting and hunting competitions."
+        },
+        {
+          "title": "Animal experimentation",
+          "text": "Ban harmful experimentation on animals and promote alternatives to animal-based research."
+        },
+        {
+          "title": "Animal entertainment",
+          "text": "End the use of animals for entertainment and support affected workers and industries through a planned transition. Policies include opposition to horse racing and rodeo."
+        },
+        {
+          "title": "Animal breeding & products",
+          "text": "End commercial breeding of companion animals and oppose the production of fur and leather."
+        },
+        {
+          "title": "Animal protection",
+          "text": "Establish a Commissioner for Animals with legal authority and responsibility for monitoring animal welfare across different sectors."
+        },
+        {
+          "title": "Companion animals",
+          "text": "Improve protections for pets, including support for pets being allowed on public transport and compassionate leave relating to the death or serious illness of companion animals."
+        },
+        {
+          "title": "Climate & environment",
+          "text": "Pursue stronger action on climate change, protect ecosystems and biodiversity, reduce pollution and move towards an economy operating within environmental limits."
+        },
+        {
+          "title": "Plant-based economy",
+          "text": "Support a long-term transition towards a more plant-based economy, linking animal welfare with environmental sustainability and human health."
+        },
+        {
+          "title": "Economy",
+          "text": "Promote what the party describes as a sustainable economy that operates within planetary boundaries rather than prioritising economic growth regardless of environmental consequences."
+        },
+        {
+          "title": "Workers & just transition",
+          "text": "Support workers and communities affected by changes to industries that rely on animal exploitation, with the party advocating a planned and compassionate transition rather than simply removing existing industries."
+        },
+        {
+          "title": "Māori & Te Tiriti",
+          "text": "Embrace Te Tiriti o Waitangi and support its role in creating what the party describes as a compassionate, equitable and cooperative relationship between people, animals and the environment."
+        },
+        {
+          "title": "Social policy",
+          "text": "Promote equality, inclusivity and non-discrimination, applying these principles across species as well as within human society."
+        },
+        {
+          "title": "Emergency planning",
+          "text": "Support including animals in Civil Defence and disaster-response planning and providing dedicated funding for animal rescue organisations and emergency animal response."
+        },
+        {
+          "title": "Live animal exports",
+          "text": "Oppose the export of live animals by sea and support maintaining New Zealand's prohibition on the trade."
+        }
+      ],
+      "position": "The Animal Justice Party doesn't fit neatly into the traditional left-right political spectrum. Its defining political philosophy is animal rights, combined with environmentalism, sustainability, non-violence and social equality. On economic and environmental issues, many of its policies involve greater government regulation and intervention, particularly where animal welfare and environmental protection are concerned.",
+      "simpleTerms": "The Animal Justice Party's approach is broadly pro-animal rights, pro-environment and focused on reducing harm to animals, with a long-term goal of moving New Zealand towards a more plant-based and sustainable economy. It advocates significant changes to agriculture, animal research, hunting, fishing, entertainment and other industries involving animals.",
+      "caveat": "This describes the Animal Justice Party's stated political position and policies — it isn't an assessment of whether those policies would work or whether the party's claims about animal welfare, agriculture, climate or the economy are correct. Some of its proposals — particularly transitioning away from animal agriculture and banning recreational fishing, hunting and animal-based entertainment — would represent substantial changes to existing industries and practices."
+    }
   },
   {
     "group": "registered",
