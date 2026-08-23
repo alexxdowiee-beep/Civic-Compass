@@ -740,6 +740,12 @@ renderAreaList('');
 areaSearch.addEventListener('input', () => renderAreaList(areaSearch.value));
 
 function selectCouncil(index){
+  if (selectedAreaIndex === index) {
+    // Tapping the already-selected district again closes its card.
+    selectedAreaIndex = null;
+    renderAreaList(areaSearch.value);
+    return;
+  }
   selectedAreaIndex = index;
   renderAreaList(areaSearch.value);
 
