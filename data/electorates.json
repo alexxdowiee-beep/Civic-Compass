@@ -32,7 +32,7 @@
   },
   {
     "name": "Banks Peninsula",
-    "group": "South Island",
+    "group": "Canterbury",
     "cands": [
       {
         "p": "National",
@@ -89,7 +89,7 @@
   },
   {
     "name": "Christchurch Central",
-    "group": "South Island",
+    "group": "Canterbury",
     "cands": [
       {
         "p": "National",
@@ -130,7 +130,7 @@
   },
   {
     "name": "Christchurch East",
-    "group": "South Island",
+    "group": "Canterbury",
     "cands": [
       {
         "p": "National",
@@ -187,7 +187,7 @@
   },
   {
     "name": "Dunedin",
-    "group": "South Island",
+    "group": "Otago",
     "cands": [
       {
         "p": "National",
@@ -401,7 +401,7 @@
   },
   {
     "name": "Ilam",
-    "group": "South Island",
+    "group": "Canterbury",
     "cands": [
       {
         "p": "National",
@@ -432,7 +432,7 @@
   },
   {
     "name": "Invercargill",
-    "group": "South Island",
+    "group": "Southland",
     "cands": [
       {
         "p": "Labour",
@@ -453,7 +453,7 @@
   },
   {
     "name": "Kaikōura",
-    "group": "South Island",
+    "group": "Canterbury",
     "cands": [
       {
         "p": "Labour",
@@ -704,7 +704,7 @@
   },
   {
     "name": "Nelson",
-    "group": "South Island",
+    "group": "Nelson/West Coast-Tasman",
     "cands": [
       {
         "p": "Labour",
@@ -934,7 +934,7 @@
   },
   {
     "name": "Rangitata",
-    "group": "South Island",
+    "group": "Canterbury",
     "cands": [
       {
         "p": "National",
@@ -1043,7 +1043,7 @@
   },
   {
     "name": "Selwyn",
-    "group": "South Island",
+    "group": "Canterbury",
     "cands": [
       {
         "p": "National",
@@ -1089,7 +1089,7 @@
   },
   {
     "name": "Southland",
-    "group": "South Island",
+    "group": "Southland",
     "cands": [
       {
         "p": "NZ First",
@@ -1120,7 +1120,7 @@
   },
   {
     "name": "Taieri",
-    "group": "South Island",
+    "group": "Otago",
     "cands": [
       {
         "p": "National",
@@ -1329,7 +1329,7 @@
   },
   {
     "name": "Waimakariri",
-    "group": "South Island",
+    "group": "Canterbury",
     "cands": [
       {
         "p": "National",
@@ -1407,7 +1407,7 @@
   },
   {
     "name": "Waitaki",
-    "group": "South Island",
+    "group": "Otago",
     "cands": [
       {
         "p": "Labour",
@@ -1495,7 +1495,7 @@
   },
   {
     "name": "West Coast-Tasman",
-    "group": "South Island",
+    "group": "Nelson/West Coast-Tasman",
     "cands": [
       {
         "p": "NZ First",
@@ -1584,7 +1584,7 @@
   },
   {
     "name": "Wigram",
-    "group": "South Island",
+    "group": "Canterbury",
     "cands": [
       {
         "p": "Green",
