@@ -1110,14 +1110,21 @@ function makeCard(p){
   card.addEventListener('click', ()=>{
     const willOpen = !wrap.classList.contains('open');
     if(currentOpenParty && currentOpenParty !== wrap){
-      currentOpenParty.classList.remove('open');
+      const oldDetail = currentOpenParty.querySelector('.party-detail');
+      if(oldDetail){
+        // Close instantly (no animation) so the page doesn't reflow gradually
+        // under the user while a second, unrelated transition also plays —
+        // that's what caused the "skip" feeling.
+        oldDetail.style.transition = 'none';
+        currentOpenParty.classList.remove('open');
+        void oldDetail.offsetHeight; // force the instant close to apply now
+        oldDetail.style.transition = '';
+      } else {
+        currentOpenParty.classList.remove('open');
+      }
     }
     wrap.classList.toggle('open', willOpen);
     currentOpenParty = willOpen ? wrap : null;
-    if(willOpen){
-      const raf = window.requestAnimationFrame || function(cb){ setTimeout(cb, 50); };
-      raf(()=>{ card.scrollIntoView({behavior:'smooth', block:'start'}); });
-    }
   });
   wrap.appendChild(card);
 
