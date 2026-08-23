@@ -1508,5 +1508,111 @@
       "turnout": "60.85%",
       "votesReturned": "1,881"
     }
+  },
+  "Chatham Islands": {
+    "mayor": {
+      "name": "Greg Horler",
+      "note": "No party affiliation stated — elected Mayor in 2025 with 212 votes, defeating Monique Croon (95 votes). His role involves overseeing council services in a geographically isolated community where transport, infrastructure, water, housing and financial sustainability are major challenges."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Nathaniel Whaitiri",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Graeme Hoare",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Jacqui Southcombe",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Keri Lea Day",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Bridget Gibb",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Celine Gregory-Hunt",
+        "ward": "At Large",
+        "note": "No affiliation stated — Deputy Mayor"
+      },
+      {
+        "name": "Jenna Hoverd",
+        "ward": "At Large",
+        "note": "No affiliation stated — elected following a judicial recount and draw by lot after an equality of votes"
+      },
+      {
+        "name": "Pita Thomas",
+        "ward": "At Large",
+        "note": "No affiliation stated — subsequently resigned, creating a councillor vacancy and a 2026 by-election"
+      }
+    ],
+    "mp": {
+      "name": "Stuart Smith",
+      "party": "National",
+      "note": "MP for Kaikōura, which includes the Chatham Islands. Has represented the electorate since 2014 and is a Senior National Party Whip."
+    },
+    "profile": {
+      "population": "610",
+      "medianAge": "44.0",
+      "medianIncome": "Not available as a reliable district figure",
+      "bornOverseas": "Data suppressed (small population)",
+      "bornOverseas2013": "Data suppressed (small population)"
+    },
+    "keyIssues": [
+      {
+        "title": "Financial sustainability",
+        "text": "The Council has a very small rating base and relies significantly on Crown funding. Providing services is considerably more expensive because of the islands' isolation."
+      },
+      {
+        "title": "Water & wastewater",
+        "text": "Reliable drinking water and wastewater infrastructure remain major priorities."
+      },
+      {
+        "title": "Roads & transport",
+        "text": "Maintaining roads and securing reliable transport and shipping connections are major challenges for the geographically isolated community."
+      },
+      {
+        "title": "Housing",
+        "text": "Limited housing availability is an ongoing issue, affecting residents, workers and the district's ability to attract and retain people."
+      },
+      {
+        "title": "Environmental management",
+        "text": "Biodiversity, freshwater, resource management and the environmental effects of land use are important local issues."
+      }
+    ],
+    "decisions": [
+      {
+        "title": "2026/27 Annual Plan adopted",
+        "date": "2026",
+        "outcome": "Council adopted its 2026/27 Annual Plan, covering financial sustainability, water, waste, roads, shipping and housing.",
+        "url": "https://www.cic.govt.nz"
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "2026: Council adopted its 2026/27 Annual Plan, covering financial sustainability, water, waste, roads, shipping and housing",
+        "2026: A councillor by-election followed the resignation of Pita Thomas",
+        "2026: Council continued work on strengthening governance, financial management and accountability",
+        "2025: A judicial review concerning afforestation resource consents was settled",
+        "2025: Greg Horler was elected Mayor in the triennial local elections"
+      ],
+      "url": "https://www.cic.govt.nz"
+    },
+    "election2025": {
+      "mayorElected": "Greg Horler",
+      "turnout": "68.34%",
+      "votesReturned": "300"
+    }
   }
 }
