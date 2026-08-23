@@ -21,7 +21,56 @@
     "slogan": "Campaigns on jobs, health and housing from a centre-left platform.",
     "seats": "34 MPs · opposition",
     "url": "https://www.labour.org.nz",
-    "color": "#D1424A"
+    "color": "#D1424A",
+    "details": {
+      "overview": "Labour is a centre-left political party that emphasises strong public services, workers' rights, affordable housing, reducing inequality and government investment in health, education and infrastructure. Its current policy priorities are broadly centred on jobs, health and homes.",
+      "currentStatus": "Labour is currently in Opposition, led by Chris Hipkins.",
+      "policyAreas": [
+        {
+          "title": "Economy & taxation",
+          "text": "Support an economy focused on good jobs, decent wages, investment and productivity. Labour also proposes using government investment to support New Zealand businesses and infrastructure."
+        },
+        {
+          "title": "Health",
+          "text": "Increase access to publicly funded healthcare. Current policies include three free GP visits per year for everyone, removing the $5 prescription charge, and expanding access to other health services."
+        },
+        {
+          "title": "Education",
+          "text": "Support accessible public education, improve educational outcomes and invest in schools, teachers and student support."
+        },
+        {
+          "title": "Housing",
+          "text": "Increase the supply of affordable homes, support home ownership and strengthen public and affordable housing provision."
+        },
+        {
+          "title": "Workers & employment",
+          "text": "Emphasise employment standards, fair pay, job security and workers' rights, while supporting apprenticeships and skills development."
+        },
+        {
+          "title": "Infrastructure & transport",
+          "text": "Increase investment in infrastructure and make public transport more affordable. Labour's current policy includes a $20 weekly public-transport fare cap in Auckland, Wellington and Christchurch and $10 elsewhere."
+        },
+        {
+          "title": "Business & industry",
+          "text": "Establish a New Zealand Future Fund to invest in infrastructure and innovative New Zealand businesses, alongside policies aimed at supporting domestic industry and investment."
+        },
+        {
+          "title": "Environment & climate",
+          "text": "Support greater investment in renewable energy and emissions reduction. Labour's current SolarSaver policy would provide government-backed finance to reduce the upfront cost of installing solar power."
+        },
+        {
+          "title": "Social policy",
+          "text": "Focus on reducing poverty and inequality and providing support for families, children and people experiencing hardship."
+        },
+        {
+          "title": "Treaty & Māori policy",
+          "text": "Labour supports the principles of Te Tiriti o Waitangi and opposes policies it considers to weaken Māori rights or the Treaty relationship."
+        }
+      ],
+      "position": "Labour is generally positioned on the centre-left, favouring a larger role for government in providing public services, supporting workers and addressing inequality. It generally places greater emphasis than National on government investment, social programmes, employment protections and universal access to public services.",
+      "simpleTerms": "Labour's approach is broadly pro-public services, pro-worker and focused on reducing inequality, with government playing a significant role in healthcare, education, housing, infrastructure and economic development.",
+      "caveat": "This describes Labour's stated political position and current policies — it isn't an assessment of whether those policies have succeeded. Claims made by Labour about the economy, government performance or the effects of its policies should be independently assessed rather than treated as established facts."
+    }
   },
   {
     "group": "parliament",
