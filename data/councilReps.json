@@ -1183,5 +1183,171 @@
       "turnout": "53.21%",
       "votesReturned": "2,954"
     }
+  },
+  "Hurunui District": {
+    "mayor": {
+      "name": "Marie Black",
+      "note": "No party affiliation stated — elected unopposed in 2025, as the only mayoral candidate. Has served as Hurunui's mayor since 2016. Public priorities include responsible financial management, maintaining local decision-making, infrastructure, strong community relationships, and representing Hurunui's interests in central-government policy and reform."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Fiona Harris",
+        "ward": "East Ward",
+        "note": "No party affiliation stated — Deputy Mayor"
+      },
+      {
+        "name": "Vince Daly",
+        "ward": "East Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Dave Hislop",
+        "ward": "West Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Chris Scarlet",
+        "ward": "West Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Tom Davies",
+        "ward": "West Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Christopher Carthy",
+        "ward": "West Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Robbie Bruerton",
+        "ward": "South Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Pauline White",
+        "ward": "South Ward",
+        "note": "No party affiliation stated"
+      },
+      {
+        "name": "Brett Jones",
+        "ward": "South Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Steve Hutt",
+        "ward": "South Ward",
+        "note": "Independent"
+      }
+    ],
+    "mp": {
+      "name": "Stuart Smith",
+      "party": "National",
+      "note": "MP for Kaikōura since 2014, an electorate that includes much of North Canterbury, including Hurunui communities. Currently Senior National Party Whip, Chairperson of the New Zealand Group of the Inter-Parliamentary Union, and a member of the Business and Standing Orders committees."
+    },
+    "profile": {
+      "population": "14,190",
+      "medianAge": "46.2",
+      "medianIncome": "$52,000",
+      "bornOverseas": "17.5%",
+      "bornOverseas2013": "14.2%"
+    },
+    "keyIssues": [
+      {
+        "title": "Local government reform",
+        "text": "Hurunui has voted to work with Waimakariri District Council on a proposed North Canterbury unitary authority under the Government's Head Start reform process. The proposal would combine the councils' existing territorial functions with Environment Canterbury's regional functions."
+      },
+      {
+        "title": "Rates & council finances",
+        "text": "Council's 2026/27 rates were set with an overall increase of 7.15%, or 5.31% after adjusting for expected growth. Rising roading costs, particularly fuel prices, were a significant factor."
+      },
+      {
+        "title": "Water services",
+        "text": "Hurunui and Kaikōura have established Kaikōura Hurunui Water Services Ltd (KHWS) to take responsibility for drinking water, wastewater and stormwater services. The new organisation began operating from 1 July 2026."
+      },
+      {
+        "title": "Coastal hazards & Amberley",
+        "text": "Council is progressing Plan Change 7, which proposes rezoning council-owned land near Hursley Terrace Road from rural to residential. The proposal is linked to the long-term response to coastal hazard risk at Amberley Beach."
+      },
+      {
+        "title": "Roads & rural infrastructure",
+        "text": "Hurunui has a large rural road network and rising maintenance costs. The 2026/27 roading programme increased to approximately $14.1 million, partly because of higher fuel and network-management costs."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 17.7
+      },
+      {
+        "label": "15–29",
+        "pct": 13.3
+      },
+      {
+        "label": "30–64",
+        "pct": 46.5
+      },
+      {
+        "label": "65+",
+        "pct": 22.5
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 90.5
+      },
+      {
+        "label": "Māori",
+        "pct": 10.1
+      },
+      {
+        "label": "Asian",
+        "pct": 4.7
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 1.3
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.9
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 3.7
+      }
+    ],
+    "decisions": [
+      {
+        "title": "2026/27 rates set",
+        "date": "30 Jun 2026",
+        "outcome": "Council set the 2026/27 rates with an overall increase of 7.15% (5.31% after adjusting for expected growth), citing rising roading costs, particularly fuel prices, as a significant factor.",
+        "url": "https://www.hurunui.govt.nz"
+      },
+      {
+        "title": "North Canterbury unitary authority proposal",
+        "date": "6 Aug 2026",
+        "outcome": "Council voted to work with Waimakariri District Council on a proposed North Canterbury unitary authority under the Government's Head Start reform process.",
+        "url": "https://www.hurunui.govt.nz"
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "6 Aug 2026: Hurunui voted to work with Waimakariri on a proposed North Canterbury unitary authority",
+        "29 Jul 2026: Council progressed the transfer of water services to Kaikōura Hurunui Water Services Ltd",
+        "9 Jul 2026: Council approved public notification of Plan Change 7 relating to Amberley coastal-hazard mitigation",
+        "30 Jun 2026: Council set the 2026/27 rates, with a 7.15% overall increase",
+        "25 Jun 2026: A new one-million-litre water reservoir at Pyramid Valley was completed as part of planning for future growth and resilience"
+      ],
+      "url": "https://www.hurunui.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Marie Black (unopposed)",
+      "turnout": "39.55%",
+      "votesReturned": "3,845"
+    }
   }
 }
