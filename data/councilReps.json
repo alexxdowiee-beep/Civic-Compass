@@ -315,7 +315,7 @@
     "updated": "as elected Oct 2025",
     "mayor": {
       "name": "Liz McMillan",
-      "note": "Independent — previously Deputy Mayor for 6 years and a Western Ward councillor"
+      "note": "Independent — elected 2025 with 5,979 votes. Previously served nine years on the Methven Community Board, was elected to Council in 2016, and served as Deputy Mayor for six years."
     },
     "councillors": [
       {
@@ -390,7 +390,95 @@
         "detail": "Council will begin early consultation on its next ten-year plan later in 2026 — the main opportunity for residents to influence spending and rates direction beyond the current Annual Plan.",
         "url": "https://www.ashburtondc.govt.nz/news/2026-news/mayor-liz-mcmillan-heres-how-the-annual-plan-2026-27-is-tracking"
       }
-    ]
+    ],
+    "profile": {
+      "population": "37,400",
+      "medianAge": "40.1",
+      "medianIncome": "$42,800",
+      "bornOverseas": "20.7%",
+      "bornOverseas2013": "14.6%"
+    },
+    "keyIssues": [
+      {
+        "title": "Second Ashburton Bridge",
+        "text": "Construction of the Second Ashburton Bridge is underway, including piling and associated road works. The 2026/27 Council budget includes $19 million for the roading network, with a $16 million loan for road improvements linked to the second bridge."
+      },
+      {
+        "title": "Rates",
+        "text": "Council's 2026/27 Annual Plan provides for an average 5.43% rates increase for non-water Council activities."
+      },
+      {
+        "title": "Roads",
+        "text": "Road quality remains a significant local concern. In the latest Council residents' survey, it was identified as the district's biggest bugbear."
+      },
+      {
+        "title": "Local government reform",
+        "text": "Ashburton is considering possible changes to its local-government structure. In August 2026, Council decided not to submit an outline proposal under the Government's Head Start pathway, while continuing to explore alternative reform options."
+      },
+      {
+        "title": "Stockwater",
+        "text": "Council is working towards exiting the delivery of stockwater by 2027 and is reviewing the future of 17 stockwater intakes."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 19.3
+      },
+      {
+        "label": "15–29",
+        "pct": 16.5
+      },
+      {
+        "label": "30–64",
+        "pct": 44.5
+      },
+      {
+        "label": "65+",
+        "pct": 19.8
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 81.1
+      },
+      {
+        "label": "Māori",
+        "pct": 8.6
+      },
+      {
+        "label": "Asian",
+        "pct": 9.4
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 6.0
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 1.4
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 1.3
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "21 Aug 2026: Second Ashburton Bridge construction update — visible progress on the bridge and associated works",
+        "19 Aug 2026: Residents' survey found 95% considered Ashburton District a great place to live; road quality remained the biggest concern",
+        "12 Aug 2026: Council continued considering its role in future local-government reform options",
+        "10 Aug 2026: Council sought community input on the future of the Winchmore stockwater intake",
+        "9 Aug 2026: Mayor Liz McMillan said Council would continue working on local-government reform options but would not submit a Head Start proposal"
+      ],
+      "url": "https://www.ashburtondc.govt.nz/news"
+    },
+    "election2025": {
+      "mayorElected": "Liz McMillan",
+      "turnout": "46.23%",
+      "votesReturned": "10,662"
+    }
   },
   "Waimakariri District": {
     "updated": "as elected Oct 2025",
