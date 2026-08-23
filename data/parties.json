@@ -338,7 +338,76 @@
     "slogan": "Campaigns on Māori rights, Te Tiriti and indigenous-led policy.",
     "seats": "4 MPs · opposition",
     "url": "https://www.maoriparty.org.nz",
-    "color": "#8A1C2B"
+    "color": "#8A1C2B",
+    "details": {
+      "overview": "Te Pāti Māori is an Indigenous Māori political party that focuses on Māori self-determination, tino rangatiratanga, Te Tiriti o Waitangi, social and economic equality, environmental protection and Māori-led public services. The party advocates for Māori interests while describing its vision as an Aotearoa in which Tangata Whenua, Tangata Moana and Tangata Tiriti can thrive together.",
+      "currentStatus": "The party is co-led by Debbie Ngarewa-Packer and Rawiri Waititi.",
+      "policyAreas": [
+        {
+          "title": "Economy & taxation",
+          "text": "Support greater redistribution of wealth and resources, with stronger government investment aimed at reducing poverty and inequality. The party favours policies that increase economic security for low- and middle-income households and Māori communities."
+        },
+        {
+          "title": "Housing",
+          "text": "Increase public and affordable housing, expand Māori housing and papakāinga development, and strengthen protections for renters. Current proposals include building 2,000 papakāinga homes, increasing public-housing investment and taxing property investors."
+        },
+        {
+          "title": "Health",
+          "text": "Support greater Māori decision-making and Māori-led delivery of health services, with a focus on reducing health inequities and improving access to culturally appropriate healthcare."
+        },
+        {
+          "title": "Education",
+          "text": "Support Māori-led education, strengthening te reo Māori and mātauranga Māori, and increasing Māori influence over education policy and institutions."
+        },
+        {
+          "title": "Workers & employment",
+          "text": "Support higher living standards, stronger worker protections and policies aimed at reducing poverty and economic inequality."
+        },
+        {
+          "title": "Justice & crime",
+          "text": "Move away from mass imprisonment and toward prevention, rehabilitation and community-led justice. Te Pāti Māori supports repealing Three Strikes and ultimately creating a society where prisons are no longer needed."
+        },
+        {
+          "title": "Māori & Te Tiriti",
+          "text": "Place Te Tiriti o Waitangi, tino rangatiratanga and mana motuhake at the centre of government. The party supports constitutional change intended to give Māori greater authority over decisions affecting Māori communities."
+        },
+        {
+          "title": "Te reo Māori & culture",
+          "text": "Strengthen and normalise te reo Māori throughout New Zealand, invest in language revitalisation and protect Māori cultural rights and expressions."
+        },
+        {
+          "title": "Environment & climate",
+          "text": "Protect whenua, wai and biodiversity and pursue stronger climate action. The party supports Māori-led environmental decision-making and greater recognition of mātauranga Māori in climate policy."
+        },
+        {
+          "title": "Agriculture & food",
+          "text": "Promote Māori control of food systems, regenerative Māori agriculture and greater access to land for food production. The party also supports protecting Māori food sovereignty and seed sovereignty."
+        },
+        {
+          "title": "Social policy",
+          "text": "Focus strongly on reducing poverty, improving outcomes for whānau and children, and strengthening Māori community organisations and whānau-led services."
+        },
+        {
+          "title": "Child welfare",
+          "text": "Reduce state intervention in Māori families and increase whānau authority over the care of Māori children. The party wants greater accountability for harm caused through state care and uplifts."
+        },
+        {
+          "title": "Drug policy",
+          "text": "Support a health and harm-reduction approach to drug use rather than relying primarily on criminal penalties. Decriminalisation of drug use is part of the party's longer-term justice approach."
+        },
+        {
+          "title": "Democracy & constitutional reform",
+          "text": "Seek greater recognition of Māori political authority and Te Tiriti-based constitutional arrangements. Te Pāti Māori also supports expanding democratic participation, including lowering the voting age to 16 and restoring voting rights for prisoners."
+        },
+        {
+          "title": "Foreign affairs",
+          "text": "Support an independent foreign policy with a strong emphasis on Indigenous rights, self-determination and human rights. The party has also taken strong positions supporting Palestinian self-determination and opposing Israel's occupation and settlement policies."
+        }
+      ],
+      "position": "Te Pāti Māori is generally positioned on the left, but its political identity is primarily centred on Māori self-determination and Indigenous rights rather than the conventional left-right spectrum. It generally advocates a larger role for government in redistribution, public services, housing and environmental protection, while seeking substantially greater Māori authority over decisions affecting Māori.",
+      "simpleTerms": "Te Pāti Māori's approach is broadly pro-Māori self-determination, pro-Te Tiriti and focused on reducing inequality, with strong emphasis on Māori-led health, education, housing, justice and environmental policy.",
+      "caveat": "This describes Te Pāti Māori's stated political position and current policies — it isn't an assessment of whether those policies would work or whether the party's claims about government performance are correct. Some of its proposals — particularly around constitutional transformation, Māori authority and the future of the justice system — represent significant changes from New Zealand's current arrangements and are therefore matters of political debate rather than established outcomes."
+    }
   },
   {
     "group": "registered",
