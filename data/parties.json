@@ -719,7 +719,68 @@
     "slogan": "Campaigns on evidence-based policy and a universal basic income.",
     "seats": "Registered party · not in Parliament",
     "url": "https://www.opportunity.org.nz",
-    "color": "#00A99D"
+    "color": "#00A99D",
+    "details": {
+      "overview": "The Opportunity Party (TOP) is a centrist political party that emphasises evidence-based policymaking, economic reform, housing affordability, environmental sustainability, political reform and improving opportunities for New Zealanders. The party was founded in 2016 and, following a rebrand and change of leadership, is contesting the 2026 general election under leader Qiulae Wong.",
+      "currentStatus": "Its current programme focuses on fixing politics, building a new economy and restoring nature. The party has attracted substantially more attention during the 2026 campaign than in previous elections — a recent Taxpayers' Union–Curia poll put it at 6.1%, above the 5% MMP threshold, although this is only one poll and shouldn't be read as a prediction of the election result.",
+      "policyAreas": [
+        {
+          "title": "Economy & taxation",
+          "text": "Reform the tax system to place greater emphasis on taxing wealth and land rather than productive activity. A central proposal is a land-value tax, intended to reduce property speculation and encourage more productive use of land."
+        },
+        {
+          "title": "Citizen's income",
+          "text": "Replace existing welfare payments, including NZ Superannuation, with a means-tested Citizen's Income. Under the current proposal, people earning more than $350,000 would not receive it. The policy would be funded partly through a land-value tax and savings from replacing existing welfare programmes."
+        },
+        {
+          "title": "Housing",
+          "text": "Address housing affordability by changing taxation and incentives around land, with the land-value tax intended to discourage speculative holding of land and encourage development."
+        },
+        {
+          "title": "Environment & oceans",
+          "text": "Strengthen environmental protection, with current priorities including healthier oceans and a proposed ban on bottom trawling."
+        },
+        {
+          "title": "Energy",
+          "text": "Support significantly greater investment in renewable and abundant energy, with the aim of providing cheaper energy and supporting economic development."
+        },
+        {
+          "title": "Economic productivity",
+          "text": "Focus on improving New Zealand's productivity and developing a higher-value economy rather than relying heavily on low-productivity industries. The party describes this as a \"Breakthrough Economy.\""
+        },
+        {
+          "title": "Infrastructure & transport",
+          "text": "Support long-term infrastructure planning, greater investment in infrastructure and electrification, alongside policies intended to improve public transport and reduce transport emissions."
+        },
+        {
+          "title": "Political reform",
+          "text": "Introduce greater citizen participation in major decisions through a \"Citizens' Voice\", including citizens' assemblies on significant issues."
+        },
+        {
+          "title": "Government & politics",
+          "text": "Seek changes intended to make government more transparent, accountable and evidence-based. The party's current programme includes \"Clean Up Politics\" as one of its major priorities."
+        },
+        {
+          "title": "Business & innovation",
+          "text": "Encourage investment, innovation and higher-productivity businesses, while using economic policy to shift investment towards activities that generate greater long-term value."
+        },
+        {
+          "title": "Agriculture",
+          "text": "Support a transition towards more sustainable and productive land use while recognising the importance of agriculture to the New Zealand economy."
+        },
+        {
+          "title": "Social policy",
+          "text": "Focus on improving economic opportunity and reducing structural disadvantages, particularly through changes to taxation, welfare and housing."
+        },
+        {
+          "title": "National unity",
+          "text": "The party has made national unity one of its 2026 campaign themes, seeking to move political debate away from polarisation and towards shared national interests."
+        }
+      ],
+      "position": "The Opportunity Party is generally positioned in the centre, although its policies don't fit neatly into traditional left-right categories. It combines market-oriented economic reform with significant government intervention through taxation, welfare reform and environmental regulation. Its emphasis on evidence-based policy, political reform and environmental sustainability also differentiates it from the major centre-right and centre-left parties.",
+      "simpleTerms": "The Opportunity Party's approach is broadly centrist, evidence-focused and reform-oriented, with particular emphasis on housing affordability, tax reform, economic productivity, environmental protection, renewable energy and giving citizens a greater role in political decision-making.",
+      "caveat": "This describes the Opportunity Party's stated political position and current policies — it isn't an assessment of whether those policies would work. Some of its proposals — particularly replacing NZ Superannuation and other welfare payments with a Citizen's Income and introducing a land-value tax — would represent significant changes to New Zealand's existing economic and welfare systems. The party's policy platform is also evolving during the 2026 election campaign, so its latest policy announcements should take precedence."
+    }
   },
   {
     "group": "registered",
