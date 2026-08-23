@@ -971,6 +971,7 @@ const groupOrder=["parliament","registered","unregistered"];
 const tabsDiv=document.getElementById('partyTabs');
 const grid=document.getElementById('partyGrid');
 let activeGroup='all';
+let currentOpenParty = null;
 
 function makeCard(p){
   const wrap=document.createElement('div');
@@ -987,7 +988,14 @@ function makeCard(p){
     </div>
     <div class="p-go">\u25be</div>
   `;
-  card.addEventListener('click', ()=> wrap.classList.toggle('open'));
+  card.addEventListener('click', ()=>{
+    const willOpen = !wrap.classList.contains('open');
+    if(currentOpenParty && currentOpenParty !== wrap){
+      currentOpenParty.classList.remove('open');
+    }
+    wrap.classList.toggle('open', willOpen);
+    currentOpenParty = willOpen ? wrap : null;
+  });
   wrap.appendChild(card);
 
   const detail=document.createElement('div');
