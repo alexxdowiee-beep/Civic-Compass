@@ -986,27 +986,6 @@ function selectCouncil(index){
         rhtml += `<div class="issue-card"><div class="issue-title">${ki.title}</div><div class="issue-text">${ki.text}</div></div>`;
       });
     }
-    if(reps.decisions && reps.decisions.length){
-      rhtml += `<div class="reps-label" style="margin-top:12px;">Recent council decisions</div>`;
-      reps.decisions.forEach(d=>{
-        rhtml += `<div class="decision-card">
-          <div class="decision-top"><span class="decision-title">${d.title}</span><span class="decision-date">${d.date}</span></div>
-          <div class="decision-outcome">${d.outcome}</div>
-          <a class="decision-src" href="${d.url}" target="_blank" rel="noopener">Read the source \u2197</a>
-        </div>`;
-      });
-    }
-    if(reps.upcoming && reps.upcoming.length){
-      rhtml += `<div class="reps-label" style="margin-top:12px;">Upcoming votes &amp; decisions</div>`;
-      reps.upcoming.forEach(u=>{
-        rhtml += `<div class="upcoming-card">
-          <span class="upcoming-deadline">Due ${u.deadline}</span>
-          <div class="decision-title" style="margin-bottom:4px;">${u.title}</div>
-          <div class="decision-outcome">${u.detail}</div>
-          <a class="decision-src" href="${u.url}" target="_blank" rel="noopener">Read the source \u2197</a>
-        </div>`;
-      });
-    }
     if(reps.ageBreakdown || reps.ethnicityBreakdown || reps.profile){
       rhtml += `<div class="reps-label" style="margin-top:12px;">Demographics</div><div class="demo-block">`;
       if(reps.ageBreakdown && reps.ageBreakdown.length){
@@ -1050,6 +1029,27 @@ function selectCouncil(index){
           <div class="election-stat"><div class="election-stat-label">Turnout</div><div class="election-stat-value">${el.turnout}</div></div>
           <div class="election-stat"><div class="election-stat-label">Votes returned</div><div class="election-stat-value">${el.votesReturned}</div></div>
         </div>`;
+    }
+    if(reps.decisions && reps.decisions.length){
+      rhtml += `<div class="reps-label" style="margin-top:12px;">Recent council decisions</div>`;
+      reps.decisions.forEach(d=>{
+        rhtml += `<div class="decision-card">
+          <div class="decision-top"><span class="decision-title">${d.title}</span><span class="decision-date">${d.date}</span></div>
+          <div class="decision-outcome">${d.outcome}</div>
+          <a class="decision-src" href="${d.url}" target="_blank" rel="noopener">Read the source \u2197</a>
+        </div>`;
+      });
+    }
+    if(reps.upcoming && reps.upcoming.length){
+      rhtml += `<div class="reps-label" style="margin-top:12px;">Upcoming votes &amp; decisions</div>`;
+      reps.upcoming.forEach(u=>{
+        rhtml += `<div class="upcoming-card">
+          <span class="upcoming-deadline">Due ${u.deadline}</span>
+          <div class="decision-title" style="margin-bottom:4px;">${u.title}</div>
+          <div class="decision-outcome">${u.detail}</div>
+          <a class="decision-src" href="${u.url}" target="_blank" rel="noopener">Read the source \u2197</a>
+        </div>`;
+      });
     }
     rhtml += `<div class="note" style="margin-top:10px;">NZ local elections are officially non-partisan — almost all councillors stand as "Independent" even when they have a known party connection (flagged above where I found one). Councillor list reflects the October 2025 election. Decisions and upcoming items are a snapshot, not everything the council votes on — see the live <a href="https://www.selwyn.govt.nz/your-council/meetings/agendas-and-minutes" target="_blank" rel="noopener" style="color:var(--pounamu)">agendas &amp; minutes</a> for the full record.</div></div>`;
     repsDiv.innerHTML = rhtml;
