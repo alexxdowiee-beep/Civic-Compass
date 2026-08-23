@@ -474,9 +474,9 @@
 <nav class="tabnav" id="tabnav">
   <button data-page="home" class="active">My Area</button>
   <button data-page="map">Election Map</button>
-  <button data-page="learn">How to Vote</button>
-  <button data-page="statements">Recent Statements</button>
   <button data-page="parties">All Parties</button>
+  <button data-page="statements">Recent Statements</button>
+  <button data-page="learn">How to Vote</button>
 </nav>
 
 <div class="wrap" style="padding-left:0;padding-right:0;">
@@ -501,7 +501,6 @@
       </div>
     </div>
   </section>
-
   <section class="page" id="page-map">
     <div class="section-head">
       <h2 class="stitle">Who's standing where</h2>
@@ -518,7 +517,28 @@
       Source: <a href="https://en.wikipedia.org/wiki/Candidates_in_the_2026_New_Zealand_general_election_by_electorate" target="_blank" rel="noopener" style="color:var(--kowhai)">Wikipedia — Candidates in the 2026 NZ general election by electorate</a>, cross-checked against news reporting. Snapshot as of 21 Jul 2026.
     </div>
   </section>
-
+  <section class="page" id="page-parties">
+    <div class="section-head">
+      <h2 class="stitle">All parties standing in 2026</h2>
+      <p class="shint">Alphabetical within each group — grouping reflects Electoral Commission registration status, not popularity. Every link goes to the party's own site.</p>
+    </div>
+    <div class="tabs" id="partyTabs"></div>
+    <div class="party-grid" id="partyGrid"></div>
+    <div class="gov-note">
+      This app doesn't summarise or rank policies — that's a call best made by reading each party's own material. It just gets you to the right official page quickly.
+    </div>
+  </section>
+  <section class="page" id="page-statements">
+    <div class="section-head">
+      <h2 class="stitle">Recent statements on hot issues</h2>
+      <p class="shint">One dated, sourced statement per party, each paraphrased and linked back to the original so you can read it in full.</p>
+    </div>
+    <span class="updated-chip">🕘 Snapshot as of 21 Jul 2026</span>
+    <div class="stmt-list" id="stmtList"></div>
+    <div class="stmt-note">
+      This is a snapshot, not a live feed — parties put out new statements constantly. Larger parties get more media coverage, so this list leans toward the six in Parliament plus one growing minor party; check "Pānui" / "News" on any party's own site (All Parties tab) for what they've said since.
+    </div>
+  </section>
   <section class="page" id="page-learn">
     <div class="section-head">
       <h2 class="stitle">How to vote</h2>
@@ -567,30 +587,6 @@
 
     <div class="gov-note" style="margin-top:16px;">
       This section covers the practical mechanics of voting, not policy. For your specific enrolment status, electorate, or ID options, <a href="https://vote.nz" target="_blank" rel="noopener" style="color:#CFE0D6;text-decoration:underline;">vote.nz</a> is the authoritative source — this is a starting point, not a replacement for it.
-    </div>
-  </section>
-
-  <section class="page" id="page-statements">
-    <div class="section-head">
-      <h2 class="stitle">Recent statements on hot issues</h2>
-      <p class="shint">One dated, sourced statement per party, each paraphrased and linked back to the original so you can read it in full.</p>
-    </div>
-    <span class="updated-chip">🕘 Snapshot as of 21 Jul 2026</span>
-    <div class="stmt-list" id="stmtList"></div>
-    <div class="stmt-note">
-      This is a snapshot, not a live feed — parties put out new statements constantly. Larger parties get more media coverage, so this list leans toward the six in Parliament plus one growing minor party; check "Pānui" / "News" on any party's own site (All Parties tab) for what they've said since.
-    </div>
-  </section>
-
-  <section class="page" id="page-parties">
-    <div class="section-head">
-      <h2 class="stitle">All parties standing in 2026</h2>
-      <p class="shint">Alphabetical within each group — grouping reflects Electoral Commission registration status, not popularity. Every link goes to the party's own site.</p>
-    </div>
-    <div class="tabs" id="partyTabs"></div>
-    <div class="party-grid" id="partyGrid"></div>
-    <div class="gov-note">
-      This app doesn't summarise or rank policies — that's a call best made by reading each party's own material. It just gets you to the right official page quickly.
     </div>
   </section>
 
