@@ -178,19 +178,29 @@
     padding:9px 0; border-bottom:1px solid var(--paper-dim);
   }
   .rep-row:last-child{border-bottom:none;}
-  .rep-select{
-    width:100%; margin-top:4px; background:var(--white); color:var(--ink);
-    border:1px solid var(--line); border-radius:10px; padding:11px 14px;
-    font-size:13.5px; font-weight:600; font-family:inherit;
-    appearance:none; -webkit-appearance:none;
-    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%231F4B3B'><path d='M5 7l5 6 5-6z'/></svg>");
-    background-repeat:no-repeat; background-position:right 14px center; background-size:14px;
+  .councillor-ward-label{
+    font-size:11px; letter-spacing:0.08em; text-transform:uppercase;
+    color:var(--kowhai); font-weight:700; margin:12px 0 6px;
   }
+  .councillor-ward-label:first-child{ margin-top:6px; }
+  .councillor-card{
+    background:var(--paper-dim); border-radius:10px; margin-bottom:6px;
+    border:2px solid transparent; overflow:hidden;
+  }
+  .councillor-card-header{
+    padding:10px 12px; cursor:pointer;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .councillor-card-header:active{ opacity:0.85; }
+  .councillor-card.open{ border-color:var(--kowhai); background:var(--white); }
+  .councillor-card-arrow{ color:var(--pounamu); font-size:14px; flex-shrink:0; transition:transform .25s ease; }
+  .councillor-card.open .councillor-card-arrow{ transform:rotate(180deg); }
   .councillor-detail{
-    margin-top:8px; background:rgba(47,107,84,0.07); border:1px solid rgba(47,107,84,0.18);
-    border-radius:10px; padding:11px 14px; display:none;
+    max-height:0; overflow:hidden; opacity:0;
+    padding:0 12px; font-size:12px; line-height:1.5; color:#4A5A50;
+    transition: max-height .3s ease, opacity .25s ease, padding .3s ease;
   }
-  .councillor-detail.open{ display:block; }
+  .councillor-card.open .councillor-detail{ max-height:300px; opacity:1; padding:0 12px 12px; }
   .rep-name{font-size:13.5px; font-weight:700; color:var(--ink);}
   .rep-ward{font-size:11.5px; color:#6B7A70; margin-top:1px;}
   .rep-note{font-size:11px; color:#6B7A70; margin-top:2px; max-width:52%; text-align:right;}
@@ -938,13 +948,28 @@ function selectCouncil(index){
     }
     rhtml += `<div class="reps-block"><div class="reps-label">Mayor</div>
       <div class="rep-row"><div><div class="rep-name">${reps.mayor.name}</div></div><div class="rep-note">${reps.mayor.note}</div></div>
-      <div class="reps-label" style="margin-top:12px;">Councillors <span style="font-weight:400;text-transform:none;color:#6B7A70;">(${reps.updated})</span></div>
-      <select class="rep-select" id="councillorSelect" onchange="showCouncillor(this.value)">
-        <option value="">Select a councillor…</option>
-        ${reps.councillors.map((cl,i)=>`<option value="${i}">${cl.name} — ${cl.ward}</option>`).join('')}
-      </select>
-      <div id="councillorDetail"></div>`;
-    window._currentCouncillors = reps.councillors;
+      <div class="reps-label" style="margin-top:12px;">Councillors <span style="font-weight:400;text-transform:none;color:#6B7A70;">(${reps.updated})</span></div>`;
+    {
+      const wardGroups = {};
+      const wardOrder = [];
+      reps.councillors.forEach((cl,i)=>{
+        if(!wardGroups[cl.ward]){ wardGroups[cl.ward] = []; wardOrder.push(cl.ward); }
+        wardGroups[cl.ward].push({name:cl.name, note:cl.note, idx:i});
+      });
+      wardOrder.forEach(ward=>{
+        rhtml += `<div class="councillor-ward-label">${ward}</div>`;
+        wardGroups[ward].forEach(cl=>{
+          const cardId = `councillor-${cl.idx}`;
+          rhtml += `<div class="councillor-card" id="${cardId}">
+            <div class="councillor-card-header" onclick="toggleCouncillor('${cardId}')">
+              <span class="rep-name" style="font-size:13px;">${cl.name}</span>
+              <span class="councillor-card-arrow">\u25be</span>
+            </div>
+            <div class="councillor-detail">${cl.note}</div>
+          </div>`;
+        });
+      });
+    }
     if(reps.mp){
       rhtml += `<div class="reps-label" style="margin-top:12px;">Sitting MP</div>
         <div class="rep-mp-card"><div class="rep-name">${reps.mp.name} <span style="font-weight:400;color:#6B7A70;">· ${reps.mp.party}</span></div><div class="rep-note" style="text-align:left;max-width:100%;">${reps.mp.note}</div></div>`;
@@ -1335,14 +1360,18 @@ function toggleCand(id, chipEl){
 }
 window.toggleCand = toggleCand;
 
-function showCouncillor(idx){
-  const detail = document.getElementById('councillorDetail');
-  if(idx===""){ detail.className=''; detail.innerHTML=''; return; }
-  const cl = window._currentCouncillors[idx];
-  detail.className = 'councillor-detail open';
-  detail.innerHTML = `<div class="rep-name">${cl.name}</div><div class="rep-ward" style="margin-bottom:4px;">${cl.ward}</div><div class="rep-note" style="text-align:left;max-width:100%;">${cl.note}</div>`;
+let currentOpenCouncillor = null;
+function toggleCouncillor(cardId){
+  const card = document.getElementById(cardId);
+  if(!card) return;
+  const willOpen = !card.classList.contains('open');
+  if(currentOpenCouncillor && currentOpenCouncillor !== card){
+    currentOpenCouncillor.classList.remove('open');
+  }
+  card.classList.toggle('open', willOpen);
+  currentOpenCouncillor = willOpen ? card : null;
 }
-window.showCouncillor = showCouncillor;
+window.toggleCouncillor = toggleCouncillor;
 
 // Restore last visit — remembers which tab you were on, so you land back
 // where you left off. Your council/region info is intentionally NOT
