@@ -1026,7 +1026,15 @@
       "mayorElected": "Scott Aronsen",
       "turnout": "60.43%",
       "votesReturned": "approx. 1,700"
-    }
+    },
+    "decisions": [
+      {
+        "title": "Extraordinary water-use threshold revised",
+        "date": "5 May 2026",
+        "outcome": "Council adopted the Water Committee's recommendation to raise the threshold for \"extraordinary\" water users — those billed extra under the water-rate system — from 500m³ to 600m³ per year, effective 1 July. Also approved invoicing users who exceeded the previous threshold for the remainder of 2025/26.",
+        "url": "https://www.mackenzie.govt.nz/pages/mac-news/2026/summary-of-decisions-from-mackenzie-district-council-meeting-5-may-2026"
+      }
+    ]
   },
   "Waimate District": {
     "mayor": {
