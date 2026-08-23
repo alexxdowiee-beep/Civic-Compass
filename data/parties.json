@@ -5,7 +5,72 @@
     "slogan": "Campaigns on smaller government, lower tax and individual choice.",
     "seats": "11 MPs · governing coalition",
     "url": "https://www.act.org.nz",
-    "color": "#F2C230"
+    "color": "#F2C230",
+    "details": {
+      "overview": "ACT is a right-wing political party that emphasises individual freedom, personal responsibility, equal legal rights, private enterprise, economic growth and a smaller, more efficient government. ACT argues that government should focus on essential services while giving individuals and businesses greater freedom to make their own decisions.",
+      "currentStatus": "The party is led by David Seymour, who is also Deputy Prime Minister.",
+      "policyAreas": [
+        {
+          "title": "Economy & taxation",
+          "text": "Reduce government spending, regulation and bureaucracy, promote private investment and productivity, and support lower taxes where financially sustainable. ACT argues that economic growth and higher productivity are the primary ways to improve incomes and living standards."
+        },
+        {
+          "title": "Government",
+          "text": "Reduce the size and complexity of government, with fewer departments and clearer ministerial accountability. ACT argues that government should provide better services while costing taxpayers less."
+        },
+        {
+          "title": "Law & order",
+          "text": "Support tougher consequences for serious and repeat offending, stronger protections for victims and measures targeting gangs and criminal behaviour. ACT supports the restoration of Three Strikes legislation and a more enforcement-focused approach to crime."
+        },
+        {
+          "title": "Health",
+          "text": "Focus government health spending on frontline services, improving access and reducing waiting times, while emphasising efficiency and measurable outcomes. ACT has also supported faster approval and funding of medicines."
+        },
+        {
+          "title": "Education",
+          "text": "Emphasise literacy, numeracy, school attendance, academic achievement and greater choice in education. ACT supports charter schools and stronger accountability for educational outcomes."
+        },
+        {
+          "title": "Housing & infrastructure",
+          "text": "Reduce planning and regulatory barriers to building, strengthen property rights and encourage councils to enable more housing and infrastructure development."
+        },
+        {
+          "title": "Workers & employment",
+          "text": "Support employment, flexibility and economic growth while seeking to reduce what ACT considers unnecessary employment regulation and compliance costs for businesses."
+        },
+        {
+          "title": "Welfare",
+          "text": "Place greater emphasis on moving people who can work from benefits into employment, with stronger obligations and time limits intended to reduce long-term welfare dependency."
+        },
+        {
+          "title": "Agriculture & rural New Zealand",
+          "text": "Reduce regulatory burdens on farmers, support primary-sector productivity and oppose environmental rules that ACT considers unnecessarily restrictive. ACT has supported reducing methane-reduction requirements and expanding access to oil and gas exploration."
+        },
+        {
+          "title": "Environment & climate",
+          "text": "Support environmental protection while placing greater emphasis on economic impacts, technological solutions and property rights. ACT has opposed what it considers overly costly climate regulations on agriculture and business."
+        },
+        {
+          "title": "Equal rights & Treaty policy",
+          "text": "Emphasise equal legal rights for all New Zealand citizens regardless of ethnicity, gender or other characteristics. ACT opposes what it describes as race-based distinctions in government and has advocated redefining the legal interpretation of Treaty principles."
+        },
+        {
+          "title": "Immigration",
+          "text": "Support immigration that fills genuine skills shortages and contributes economically, while proposing tighter requirements around skills, criminal offending, welfare eligibility and integration. ACT's current policy includes deportation provisions for certain serious offenders and a five-year stand-down from some benefits for residence-class migrants."
+        },
+        {
+          "title": "Firearms",
+          "text": "Support firearm ownership for legitimate users while seeking stronger enforcement against criminal use and reforms to firearms regulation."
+        },
+        {
+          "title": "Business & regulation",
+          "text": "Reduce red tape and regulatory requirements that ACT believes discourage investment, entrepreneurship and development. A major focus is expanding individual and property rights while limiting unnecessary government intervention."
+        }
+      ],
+      "position": "ACT is generally positioned on the right, particularly on economic policy and the role of government. It places greater emphasis than National on individual freedom, private enterprise, personal responsibility, property rights and reducing government intervention. On some social issues, ACT also takes a strongly libertarian position, emphasising freedom of speech and equal legal rights.",
+      "simpleTerms": "ACT's approach is broadly pro-freedom, pro-business and focused on personal responsibility, with a preference for a smaller, more efficient government, lower regulatory burdens and stronger property and individual rights.",
+      "caveat": "This describes ACT's stated political position and current policies — it isn't an assessment of whether those policies would work or whether ACT's claims about its record are correct. Claims made by ACT about savings, crime, economic performance or the effects of its policies should be independently assessed rather than treated as established facts."
+    }
   },
   {
     "group": "parliament",
