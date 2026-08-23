@@ -371,11 +371,13 @@
     padding:6px 12px; cursor:pointer;
   }
   .elect-jump button:active{background:var(--kowhai); color:#20180A;}
+  .elect-jump button.active{background:var(--kowhai); color:#20180A; border-color:var(--kowhai);}
+  .elect-empty-hint{font-size:13px; line-height:1.55; color:#9FB0A6; padding:24px 4px; text-align:center;}
   .elect-group{margin-top:14px; scroll-margin-top:70px;}
   .elect-group:first-child{margin-top:16px;}
   .elect-group-header{
     display:flex; align-items:center; justify-content:space-between;
-    cursor:pointer; padding:10px 0; border-bottom:1px solid rgba(244,241,230,0.1);
+    padding:10px 0; border-bottom:1px solid rgba(244,241,230,0.1);
   }
   .elect-group-label{
     font-size:12px; letter-spacing:0.1em; text-transform:uppercase;
@@ -985,21 +987,22 @@ function buildJumpChips(){
     const btn = document.createElement('button');
     btn.textContent = g;
     btn.addEventListener('click', ()=>{
-      electSearch.value = '';
-      openGroups.add(g);
-      renderElectorates('');
-      const target = document.getElementById('group-'+g.replace(/[^a-zA-Z0-9]/g,''));
-      if(target) target.scrollIntoView({behavior:'smooth', block:'start'});
+      const nowSelected = !openGroups.has(g);
+      if(nowSelected){
+        openGroups.add(g);
+        btn.classList.add('active');
+      } else {
+        openGroups.delete(g);
+        btn.classList.remove('active');
+      }
+      renderElectorates(electSearch.value);
+      if(nowSelected){
+        const target = document.getElementById('group-'+g.replace(/[^a-zA-Z0-9]/g,''));
+        if(target) target.scrollIntoView({behavior:'smooth', block:'start'});
+      }
     });
     electJump.appendChild(btn);
   });
-}
-
-function toggleGroup(groupName, headerEl){
-  const groupDiv = headerEl.closest('.elect-group');
-  const isOpen = groupDiv.classList.contains('open');
-  groupDiv.classList.toggle('open', !isOpen);
-  if(isOpen) openGroups.delete(groupName); else openGroups.add(groupName);
 }
 
 function renderElectorates(filter){
@@ -1011,6 +1014,7 @@ function renderElectorates(filter){
   const nameMatchChipIds = [];
   let nameMatchCount = 0;
   orderedGroups.forEach(g=>{
+    if(!f && !openGroups.has(g)) return;
     let items=electorates.filter(e=>e.group===g);
     if(f){
       items=items.filter(e=> e.name.toLowerCase().includes(f) || e.cands.some(c=>c.n.toLowerCase().includes(f) || c.p.toLowerCase().includes(f)) );
@@ -1019,13 +1023,11 @@ function renderElectorates(filter){
     const groupDiv=document.createElement('div');
     const groupId = 'group-'+g.replace(/[^a-zA-Z0-9]/g,'');
     groupDiv.id = groupId;
-    const isOpen = !!f || openGroups.has(g);
-    groupDiv.className='elect-group' + (isOpen ? ' open' : '');
+    groupDiv.className='elect-group open';
 
     const header=document.createElement('div');
     header.className='elect-group-header';
-    header.innerHTML = `<span class="elect-group-label">${g}<span class="elect-group-count">(${items.length})</span></span><span class="elect-group-caret">\u25be</span>`;
-    header.addEventListener('click', ()=>toggleGroup(g, header));
+    header.innerHTML = `<span class="elect-group-label">${g}<span class="elect-group-count">(${items.length})</span></span>`;
     groupDiv.appendChild(header);
 
     const body=document.createElement('div');
@@ -1065,7 +1067,11 @@ function renderElectorates(filter){
   });
   const meta = document.getElementById('electSearchMeta');
   if(!electList.children.length){
-    electList.innerHTML = '<p class="elect-none" style="padding:20px 0;">No matches \u2014 try a different search.</p>';
+    if(f){
+      electList.innerHTML = '<p class="elect-none" style="padding:20px 0;">No matches \u2014 try a different search.</p>';
+    } else {
+      electList.innerHTML = '<p class="elect-empty-hint">Select a region above to see its candidates.</p>';
+    }
     meta.innerHTML = '';
   } else if(f){
     if(nameMatchCount>0){
