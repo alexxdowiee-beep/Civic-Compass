@@ -689,13 +689,20 @@ function renderAreaList(filterText){
 
     const body = document.createElement('div');
     body.className = 'elect-group-body';
+    let selectedCardEl = null;
     matches.forEach(([c, i]) => {
       const card = document.createElement('div');
       card.className = 'area-card' + (selectedAreaIndex === i ? ' selected' : '');
       card.innerHTML = `<div><div class="area-card-name">${c.area}</div><div class="area-card-tag">${c.tag}</div></div><span class="area-card-arrow">${selectedAreaIndex === i ? '\u2713' : '\u203a'}</span>`;
       card.addEventListener('click', ()=> selectCouncil(i));
       body.appendChild(card);
+      if (selectedAreaIndex === i) selectedCardEl = card;
     });
+    if (selectedCardEl) {
+      // Move the (single, shared) result card so it pops in right under the
+      // area the user just tapped, instead of sitting fixed at the bottom.
+      body.insertBefore(document.getElementById('resultCard'), selectedCardEl.nextSibling);
+    }
     groupDiv.appendChild(body);
     areaList.appendChild(groupDiv);
   });
