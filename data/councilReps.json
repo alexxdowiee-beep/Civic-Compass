@@ -1961,5 +1961,175 @@
       "turnout": "54.82%",
       "votesReturned": "n/a"
     }
+  },
+  "Invercargill": {
+    "mayor": {
+      "name": "Nobby Clark",
+      "note": "No party affiliation stated — re-elected Mayor in 2025 as the incumbent, with 12,544 votes. Main priorities include responsible spending, infrastructure investment, economic development, and improving Invercargill's long-term prospects."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Tom Campbell",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Gavin Macpherson",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Ryan Heath",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Gillian Alexander",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Alex Thomson",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Tracy Kennedy",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Robyn Edie",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Ricky McFarlane",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Graham Darlow",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Darren Ludlow",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Jason Graham",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Toni Biddle",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      }
+    ],
+    "mp": {
+      "name": "Penny Simmonds",
+      "party": "National",
+      "note": "MP for Invercargill since 2020. Currently Minister for Disability Issues and Associate Minister of Social Development."
+    },
+    "profile": {
+      "population": "57,600",
+      "medianAge": "39.1",
+      "medianIncome": "$39,400",
+      "bornOverseas": "15.0%",
+      "bornOverseas2013": "11.7%"
+    },
+    "keyIssues": [
+      {
+        "title": "Rates & affordability",
+        "text": "Council continues to balance major infrastructure requirements against pressure on rates and household affordability."
+      },
+      {
+        "title": "Water infrastructure",
+        "text": "Drinking water, wastewater and stormwater infrastructure remain major long-term investment areas."
+      },
+      {
+        "title": "CBD redevelopment",
+        "text": "Revitalising the Invercargill city centre and attracting businesses, residents and visitors remain important priorities."
+      },
+      {
+        "title": "Housing & population growth",
+        "text": "Council is working to support residential development and make Invercargill more attractive to new residents and workers."
+      },
+      {
+        "title": "Infrastructure & economic development",
+        "text": "Large infrastructure projects and attracting investment remain central to Invercargill's economic strategy."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 18.1
+      },
+      {
+        "label": "15–29",
+        "pct": 18.0
+      },
+      {
+        "label": "30–64",
+        "pct": 43.7
+      },
+      {
+        "label": "65+",
+        "pct": 20.2
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 82.9
+      },
+      {
+        "label": "Māori",
+        "pct": 15.0
+      },
+      {
+        "label": "Asian",
+        "pct": 7.2
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 3.1
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 1.1
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 1.8
+      }
+    ],
+    "decisions": [
+      {
+        "title": "2026/27 Annual Plan and rates adopted",
+        "date": "2026",
+        "outcome": "Council adopted its 2026/27 Annual Plan and rates.",
+        "url": "https://www.icc.govt.nz"
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "2026: Council continued work on city-centre revitalisation",
+        "2026: Major water and infrastructure investment remained a key focus",
+        "2026: Council adopted its 2026/27 Annual Plan and rates",
+        "2026: Invercargill continued work on housing and economic development initiatives",
+        "2026: Southland councils continued considering local-government restructuring under the Government's Head Start process"
+      ],
+      "url": "https://www.icc.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Nobby Clark",
+      "turnout": "40.73%",
+      "votesReturned": "n/a"
+    }
   }
 }
