@@ -452,7 +452,6 @@
     </div>
     <input type="text" id="areaSearch" class="area-search" placeholder="Search your city or district…" autocomplete="off">
     <div class="area-search-meta" id="areaSearchMeta"></div>
-    <div class="elect-jump" id="areaJump"></div>
     <div id="resultCard">
       <div class="council-card">
         <span class="tag" id="rc-tag">Council</span>
@@ -626,28 +625,9 @@ tabnav.querySelectorAll('button').forEach(btn=>{
 
 const areaSearch = document.getElementById('areaSearch');
 const areaSearchMeta = document.getElementById('areaSearchMeta');
-const areaJump = document.getElementById('areaJump');
 const areaList = document.getElementById('areaList');
 const areaOpenGroups = new Set();
 let selectedAreaIndex = null;
-
-function buildAreaJumpChips(){
-  const seen = [];
-  councils.forEach(c => { if(!seen.includes(c.region)) seen.push(c.region); });
-  areaJump.innerHTML = '';
-  seen.forEach(region => {
-    const btn = document.createElement('button');
-    btn.textContent = region;
-    btn.addEventListener('click', ()=>{
-      areaSearch.value = '';
-      areaOpenGroups.add(region);
-      renderAreaList('');
-      const target = document.getElementById('areagroup-'+region.replace(/[^a-zA-Z0-9]/g,''));
-      if(target) target.scrollIntoView({behavior:'smooth', block:'start'});
-    });
-    areaJump.appendChild(btn);
-  });
-}
 
 function toggleAreaGroup(regionName, headerEl){
   const groupDiv = headerEl.closest('.elect-group');
@@ -705,7 +685,6 @@ function renderAreaList(filterText){
   }
 }
 
-buildAreaJumpChips();
 renderAreaList('');
 areaSearch.addEventListener('input', () => renderAreaList(areaSearch.value));
 
