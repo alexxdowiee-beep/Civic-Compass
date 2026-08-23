@@ -581,7 +581,6 @@
         <span class="tag" id="rc-tag">Council</span>
         <h3 id="rc-name">—</h3>
         <div class="region" id="rc-region">—</div>
-        <div id="rc-links"></div>
         <div class="note">Councils run local services (rates, roading, water, consents) — separate from central government and Parliament. Next local elections: 2028, so no candidates are standing yet.</div>
         <div id="rc-reps"></div>
         <div id="rc-news"></div>
@@ -917,14 +916,6 @@ function selectCouncil(index){
   document.getElementById('rc-tag').textContent=c.tag;
   document.getElementById('rc-name').textContent=c.area;
   document.getElementById('rc-region').textContent=c.region;
-  const linksDiv=document.getElementById('rc-links');
-  linksDiv.innerHTML='';
-  c.links.forEach(l=>{
-    const a=document.createElement('a');
-    a.className='clink'; a.href=l.url; a.target='_blank'; a.rel='noopener';
-    a.innerHTML=`<span>${l.name}<small>${l.note}</small></span><span class="arrow">\u2197</span>`;
-    linksDiv.appendChild(a);
-  });
   card.style.display='block';
   const raf = window.requestAnimationFrame || function(cb){ setTimeout(cb, 50); };
   raf(()=>{ card.scrollIntoView({behavior:'smooth', block:'start'}); });
@@ -1044,27 +1035,12 @@ function selectCouncil(index){
     </div>`;
   }
 
-  // Latest updates — live search links (can't embed a real feed in a static file,
-  // so these open fresh, up-to-date results each time they're tapped)
   const newsDiv=document.getElementById('rc-news');
-  const councilNewsQ = encodeURIComponent(`${c.area} council news`);
-  const areaPoliticsQ = encodeURIComponent(`${c.area} New Zealand election 2026 news`);
-  let html = `
-    <div class="news-block">
-      <div class="news-label">Latest council updates</div>
-      <a class="news-link" href="https://news.google.com/search?q=${councilNewsQ}" target="_blank" rel="noopener">
-        <span>Council news &amp; announcements<small>Live search — Google News</small></span><span class="arrow">↗</span>
-      </a>
-      <div class="news-label" style="margin-top:12px;">Political news for this area</div>
-      <a class="news-link" href="https://news.google.com/search?q=${areaPoliticsQ}" target="_blank" rel="noopener">
-        <span>Election &amp; political news near you<small>Live search — Google News</small></span><span class="arrow">↗</span>
-      </a>
-  `;
   const mappedElects = councilToElectorates[c.area] || [];
+  let html = '';
   if(mappedElects.length){
     html += `<div class="note" style="margin-top:10px;">Your area roughly overlaps the <b>${mappedElects.join(', ')}</b> electorate${mappedElects.length>1?'s':''} for the general election — council and electorate boundaries don't line up exactly, so check <a href="https://vote.nz" target="_blank" rel="noopener" style="color:var(--pounamu)">vote.nz</a> for your precise electorate. See the Election Map tab for candidates standing there.</div>`;
   }
-  html += `</div>`;
   newsDiv.innerHTML = html;
 }
 
