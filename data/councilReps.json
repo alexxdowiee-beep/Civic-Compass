@@ -1790,5 +1790,176 @@
       "turnout": "42.26%",
       "votesReturned": "approx. 8,730"
     }
+  },
+  "Gore District": {
+    "mayor": {
+      "name": "Ben Bell",
+      "note": "No party affiliation stated — re-elected Mayor in 2025 for a second term, receiving 3,392 votes ahead of Nicky Davis (1,508). First elected in 2022. Has emphasised local economic development, infrastructure, financial sustainability, and ensuring Gore has a strong voice in the future of local government; closely involved in the current Southland local-government reform discussions."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Torrone Smith",
+        "ward": "District-wide",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Neville Phillips",
+        "ward": "District-wide",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Joe Stringer",
+        "ward": "District-wide",
+        "note": "No affiliation stated — Deputy Mayor"
+      },
+      {
+        "name": "Mel Cupit",
+        "ward": "Gore Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Paul McPhail",
+        "ward": "Gore Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Andy Fraser",
+        "ward": "Gore Ward",
+        "note": "Independent — won a Gore Ward by-election with 634 votes after a councillor vacancy"
+      },
+      {
+        "name": "Robert (Caveman) McKenzie",
+        "ward": "Gore Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Donna Bruce",
+        "ward": "Gore Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Nicky Coats",
+        "ward": "Mataura Ward",
+        "note": "No affiliation stated — elected unopposed"
+      },
+      {
+        "name": "John Gardyne",
+        "ward": "Rural Ward",
+        "note": "No affiliation stated — elected unopposed"
+      },
+      {
+        "name": "Stewart MacDonell",
+        "ward": "Rural Ward",
+        "note": "No affiliation stated — elected unopposed"
+      }
+    ],
+    "mp": {
+      "name": "Joseph Mooney",
+      "party": "National",
+      "note": "MP for Southland since 2020, an electorate that includes Gore and Mataura. Currently Chairperson of the Social Services and Community Committee and a member of the Regulations Review Committee."
+    },
+    "profile": {
+      "population": "12,950",
+      "medianAge": "42.8",
+      "medianIncome": "$39,300",
+      "bornOverseas": "10.3%",
+      "bornOverseas2013": "7.4%"
+    },
+    "keyIssues": [
+      {
+        "title": "Local government reform",
+        "text": "Gore is considering major changes to the structure of local government in Southland. In August 2026, Council supported both the Greater Southland and One Southland proposals rather than selecting only one."
+      },
+      {
+        "title": "Rates & affordability",
+        "text": "Council adopted its 2026/27 Annual Plan with an average rates increase of 10.83%, below the 11.87% forecast in the Long Term Plan."
+      },
+      {
+        "title": "Water services",
+        "text": "Gore is part of the Southern Waters joint council-owned water-services model, covering drinking water, wastewater and stormwater."
+      },
+      {
+        "title": "Infrastructure",
+        "text": "Maintaining and renewing ageing infrastructure, including roads and other council assets, remains a major financial priority."
+      },
+      {
+        "title": "Gold mining",
+        "text": "Resource consents were granted in March 2026 for gold mining to return to Waikaka, making mining and its environmental and economic effects a current local issue."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 18.1
+      },
+      {
+        "label": "15–29",
+        "pct": 16.9
+      },
+      {
+        "label": "30–64",
+        "pct": 43.6
+      },
+      {
+        "label": "65+",
+        "pct": 21.4
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 86.9
+      },
+      {
+        "label": "Māori",
+        "pct": 15.4
+      },
+      {
+        "label": "Asian",
+        "pct": 4.0
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 2.1
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.4
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 1.7
+      }
+    ],
+    "decisions": [
+      {
+        "title": "2026/27 Annual Plan adopted",
+        "date": "3 Jul 2026",
+        "outcome": "Council adopted its 2026/27 Annual Plan with an average rates increase of 10.83%, below the 11.87% forecast in the Long Term Plan.",
+        "url": "https://www.goredc.govt.nz"
+      },
+      {
+        "title": "Backed both Southland reform proposals",
+        "date": "10 Aug 2026",
+        "outcome": "Council supported both the Greater Southland and One Southland local-government reform proposals, rather than selecting only one to pursue.",
+        "url": "https://www.goredc.govt.nz"
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "10 Aug 2026: Gore backed both Southland local-government reform proposals",
+        "4 Aug 2026: Council agreed to continue exploring the Greater Southland and One Southland proposals",
+        "3 Jul 2026: Council adopted its 2026/27 Annual Plan, including a 10.83% average rates increase",
+        "9 Jul 2026: TVNZ upheld Gore Council's complaint over an inaccurate report suggesting Gore and Southland had already agreed to merge",
+        "2 Mar 2026: Gold mining was approved to return to Waikaka following resource consents"
+      ],
+      "url": "https://www.goredc.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Ben Bell",
+      "turnout": "54.82%",
+      "votesReturned": "n/a"
+    }
   }
 }
