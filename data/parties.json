@@ -638,7 +638,80 @@
     "slogan": "Campaigns on outdoor access rights and personal freedoms.",
     "seats": "Registered party · not in Parliament",
     "url": "https://www.nzofp.co.nz",
-    "color": "#4A6B3D"
+    "color": "#4A6B3D",
+    "details": {
+      "overview": "The NZ Outdoors & Freedom Party is a minor political party focused on individual freedom, outdoor recreation, environmental and conservation issues, personal choice, direct democracy and reducing government overreach. The party was originally founded as the New Zealand Outdoors Party and later adopted its current name.",
+      "currentStatus": "Sue Grey is its leader. The party currently has no representation in Parliament. It became associated with the wider Freedoms NZ movement in 2023, alongside groups including Vision NZ, during the post-COVID period; Freedoms NZ subsequently disbanded in 2025, and the Outdoors & Freedom Party continues independently.",
+      "policyAreas": [
+        {
+          "title": "Individual freedom",
+          "text": "Emphasise personal liberty, informed choice and limiting government powers where the party believes they unnecessarily restrict individual freedoms."
+        },
+        {
+          "title": "Direct democracy",
+          "text": "Support greater use of referendums and mechanisms that give citizens more direct influence over government decisions."
+        },
+        {
+          "title": "Outdoor recreation",
+          "text": "Promote access to New Zealand's outdoors, including hunting, fishing, camping and other recreational activities, while supporting responsible management of natural resources."
+        },
+        {
+          "title": "Agriculture",
+          "text": "Support farmers and rural communities while advocating agricultural practices that the party considers environmentally sustainable."
+        },
+        {
+          "title": "Fisheries",
+          "text": "Support recreational fishing rights and changes to fisheries management intended to protect access for recreational fishers and improve sustainability."
+        },
+        {
+          "title": "Cannabis",
+          "text": "Support cannabis law reform and greater personal freedom around cannabis use, alongside regulation and harm-reduction measures."
+        },
+        {
+          "title": "Housing",
+          "text": "Support policies intended to make housing more accessible and affordable, including changes to planning and regulation."
+        },
+        {
+          "title": "Education",
+          "text": "Support greater choice, parental involvement and approaches to education that the party considers practical and evidence-based."
+        },
+        {
+          "title": "Health",
+          "text": "Support accessible healthcare while emphasising personal choice, informed consent and individual autonomy in healthcare decisions."
+        },
+        {
+          "title": "ACC",
+          "text": "Advocate changes to ACC and compensation arrangements, with a focus on individual rights and ensuring people receive appropriate support."
+        },
+        {
+          "title": "Seniors",
+          "text": "Support stronger recognition and protection of the interests of older New Zealanders."
+        },
+        {
+          "title": "Environment & conservation",
+          "text": "Support protection of New Zealand's natural environment while arguing that conservation policies should take account of recreational access, rural communities and local interests."
+        },
+        {
+          "title": "Media & free speech",
+          "text": "Support greater media accountability and freedom of expression. A 2026 proposal would amend broadcasting legislation to strengthen requirements around media balance and accountability."
+        },
+        {
+          "title": "Digital rights",
+          "text": "Support keeping New Zealand-developed digital intellectual property and infrastructure within New Zealand where possible. The party describes this as an \"Open Source First\" approach."
+        },
+        {
+          "title": "Animal welfare",
+          "text": "Support animal welfare while balancing this against farming, hunting, fishing and other activities involving animals."
+        },
+        {
+          "title": "Government & regulation",
+          "text": "Seek to reduce unnecessary regulation and government intervention, particularly where the party believes these restrict individual freedom, outdoor recreation or rural livelihoods."
+        }
+      ],
+      "position": "The NZ Outdoors & Freedom Party does not fit neatly into the traditional left-right spectrum. It is generally associated with the freedom-oriented and populist right, particularly because of its emphasis on individual liberty, opposition to government overreach and support for personal choice. However, its environmental, conservation and outdoor-recreation policies don't always align neatly with conventional right-wing parties.",
+      "simpleTerms": "The NZ Outdoors & Freedom Party's approach is broadly pro-individual freedom, pro-outdoors and focused on personal choice, direct democracy and limiting government overreach, while also placing significant emphasis on access to New Zealand's natural environment and rural interests.",
+      "caveat": "This describes the party's stated political position and policies — it isn't an assessment of whether those policies would work or whether the party's claims are correct. The party has changed its name and political associations over time, so older descriptions of the former Outdoors Party or its 2023 association with Freedoms NZ should not automatically be treated as its current position."
+    }
   },
   {
     "group": "registered",
