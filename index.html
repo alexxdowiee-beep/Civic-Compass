@@ -385,7 +385,6 @@
   }
   .stmt-top{display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;}
   .stmt-party{display:flex; align-items:center; gap:8px;}
-  .stmt-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
   .stmt-party b{font-size:13.5px;color:var(--pounamu-deep);}
   .stmt-date{font-size:11px; color:#7C8A80; white-space:nowrap;}
   .stmt-topic{
@@ -393,6 +392,7 @@
     text-transform:uppercase; color:var(--pounamu-deep); background:rgba(47,107,84,0.12);
     padding:3px 8px; border-radius:6px; margin-bottom:8px;
   }
+  .stmt-headline{font-size:15px; font-weight:700; color:var(--pounamu-deep); margin-bottom:6px; line-height:1.35;}
   .stmt-text{font-size:14px; line-height:1.55; color:var(--ink); margin-bottom:10px;}
   .stmt-src{font-size:12px; font-weight:600; color:var(--pounamu); text-decoration:none;}
   .stmt-note, .warn-note{
@@ -627,13 +627,13 @@
   </section>
   <section class="page" id="page-statements">
     <div class="section-head">
-      <h2 class="stitle">Recent statements on hot issues</h2>
-      <p class="shint">One dated, sourced statement per party, each paraphrased and linked back to the original so you can read it in full.</p>
+      <h2 class="stitle">Recent news</h2>
+      <p class="shint">The main election-related stories, each summarised and linked back to the original source.</p>
     </div>
-    <span class="updated-chip">🕘 Snapshot as of 21 Jul 2026</span>
+    <span class="updated-chip">🕘 Updated 24 Aug 2026</span>
     <div class="stmt-list" id="stmtList"></div>
     <div class="stmt-note">
-      This is a snapshot, not a live feed — parties put out new statements constantly. Larger parties get more media coverage, so this list leans toward the six in Parliament plus one growing minor party; check "Pānui" / "News" on any party's own site (All Parties tab) for what they've said since.
+      This is a curated selection of main stories, not a live feed — it's updated by hand rather than pulled automatically, so it won't catch everything. Check a party's own site (All Parties tab) or your usual news source for anything more recent.
     </div>
   </section>
   <section class="page" id="page-learn">
@@ -1076,10 +1076,11 @@ statements.forEach(s=>{
   div.className='stmt-card';
   div.innerHTML=`
     <div class="stmt-top">
-      <div class="stmt-party"><span class="stmt-dot" style="background:${s.color}"></span><b>${s.party}</b></div>
+      <div class="stmt-party"><b>${s.source}</b></div>
       <span class="stmt-date">${s.date}</span>
     </div>
     <span class="stmt-topic">${s.topic}</span>
+    <div class="stmt-headline">${s.headline}</div>
     <div class="stmt-text">${s.text}</div>
     <a class="stmt-src" href="${s.url}" target="_blank" rel="noopener">Read the source \u2197</a>
   `;
