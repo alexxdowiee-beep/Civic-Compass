@@ -2753,17 +2753,77 @@
       "name": "Sophie Barker",
       "note": "Independent — elected Mayor in October 2025 with 16,874 votes, defeating former mayor (and incumbent) Jules Radich. Radich was separately elected as a councillor but died in January 2026; Jo Galer won the resulting by-election."
     },
-    "updated": "as elected Oct 2025; partial list, full 14-councillor roster not yet confirmed",
+    "updated": "current members as of Jul 2026 (includes Jo Galer, elected via 2026 by-election after Jules Radich's death)",
     "councillors": [
       {
-        "name": "Cherry Lucas",
+        "name": "John Chambers",
         "ward": "City-wide",
-        "note": "Independent — Deputy Mayor"
+        "note": "No affiliation stated"
       },
       {
         "name": "Jo Galer",
         "ward": "City-wide",
-        "note": "Elected in a 2026 by-election, narrowly defeating former mayor Aaron Hawkins by 89 votes, following the death of Councillor Jules Radich"
+        "note": "Won a 2026 by-election following the death of Councillor Jules Radich, narrowly defeating former mayor Aaron Hawkins by 89 votes. Appointed Heritage portfolio co-lead as of July 2026."
+      },
+      {
+        "name": "Christine Garey",
+        "ward": "City-wide",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Doug Hall",
+        "ward": "City-wide",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Marie Laufiso",
+        "ward": "City-wide",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Russell Lund",
+        "ward": "City-wide",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Mandy Mayhem",
+        "ward": "City-wide",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Benedict Ong",
+        "ward": "City-wide",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Andrew Simms",
+        "ward": "City-wide",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Mickey Treadwell",
+        "ward": "City-wide",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Lee Vandervis",
+        "ward": "City-wide",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Steve Walker",
+        "ward": "City-wide",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Brent Weatherall",
+        "ward": "City-wide",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Cherry Lucas",
+        "ward": "City-wide",
+        "note": "Deputy Mayor"
       }
     ],
     "mps": [
