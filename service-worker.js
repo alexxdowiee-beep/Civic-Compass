@@ -1,7 +1,9 @@
 // Civic Compass — minimal offline cache.
-// Caches the app shell so it still opens (with whatever data was last loaded)
-// without a connection. Bump CACHE_NAME whenever you update index.html so
-// returning visitors get the new version instead of a stale cached one.
+// Precaches the app shell, and separately caches the data/*.json files as
+// they're fetched at runtime, so the app still opens with whatever data was
+// last loaded without a connection. Bump CACHE_NAME whenever you update
+// index.html so returning visitors get the new version instead of a stale
+// cached one.
 
 const CACHE_NAME = 'civic-compass-v1';
 const APP_SHELL = [
@@ -36,6 +38,25 @@ self.addEventListener('fetch', (event) => {
     );
     return;
   }
+
+  // Network-first for the JSON data files, caching each successful response
+  // as we go. This is what actually makes "whatever data was last loaded"
+  // true offline — these files aren't in APP_SHELL (they change far more
+  // often than the shell), so without this they'd never be cached at all
+  // and a returning offline visitor would just see a load error.
+  if (event.request.url.includes('/data/') && event.request.url.endsWith('.json')) {
+    event.respondWith(
+      fetch(event.request)
+        .then((res) => {
+          const copy = res.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+          return res;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
   event.respondWith(
     caches.match(event.request).then((cached) => cached || fetch(event.request))
   );
