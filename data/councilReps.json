@@ -1959,7 +1959,7 @@
     "election2025": {
       "mayorElected": "Ben Bell",
       "turnout": "54.82%",
-      "votesReturned": "n/a"
+      "votesReturned": "Not published by the council"
     }
   },
   "Invercargill": {
@@ -2427,8 +2427,8 @@
     },
     "election2025": {
       "mayorElected": "Jock Martin",
-      "turnout": "n/a",
-      "votesReturned": "n/a"
+      "turnout": "Not published by the council",
+      "votesReturned": "Not published by the council"
     }
   },
   "Queenstown-Lakes District": {
@@ -2745,7 +2745,7 @@
     "election2025": {
       "mayorElected": "Mel Tavendale",
       "turnout": "44.35%",
-      "votesReturned": "n/a"
+      "votesReturned": "Not published by the council"
     }
   },
   "Dunedin": {
@@ -2924,7 +2924,7 @@
     "election2025": {
       "mayorElected": "Jules Radich",
       "turnout": "approx. 40%",
-      "votesReturned": "n/a"
+      "votesReturned": "Not published by the council"
     }
   }
 }
