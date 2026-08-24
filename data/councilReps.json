@@ -3378,5 +3378,540 @@
       "turnout": "approx. 49%",
       "votesReturned": "Not published by the council"
     }
+  },
+  "Marlborough District": {
+    "mayor": {
+      "name": "Nadine Taylor",
+      "note": "No party affiliation stated — re-elected Mayor in 2025 with 13,371 votes, comfortably ahead of Shaun Brown (820) and Ni Fruean (419). Began her second three-year term in October 2025. Stated focus includes strong financial management, infrastructure, economic development, and representing Marlborough's interests through major local-government reforms."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "David Croad",
+        "ward": "Blenheim Ward",
+        "note": "No affiliation stated — Deputy Mayor"
+      },
+      {
+        "name": "Cyril Dawson",
+        "ward": "Blenheim Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Brian Dawson",
+        "ward": "Blenheim Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Deborah Dalliessi",
+        "ward": "Blenheim Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Thelma Sowman",
+        "ward": "Blenheim Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "John Hyndman",
+        "ward": "Blenheim Ward",
+        "note": "ACT Local: Real Change. Lower Rates"
+      },
+      {
+        "name": "Benjamin Stace",
+        "ward": "Blenheim Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Barbara Faulls",
+        "ward": "Marlborough Sounds Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Raylene Innes",
+        "ward": "Marlborough Sounds Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Malcolm Taylor",
+        "ward": "Marlborough Sounds Ward",
+        "note": "ACT Local: Real Change. Lower Rates"
+      },
+      {
+        "name": "Scott Adams",
+        "ward": "Wairau-Awatere Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Sally Arbuckle",
+        "ward": "Wairau-Awatere Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Gerald Hope",
+        "ward": "Wairau-Awatere Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Allanah Burgess",
+        "ward": "Marlborough Māori Ward",
+        "note": "No affiliation stated — elected unopposed. The Māori Ward won't continue from 2028, following the 2025 binding poll (8,111 for removal, 5,786 for retention)."
+      }
+    ],
+    "mp": {
+      "name": "Stuart Smith",
+      "party": "National",
+      "note": "MP for Kaikōura, the electorate covering Marlborough. Currently a Senior National Party Whip and a member of the Business and Standing Orders committees."
+    },
+    "profile": {
+      "population": "approx. 52,000",
+      "medianAge": "46.1",
+      "medianIncome": "$39,400",
+      "bornOverseas": "19.5%",
+      "bornOverseas2013": "15.2%"
+    },
+    "keyIssues": [
+      {
+        "title": "Water infrastructure",
+        "text": "Marlborough faces significant long-term costs for drinking water, wastewater and stormwater infrastructure. Council assessments have identified substantial future increases in water-service costs."
+      },
+      {
+        "title": "Rates & financial pressure",
+        "text": "Council is balancing infrastructure investment, rising costs and affordability for ratepayers."
+      },
+      {
+        "title": "Marlborough Sounds & transport",
+        "text": "Maintaining transport links and infrastructure across the extensive Sounds area remains an important issue."
+      },
+      {
+        "title": "Wine industry & economy",
+        "text": "Viticulture and wine production are central to Marlborough's economy, with workforce, water, land-use and infrastructure issues affecting the sector."
+      },
+      {
+        "title": "Local government reform",
+        "text": "Council is preparing for significant changes to local-government structures, water services and resource-management legislation."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 16.7
+      },
+      {
+        "label": "15–29",
+        "pct": 14.4
+      },
+      {
+        "label": "30–64",
+        "pct": 45.0
+      },
+      {
+        "label": "65+",
+        "pct": 23.9
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 85.9
+      },
+      {
+        "label": "Māori",
+        "pct": 14.9
+      },
+      {
+        "label": "Asian",
+        "pct": 5.4
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 3.7
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 1.5
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 3.0
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "Jul 2026: Marlborough was dealing with the effects of significant weather events, including emergency-management work",
+        "2026: Council continued planning for future water-service delivery and infrastructure investment",
+        "2026: Local-government reform remained a major strategic issue",
+        "2026: Infrastructure and rates affordability continued to be significant Council concerns",
+        "2026: Council continued work around the Waitohi/Picton ferry redevelopment and wider Marlborough Sounds infrastructure"
+      ],
+      "url": "https://www.marlborough.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Nadine Taylor",
+      "turnout": "43.86%",
+      "votesReturned": "15,333"
+    }
+  },
+  "Nelson": {
+    "mayor": {
+      "name": "Nick Smith",
+      "note": "Independent — elected Mayor in 2025 with a final mayoral quota of 9,226 votes, winning re-election to a second term. Returned to local government after a long parliamentary career. Stated priorities include improving Council governance, infrastructure investment, central-city revitalisation and economic development."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Lisa Austin",
+        "ward": "Central Ward",
+        "note": "Let's Be Ready for Tomorrow – Today"
+      },
+      {
+        "name": "Pete Rainey",
+        "ward": "Central Ward",
+        "note": "Independent — Deputy Mayor"
+      },
+      {
+        "name": "James Hodgson",
+        "ward": "Central Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Matty Anderson",
+        "ward": "Central Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Campbell Rollo",
+        "ward": "Stoke-Tāhunanui Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Mel Courtney",
+        "ward": "Stoke-Tāhunanui Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Sarah Kerby",
+        "ward": "Stoke-Tāhunanui Ward",
+        "note": "Labour"
+      },
+      {
+        "name": "Trudie Brand",
+        "ward": "Stoke-Tāhunanui Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Aaron Stallard",
+        "ward": "At Large",
+        "note": "Independent"
+      },
+      {
+        "name": "Tim Skinner",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Nigel Skeggs",
+        "ward": "At Large",
+        "note": "Independent"
+      },
+      {
+        "name": "Kahu Paki Paki",
+        "ward": "Māori Ward",
+        "note": "Elected unopposed. Nelson's Māori Ward was retained following the 2025 binding poll (10,168 votes to keep, 7,590 to remove)."
+      }
+    ],
+    "mp": {
+      "name": "Rachel Boyack",
+      "party": "Labour",
+      "note": "MP for Nelson since 2020. Currently Labour spokesperson for Animal Welfare, Arts, Culture and Heritage, and Oceans and Fisheries, and sits on the Primary Production Committee."
+    },
+    "profile": {
+      "population": "54,300",
+      "medianAge": "44.0",
+      "medianIncome": "$38,800",
+      "bornOverseas": "26.4%",
+      "bornOverseas2013": "20.2%"
+    },
+    "keyIssues": [
+      {
+        "title": "Bridge to Better",
+        "text": "The $78 million Bridge to Better project is replacing ageing water, wastewater and stormwater infrastructure and reconstructing Bridge Street. Construction is scheduled to continue through 2027."
+      },
+      {
+        "title": "Rates & Council finances",
+        "text": "Council adopted its 2026/27 Annual Plan with an average 4.7% rates increase."
+      },
+      {
+        "title": "Central-city revitalisation",
+        "text": "Council is prioritising revitalisation of the city centre, including infrastructure, planning changes, new private development and improved civic and cultural facilities."
+      },
+      {
+        "title": "Flood protection",
+        "text": "Maitai River resilience and stormwater infrastructure are significant Council investment areas because of Nelson's flood risk."
+      },
+      {
+        "title": "Housing & development",
+        "text": "Council is dealing with pressure for more housing while investing in infrastructure intended to enable additional central-city and wider urban development."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 16.6
+      },
+      {
+        "label": "15–29",
+        "pct": 15.6
+      },
+      {
+        "label": "30–64",
+        "pct": 46.2
+      },
+      {
+        "label": "65+",
+        "pct": 21.6
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 84.7
+      },
+      {
+        "label": "Māori",
+        "pct": 11.9
+      },
+      {
+        "label": "Asian",
+        "pct": 8.6
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 2.8
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 1.4
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 2.7
+      }
+    ],
+    "decisions": [
+      {
+        "title": "2026/27 Annual Plan rates confirmed",
+        "date": "Jun 2026",
+        "outcome": "Council confirmed the 4.7% average rates increase for 2026/27.",
+        "url": "https://www.nelson.govt.nz"
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "Aug 2026: Council approved rates deferment for eligible Bridge Street businesses affected by construction",
+        "Aug 2026: Council announced a new Food Market development by Connings",
+        "Jul 2026: Updated planning rules for Nelson Airport came into effect",
+        "Jun 2026: Council confirmed the 4.7% average rates increase for 2026/27",
+        "Jun–Aug 2026: Bridge to Better construction continued, alongside work on the Haven Waterfront masterplan and wider central-city revitalisation"
+      ],
+      "url": "https://www.nelson.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Nick Smith",
+      "turnout": "48.14%",
+      "votesReturned": "18,789"
+    }
+  },
+  "Tasman District": {
+    "mayor": {
+      "name": "Tim King",
+      "note": "No party affiliation stated — re-elected Mayor in 2025 with 10,209 votes, well ahead of Timo Neubauer (4,127) and Richard Johns (3,901), winning a third term. A farmer, involved in Tasman local government for several terms. Priorities include responsible financial management, core infrastructure, supporting rural communities, and navigating major reforms affecting local government and water services."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Celia Butler",
+        "ward": "Golden Bay Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Mark Hume",
+        "ward": "Golden Bay Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "John Gully",
+        "ward": "Lakes-Murchison Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Brent Maru",
+        "ward": "Motueka Ward",
+        "note": "No affiliation stated — Deputy Mayor"
+      },
+      {
+        "name": "Trindi Walker",
+        "ward": "Motueka Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Kerryn Ferneyhough",
+        "ward": "Motueka Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Mike Kininmonth",
+        "ward": "Moutere-Waimea Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Dean McNamara",
+        "ward": "Moutere-Waimea Ward",
+        "note": "Sensible, Affordable and Ethical"
+      },
+      {
+        "name": "Dave Woods",
+        "ward": "Moutere-Waimea Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Jo Ellis",
+        "ward": "Richmond Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Mark Greening",
+        "ward": "Richmond Ward",
+        "note": "Sensible, Affordable and Ethical"
+      },
+      {
+        "name": "Kit Maling",
+        "ward": "Richmond Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Timo Neubauer",
+        "ward": "Richmond Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Paul Morgan",
+        "ward": "Te Tai o Aorere Māori Ward",
+        "note": "Elected unopposed. Tasman voted to remove its Māori Ward for the 2028 and 2031 elections (10,529 to remove, 8,216 to keep)."
+      }
+    ],
+    "mps": [
+      {
+        "name": "Rachel Boyack",
+        "party": "Labour",
+        "note": "The Nelson electorate covers Nelson City and parts of Tasman, including Richmond and surrounding communities."
+      },
+      {
+        "name": "Maureen Pugh",
+        "party": "National",
+        "note": "The West Coast-Tasman electorate covers western parts of Tasman District."
+      }
+    ],
+    "profile": {
+      "population": "59,900",
+      "medianAge": "46.8",
+      "medianIncome": "$35,900",
+      "bornOverseas": "21.2%",
+      "bornOverseas2013": "17.0%"
+    },
+    "keyIssues": [
+      {
+        "title": "Rates & financial pressure",
+        "text": "Council adopted its 2026/27 Annual Plan with a 9.9% rates revenue increase, driven partly by water-service costs and recovery from severe weather events."
+      },
+      {
+        "title": "Water services",
+        "text": "Three Waters is one of Tasman's largest infrastructure and financial challenges. Council has opted to continue delivering water services through an in-house business unit."
+      },
+      {
+        "title": "Weather-event recovery",
+        "text": "Severe weather events in 2025 caused significant damage across the district. The formal emergency recovery period has been extended to 10 September 2026."
+      },
+      {
+        "title": "Population growth",
+        "text": "Tasman has experienced substantial population growth, creating pressure on housing, roads, water infrastructure and community facilities."
+      },
+      {
+        "title": "Environment & land use",
+        "text": "Protecting Tasman's coastline, rivers, productive farmland and extensive natural areas while accommodating development remains a significant planning issue."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 16.4
+      },
+      {
+        "label": "15–29",
+        "pct": 14.7
+      },
+      {
+        "label": "30–64",
+        "pct": 45.5
+      },
+      {
+        "label": "65+",
+        "pct": 23.3
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 90.7
+      },
+      {
+        "label": "Māori",
+        "pct": 9.9
+      },
+      {
+        "label": "Asian",
+        "pct": 4.0
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 2.6
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.8
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 3.2
+      }
+    ],
+    "decisions": [
+      {
+        "title": "2026/27 Annual Plan adopted",
+        "date": "Jun 2026",
+        "outcome": "Council adopted its 2026/27 Annual Plan with a 9.9% rates revenue increase.",
+        "url": "https://www.tasman.govt.nz"
+      },
+      {
+        "title": "Emergency recovery period extended",
+        "date": "Aug 2026",
+        "outcome": "Mayor Tim King extended Tasman's formal emergency recovery period to 10 September 2026 following the 2025 severe weather events.",
+        "url": "https://www.tasman.govt.nz"
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "Aug 2026: Mayor Tim King extended Tasman's formal emergency recovery period to 10 September 2026 following the 2025 severe weather events",
+        "Aug 2026: Council continued recovery and infrastructure work following weather-related damage",
+        "Jun 2026: Council adopted its 2026/27 Annual Plan with a 9.9% rates revenue increase",
+        "2026: Water Services Delivery Plan confirmed the Council's approach to continuing water services through an in-house business unit",
+        "Jun 2026: Tasman and Nelson councils jointly purchased the former RNZ site at Saxton Field for public recreation"
+      ],
+      "url": "https://www.tasman.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Tim King",
+      "turnout": "41.7%",
+      "votesReturned": "Not published by the council"
+    }
   }
 }
