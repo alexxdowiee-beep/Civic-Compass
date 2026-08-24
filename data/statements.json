@@ -1,58 +1,34 @@
 [
   {
-    "party": "National",
-    "color": "#2E6FC4",
-    "topic": "Transport & regulation",
-    "date": "21 Aug 2026",
-    "text": "Transport Minister Chris Bishop confirmed the Government will retain a Clean Vehicle Standard for new and used vehicle imports, following a review of its settings.",
-    "url": "https://www.national.org.nz/"
+    "headline": "Government moves to ban social media for under-16s",
+    "source": "Stuff",
+    "date": "24 Aug 2026",
+    "topic": "Social media",
+    "text": "The Government announced a move toward restricting social media access for New Zealanders under 16, with Deputy PM Winston Peters responding to the announcement live on air.",
+    "url": "https://www.stuff.co.nz/"
   },
   {
-    "party": "Labour",
-    "color": "#D1424A",
-    "topic": "Small business & jobs",
-    "date": "6 Aug 2026",
-    "text": "Chris Hipkins unveiled the final stage of Labour's Small Business Action Plan in Rotorua, including a $2m annual AI small-business fund, an expanded AI Advisory pilot, and a boost to the Founder and Startup Support Programme.",
-    "url": "https://www.nzherald.co.nz/rotorua-daily-post/news/election-2026-labour-leader-chris-hipkins-in-rotorua-unveils-ai-start-up-support-plan-for-small-businesses/67B6KJZI7NBSDDVMQEEEZI5OZE/"
+    "headline": "Latest poll delivers bad news for coalition and Labour alike",
+    "source": "RNZ",
+    "date": "24 Aug 2026",
+    "topic": "Polling",
+    "text": "The latest RNZ-Reid Research poll shows declining support for both the governing coalition and the Labour opposition, with smaller parties picking up ground ahead of the 7 November election.",
+    "url": "https://www.rnz.co.nz/news/political"
   },
   {
-    "party": "ACT",
-    "color": "#F2C230",
-    "topic": "Size of government",
-    "date": "28 Jun 2026",
-    "text": "Announced a plan to cut the number of government departments from 43 to 19, alongside new welfare policy framed around personal responsibility and the value of paid work.",
-    "url": "https://www.rnz.co.nz/news/politics/634881/act-party-leader-david-seymour-takes-aim-at-parliamentary-allies-opponents-but-especially-labour"
+    "headline": "Te Pāti Māori's split-vote strategy sparks MMP debate",
+    "source": "Democracy Project",
+    "date": "20 Aug 2026",
+    "topic": "Election strategy",
+    "text": "At its Gisborne campaign launch, Te Pāti Māori told supporters to give their electorate vote to the party but direct their party vote to left-aligned allies instead — a tactic commentators say could produce a Parliament that doesn't match the popular vote.",
+    "url": "https://www.democracyproject.org.nz/p/news-briefing-20-august-2026"
   },
   {
-    "party": "NZ First",
-    "color": "#1C1C1C",
+    "headline": "Poll shows majority support for restricting voting to citizens",
+    "source": "NZ Herald",
+    "date": "20 Aug 2026",
     "topic": "Voting rights",
-    "date": "5 Jul 2026",
-    "text": "Announced a policy to restrict general-election voting to NZ citizens, removing the current right of some non-citizen permanent residents to vote after 12 months' residence.",
-    "url": "https://www.nzherald.co.nz/nz/politics/election-2026-winston-peters-announces-citizens-only-voting-policy/YJZGPDKAH5BYNO2SXMXZDY3TFY/"
-  },
-  {
-    "party": "Green",
-    "color": "#5AA469",
-    "topic": "Cost of living / supermarkets",
-    "date": "17 Aug 2026",
-    "text": "Co-leader Chlöe Swarbrick and MP Ricardo Menéndez March announced a Member's Bill, the Commerce (Excessive Pricing in Retail Grocery Industry) Amendment Bill, aiming to make it illegal for supermarkets to charge unreasonably high grocery prices.",
-    "url": "https://www.greens.org.nz/chloe_swarbrick"
-  },
-  {
-    "party": "Te Pāti Māori",
-    "color": "#8A1C2B",
-    "topic": "Local government & Treaty",
-    "date": "21 Jul 2026",
-    "text": "Criticised the Government's reported plan to scrap existing Mana Whakahono ā Rohe iwi–council partnership agreements as part of planning-law reform, calling it a step back from honouring Te Tiriti at the local level.",
-    "url": "https://www.maoriparty.org.nz/government_rips_up_another_promise_of_partnership_with_m_ori"
-  },
-  {
-    "party": "The Alliance",
-    "color": "#C0392B",
-    "topic": "Cost of living",
-    "date": "28 Mar 2026",
-    "text": "Announced further South Island candidates, saying they reflect workers who understand the cost-of-living crisis and want a change of government and direction.",
-    "url": "https://auckland.scoop.co.nz/2026/03/alliance-party-announces-eight-further-south-island-candidates-for-2026-general-election/"
+    "text": "New polling shows a majority of New Zealanders support restricting general election voting rights to citizens only, rather than including permanent residents — a policy NZ First has campaigned on.",
+    "url": "https://www.nzherald.co.nz/nz/politics/"
   }
 ]
