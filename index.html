@@ -71,6 +71,9 @@
   }
   .datebar b{color:var(--paper);font-weight:600;}
   #electionCountdown{color:var(--kowhai); font-weight:600;}
+  .icn{width:15px; height:15px; vertical-align:-2px; margin-right:2px; flex-shrink:0;}
+  .icn.gold{stroke:var(--kowhai);}
+  .icn.grey{stroke:#9FB0A6;}
   #electionCountdown b{color:var(--kowhai);}
 
   .proto-banner{
@@ -112,6 +115,41 @@
     cursor:pointer; border-bottom:2px solid transparent;
   }
   nav.tabnav button.active{ color:var(--kowhai); border-bottom-color:var(--kowhai); }
+  .search-trigger{
+    flex:0 0 auto !important; width:42px; padding:14px 0 !important;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .search-overlay{
+    position:fixed; inset:0; z-index:100; background:rgba(10,16,14,0.98);
+    display:none; flex-direction:column;
+  }
+  .search-overlay.open{ display:flex; }
+  .search-overlay-bar{
+    display:flex; align-items:center; gap:10px; padding:16px 18px;
+    border-bottom:1px solid rgba(244,241,230,0.14); color:#9FB0A6; flex-shrink:0;
+  }
+  .search-overlay-bar input{
+    flex:1; background:none; border:none; color:var(--white);
+    font-size:16px; font-family:inherit; outline:none;
+  }
+  .search-overlay-bar input::placeholder{ color:#6B7A70; }
+  .search-overlay-bar button{
+    background:none; border:none; color:#9FB0A6; font-size:26px;
+    line-height:1; cursor:pointer; padding:0 4px;
+  }
+  .search-results{ flex:1; overflow-y:auto; padding:8px 18px 24px; }
+  .search-group-label{
+    font-size:11px; letter-spacing:0.08em; text-transform:uppercase;
+    color:var(--kowhai); font-weight:700; margin:18px 0 8px;
+  }
+  .search-group-label:first-child{ margin-top:10px; }
+  .search-result-row{
+    display:block; padding:11px 0; border-bottom:1px solid rgba(244,241,230,0.08);
+    cursor:pointer;
+  }
+  .search-result-title{ font-size:14.5px; font-weight:700; color:var(--white); }
+  .search-result-sub{ font-size:12px; color:#9FB0A6; margin-top:2px; }
+  .search-empty{ color:#7C8A80; font-size:13.5px; text-align:center; padding:40px 20px; }
 
   .page{ display:none; padding:26px 20px 10px; }
   .page.active{ display:block; }
@@ -431,7 +469,8 @@
   }
   .elect-jump button:active{background:var(--kowhai); color:#20180A;}
   .elect-jump button.active{background:var(--kowhai); color:#20180A; border-color:var(--kowhai);}
-  .elect-empty-hint{font-size:13px; line-height:1.55; color:#9FB0A6; padding:24px 4px; text-align:center;}
+  .elect-empty-hint{font-size:13px; line-height:1.55; color:#9FB0A6; padding:28px 4px 24px; text-align:center;}
+  .elect-empty-hint svg{display:block; margin:0 auto 10px; width:38px; height:38px; opacity:0.55;}
   .elect-group{margin-top:14px; scroll-margin-top:70px;}
   .elect-group:first-child{margin-top:16px;}
   .elect-group-header{
@@ -554,10 +593,10 @@
     <span class="eyebrow"><span class="dot"></span>Aotearoa New Zealand</span>
     <p class="tagline">An educated public is the foundation of a healthy democracy.</p>
     <div class="datebar">
-      <span>🗳️ <b>General election:</b> 7 Nov 2026</span>
-      <span>🏛️ <b>Current government:</b> National–ACT–NZ First</span>
+      <span><svg class="icn grey" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M3 11h18"/><path d="M8 11v-3a4 4 0 0 1 8 0v3"/></svg> <b>General election:</b> 7 Nov 2026</span>
+      <span><svg class="icn grey" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V10l8-6 8 6v11"/><path d="M4 21h16"/><path d="M9 21v-6h6v6"/></svg> <b>Current government:</b> National–ACT–NZ First</span>
       <span id="electionCountdown"></span>
-      <span>🏙️ <b>Next local elections:</b> Oct 2028</span>
+      <span><svg class="icn grey" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V9l5-3 5 3v12"/><path d="M14 21V5l5 2v14"/><path d="M4 21h16"/><path d="M8 12h1M8 16h1M11 12h1M11 16h1"/></svg> <b>Next local elections:</b> Oct 2028</span>
     </div>
   </div>
 </header>
@@ -568,7 +607,17 @@
   <button data-page="parties">All Parties</button>
   <button data-page="statements">News</button>
   <button data-page="learn">Info</button>
+  <button id="globalSearchBtn" class="search-trigger" aria-label="Search everything"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></button>
 </nav>
+
+<div id="searchOverlay" class="search-overlay">
+  <div class="search-overlay-bar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input type="text" id="globalSearchInput" placeholder="Search councils, electorates, candidates, parties…" autocomplete="off">
+    <button id="globalSearchClose" aria-label="Close search">&times;</button>
+  </div>
+  <div id="globalSearchResults" class="search-results"></div>
+</div>
 
 <div class="wrap" style="padding-left:0;padding-right:0;">
 
@@ -624,7 +673,7 @@
       <h2 class="stitle">Recent news</h2>
       <p class="shint">The main election-related stories, each summarised and linked back to the original source.</p>
     </div>
-    <span class="updated-chip">🕘 Updated 24 Aug 2026</span>
+    <span class="updated-chip"><svg class="icn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg> Updated 24 Aug 2026</span>
     <div class="stmt-list" id="stmtList"></div>
     <div class="stmt-note">
       This is a curated selection of main stories, not a live feed — it's updated by hand rather than pulled automatically, so it won't catch everything. Check a party's own site (All Parties tab) or your usual news source for anything more recent.
@@ -706,14 +755,15 @@
   const daysLeft = Math.round((electionDate - today) / msPerDay);
   const el = document.getElementById('electionCountdown');
   if(!el) return;
+  const calSvg = '<svg class="icn gold" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18"/><path d="M8 3v4M16 3v4"/></svg>';
   if(daysLeft > 1){
-    el.innerHTML = `📅 <b>${daysLeft} days</b> until election day`;
+    el.innerHTML = `${calSvg} <b>${daysLeft} days</b> until election day`;
   } else if(daysLeft === 1){
-    el.innerHTML = `📅 <b>1 day</b> until election day`;
+    el.innerHTML = `${calSvg} <b>1 day</b> until election day`;
   } else if(daysLeft === 0){
-    el.innerHTML = `📅 <b>Election day is today!</b>`;
+    el.innerHTML = `${calSvg} <b>Election day is today!</b>`;
   } else {
-    el.innerHTML = `📅 <b>Election day has passed</b>`;
+    el.innerHTML = `${calSvg} <b>Election day has passed</b>`;
   }
 })();
 
@@ -888,8 +938,8 @@ function renderAreaList(filterText){
 
   if (!areaList.children.length) {
     areaList.innerHTML = f
-      ? '<p class="elect-none" style="padding:20px 0;">No matches \u2014 try a different search.</p>'
-      : '<p class="elect-empty-hint">Select a region above to see its councils.</p>';
+      ? '<p class="elect-none" style="padding:20px 0;text-align:center;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:block;margin:0 auto 10px;width:32px;height:32px;opacity:0.5;"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>No matches \u2014 try a different search.</p>'
+      : '<p class="elect-empty-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5l-2 5-5 2 2-5z"/></svg>Select a region above to see its councils.</p>';
   }
 
   if (f) {
@@ -1305,9 +1355,9 @@ function renderElectorates(filter){
   const meta = document.getElementById('electSearchMeta');
   if(!electList.children.length){
     if(f){
-      electList.innerHTML = '<p class="elect-none" style="padding:20px 0;">No matches \u2014 try a different search.</p>';
+      electList.innerHTML = '<p class="elect-none" style="padding:20px 0;text-align:center;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:block;margin:0 auto 10px;width:32px;height:32px;opacity:0.5;"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>No matches \u2014 try a different search.</p>';
     } else {
-      electList.innerHTML = '<p class="elect-empty-hint">Select a region above to see its candidates.</p>';
+      electList.innerHTML = '<p class="elect-empty-hint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.5l-2 5-5 2 2-5z"/></svg>Select a region above to see its candidates.</p>';
     }
     meta.innerHTML = '';
   } else if(f){
@@ -1392,7 +1442,123 @@ window.toggleCouncillor = toggleCouncillor;
   }
 })();
 
-// Register the service worker for offline/installable support once hosted
+// --- Global search ---
+const searchOverlay = document.getElementById('searchOverlay');
+const globalSearchInput = document.getElementById('globalSearchInput');
+const globalSearchResults = document.getElementById('globalSearchResults');
+
+document.getElementById('globalSearchBtn').addEventListener('click', ()=>{
+  searchOverlay.classList.add('open');
+  globalSearchInput.value = '';
+  globalSearchResults.innerHTML = '';
+  setTimeout(()=>globalSearchInput.focus(), 50);
+});
+document.getElementById('globalSearchClose').addEventListener('click', ()=>{
+  searchOverlay.classList.remove('open');
+});
+
+function runGlobalSearch(q){
+  q = q.toLowerCase().trim();
+  globalSearchResults.innerHTML = '';
+  if(!q){ return; }
+
+  const councilMatches = [];
+  councils.forEach((c,i)=>{
+    if(c.area.toLowerCase().includes(q)) councilMatches.push({i, c});
+  });
+
+  const electMatches = [];
+  const candMatches = [];
+  electorates.forEach(e=>{
+    if(e.name.toLowerCase().includes(q)) electMatches.push(e);
+    e.cands.forEach(cd=>{
+      if(cd.n.toLowerCase().includes(q)) candMatches.push({cand:cd, elect:e});
+    });
+  });
+
+  const partyMatches = parties.filter(p=>p.name.toLowerCase().includes(q));
+
+  const total = councilMatches.length + electMatches.length + candMatches.length + partyMatches.length;
+  if(!total){
+    globalSearchResults.innerHTML = '<p class="search-empty">No matches \u2014 try a different search.</p>';
+    return;
+  }
+
+  function addGroup(label, items, buildRow){
+    if(!items.length) return;
+    const h = document.createElement('div');
+    h.className = 'search-group-label';
+    h.textContent = label;
+    globalSearchResults.appendChild(h);
+    items.slice(0,8).forEach(item=>{
+      const row = document.createElement('div');
+      row.className = 'search-result-row';
+      row.innerHTML = buildRow(item);
+      row.addEventListener('click', ()=>item._go());
+      globalSearchResults.appendChild(row);
+    });
+  }
+
+  councilMatches.forEach(m=>{ m._go = ()=>goToCouncil(m.i); });
+  addGroup('Councils', councilMatches, m=>`<div class="search-result-title">${m.c.area}</div><div class="search-result-sub">${m.c.region}</div>`);
+
+  electMatches.forEach(e=>{ e._go = ()=>goToElectorate(e); });
+  addGroup('Electorates', electMatches, e=>`<div class="search-result-title">${e.name}</div><div class="search-result-sub">${e.group}</div>`);
+
+  candMatches.forEach(m=>{ m._go = ()=>goToElectorate(m.elect); });
+  addGroup('Candidates', candMatches, m=>`<div class="search-result-title">${m.cand.n}</div><div class="search-result-sub">${m.cand.p} \u00b7 ${m.elect.name}</div>`);
+
+  partyMatches.forEach(p=>{ p._go = ()=>goToParty(p); });
+  addGroup('Parties', partyMatches, p=>`<div class="search-result-title">${p.name}</div><div class="search-result-sub">${p.slogan||''}</div>`);
+}
+
+globalSearchInput.addEventListener('input', ()=>runGlobalSearch(globalSearchInput.value));
+
+function goToCouncil(index){
+  const c = councils[index];
+  switchTab('home');
+  if(activeAreaGroup && areaChipButtons[activeAreaGroup]) areaChipButtons[activeAreaGroup].classList.remove('active');
+  activeAreaGroup = c.region;
+  if(areaChipButtons[c.region]) areaChipButtons[c.region].classList.add('active');
+  renderAreaList('');
+  selectCouncil(index);
+  searchOverlay.classList.remove('open');
+  setTimeout(()=>{
+    const card = document.getElementById('resultCard');
+    if(card) card.scrollIntoView({behavior:'smooth', block:'start'});
+  }, 100);
+}
+
+function goToElectorate(e){
+  switchTab('map');
+  if(activeElectGroup && groupChipButtons[activeElectGroup]) groupChipButtons[activeElectGroup].classList.remove('active');
+  activeElectGroup = e.group;
+  if(groupChipButtons[e.group]) groupChipButtons[e.group].classList.add('active');
+  openElectorateName = e.name;
+  renderElectorates('');
+  searchOverlay.classList.remove('open');
+  setTimeout(()=>{
+    const el = document.getElementById('elect-'+e.name.replace(/[^a-zA-Z0-9]/g,''));
+    if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+  }, 100);
+}
+
+function goToParty(p){
+  switchTab('parties');
+  searchOverlay.classList.remove('open');
+  setTimeout(()=>{
+    const items = document.querySelectorAll('.party-item');
+    for(const item of items){
+      if(item.textContent.includes(p.name)){
+        item.querySelector('.party-card').click();
+        item.scrollIntoView({behavior:'smooth', block:'start'});
+        break;
+      }
+    }
+  }, 100);
+}
+
+
 // (silently does nothing inside Claude's artifact preview, which has no HTTPS origin for it)
 if('serviceWorker' in navigator && window.location.protocol.startsWith('http')){
   window.addEventListener('load', ()=>{
