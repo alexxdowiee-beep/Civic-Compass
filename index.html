@@ -122,9 +122,10 @@
   .search-overlay{
     position:fixed; inset:0; z-index:100; background:var(--ink);
     display:none; flex-direction:column; justify-content:center;
+    padding-bottom:28vh;
   }
   .search-overlay.open{ display:flex; }
-  .search-overlay.has-results{ justify-content:flex-start; }
+  .search-overlay.has-results{ justify-content:flex-start; padding-bottom:0; }
   .search-overlay-bar{
     display:flex; align-items:center; gap:10px; padding:20px 20px 12px; flex-shrink:0;
   }
