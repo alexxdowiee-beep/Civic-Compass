@@ -2926,5 +2926,457 @@
       "turnout": "approx. 40%",
       "votesReturned": "Not published by the council"
     }
+  },
+  "Buller District": {
+    "mayor": {
+      "name": "Chris Russell",
+      "note": "No party affiliation stated — elected Mayor in 2025 with 1,432 votes, narrowly ahead of Jamie Cleine (1,331) and Linda Webb (1,329). A Westport-born business and mining-sector executive with more than 45 years' experience across mining, logistics, international trade, infrastructure and governance. Stated priorities include strong governance, transparency, accountability and prudent financial management."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Linda Webb",
+        "ward": "Inangahua Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Dave Hawes",
+        "ward": "Inangahua Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Rosalie Sampson",
+        "ward": "Seddon Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Toni O'Keefe",
+        "ward": "Seddon Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Shayne Barry",
+        "ward": "Westport Ward",
+        "note": "Independent — Deputy Mayor"
+      },
+      {
+        "name": "Philip Rutherford",
+        "ward": "Westport Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Ray Curnow",
+        "ward": "Westport Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Dave Hingston",
+        "ward": "Westport Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Paul Reynolds",
+        "ward": "Westport Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Ned Tauwhare",
+        "ward": "Māori portfolio",
+        "note": "Appointed, not elected"
+      }
+    ],
+    "mp": {
+      "name": "Maureen Pugh",
+      "party": "National",
+      "note": "MP for West Coast-Tasman, which covers Buller."
+    },
+    "profile": {
+      "population": "10,650",
+      "medianAge": "52.0",
+      "medianIncome": "$28,800",
+      "bornOverseas": "13.4%",
+      "bornOverseas2013": "9.5%"
+    },
+    "keyIssues": [
+      {
+        "title": "Westport flood protection",
+        "text": "Flood resilience and protection of Westport remain major issues following the town's vulnerability to flooding from the Buller River and surrounding waterways."
+      },
+      {
+        "title": "Westport growth & infrastructure",
+        "text": "Council is progressing the Westport Master Plan, focusing on future development, infrastructure and the town's long-term resilience."
+      },
+      {
+        "title": "Rates & financial sustainability",
+        "text": "Buller faces the challenge of funding infrastructure and services across a large, sparsely populated district with a relatively small rating base."
+      },
+      {
+        "title": "Mining & economic development",
+        "text": "Coal, gold and other resource industries remain significant to the local economy, alongside tourism, agriculture and forestry."
+      },
+      {
+        "title": "Local government reform",
+        "text": "Buller is involved in wider discussions about the future structure and delivery of local government on the West Coast."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 14.7
+      },
+      {
+        "label": "15–29",
+        "pct": 11.5
+      },
+      {
+        "label": "30–64",
+        "pct": 47.5
+      },
+      {
+        "label": "65+",
+        "pct": 26.3
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 90.6
+      },
+      {
+        "label": "Māori",
+        "pct": 13.0
+      },
+      {
+        "label": "Asian",
+        "pct": 3.3
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 1.7
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.6
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 4.3
+      }
+    ],
+    "decisions": [
+      {
+        "title": "Colin Reidy resigns, by-election triggered",
+        "date": "30 Jun 2026",
+        "outcome": "Westport Ward councillor Colin Reidy resigned, creating a vacancy. A by-election was scheduled, with voting closing 16 October 2026.",
+        "url": "https://www.bullerdc.govt.nz"
+      }
+    ],
+    "upcoming": [
+      {
+        "deadline": "16 Oct 2026",
+        "title": "Westport Ward by-election",
+        "detail": "Voting closes to fill the Westport Ward seat vacated by Colin Reidy's resignation.",
+        "url": "https://www.bullerdc.govt.nz"
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "Jul 2026: Westport Ward councillor Colin Reidy resigned, triggering a by-election",
+        "2026: Westport Master Plan work continued",
+        "2026: Council continued work on water services and infrastructure",
+        "2026: Rates and financial sustainability remained major Council issues",
+        "2026: Local-government reform discussions continued across the West Coast"
+      ],
+      "url": "https://www.bullerdc.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Chris Russell",
+      "turnout": "47.58%",
+      "votesReturned": "4,199"
+    }
+  },
+  "Grey District": {
+    "mayor": {
+      "name": "Tania Gibson",
+      "note": "Independent — re-elected Mayor in 2025 with 3,683 votes, defeating Richard Osmaston (515 votes). Has continued to focus on Grey District's economic development, infrastructure, community services and financial sustainability. Formally sworn in for another three-year term in October 2025."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Peter Davy",
+        "ward": "Central Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Timothy Mora",
+        "ward": "Central Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Jack O'Connor",
+        "ward": "Central Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Allan Gibson",
+        "ward": "Eastern Ward",
+        "note": "No affiliation stated — Deputy Mayor"
+      },
+      {
+        "name": "Robert Mallinson",
+        "ward": "Eastern Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Kate Kennedy",
+        "ward": "Northern Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Paulette Birchfield",
+        "ward": "Southern Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Rex MacDonald",
+        "ward": "Southern Ward",
+        "note": "No affiliation stated"
+      }
+    ],
+    "mp": {
+      "name": "Maureen Pugh",
+      "party": "National",
+      "note": "MP for West Coast-Tasman, including Grey District."
+    },
+    "profile": {
+      "population": "14,600",
+      "medianAge": "44.9",
+      "medianIncome": "$34,200",
+      "bornOverseas": "11.8%",
+      "bornOverseas2013": "8.4%"
+    },
+    "keyIssues": [
+      {
+        "title": "Flood protection",
+        "text": "Flooding and river management remain major concerns for Greymouth and surrounding communities."
+      },
+      {
+        "title": "Infrastructure & rates",
+        "text": "Maintaining ageing infrastructure while managing rates and affordability is a major Council challenge."
+      },
+      {
+        "title": "Economic development",
+        "text": "Grey continues to work on economic diversification following the decline of traditional mining industries, with tourism, agriculture, forestry and new industries increasingly important."
+      },
+      {
+        "title": "Water services",
+        "text": "Drinking water, wastewater and stormwater infrastructure remain significant long-term investment issues."
+      },
+      {
+        "title": "Local government reform",
+        "text": "Grey District is involved in ongoing discussions about the future structure of local government on the West Coast."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 18
+      },
+      {
+        "label": "15–29",
+        "pct": 16
+      },
+      {
+        "label": "30–64",
+        "pct": 45
+      },
+      {
+        "label": "65+",
+        "pct": 21
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 90.7
+      },
+      {
+        "label": "Māori",
+        "pct": 11.8
+      },
+      {
+        "label": "Asian",
+        "pct": 4.0
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 1.4
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.5
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 2.1
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "2026: Grey District Council began work on its 2027–2037 Long Term Plan",
+        "2026: Infrastructure resilience and flood protection remained major issues",
+        "2026: Council continued work on water and wastewater infrastructure",
+        "2026: Economic development and diversification remained priorities",
+        "2026: West Coast local-government reform discussions continued"
+      ],
+      "url": "https://www.greydc.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Tania Gibson",
+      "turnout": "46.93%",
+      "votesReturned": "4,682"
+    }
+  },
+  "Westland District": {
+    "mayor": {
+      "name": "Helen Lash",
+      "note": "No party affiliation stated — re-elected Mayor in 2025 after an exceptionally close contest with Jacquie Grant. Preliminary results had Grant ahead by four votes, but the final result (after special votes) reversed the lead, with Lash retaining the mayoralty by 8 votes. Has lived in Westland for more than 30 years, with a background in agriculture, fishing, contracting and sports administration. Previously served as a Southern Ward councillor and Deputy Mayor before becoming Mayor in 2022."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Reilly Burden",
+        "ward": "Northern Ward",
+        "note": "No affiliation stated — Deputy Mayor"
+      },
+      {
+        "name": "Greg Maitland",
+        "ward": "Northern Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Euan Mackenzie",
+        "ward": "Northern Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Carol Martin",
+        "ward": "Hokitika Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Joseph Walker",
+        "ward": "Hokitika Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Steven Gillett",
+        "ward": "Hokitika Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Janella Munns",
+        "ward": "Southern Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Brian Manera",
+        "ward": "Southern Ward",
+        "note": "No affiliation stated"
+      }
+    ],
+    "mp": {
+      "name": "Maureen Pugh",
+      "party": "National",
+      "note": "MP for West Coast-Tasman, including Westland District."
+    },
+    "profile": {
+      "population": "8,901",
+      "medianAge": "approx. 46",
+      "medianIncome": "approx. $37,000–$38,000",
+      "bornOverseas": "15.1%",
+      "bornOverseas2013": "approx. 11%"
+    },
+    "keyIssues": [
+      {
+        "title": "Infrastructure & rates",
+        "text": "Westland faces significant pressure from ageing infrastructure and the cost of maintaining services across a large, sparsely populated district. Rates affordability and financial stewardship are stated priorities for the current Council."
+      },
+      {
+        "title": "Water services",
+        "text": "Council is working through Local Water Done Well, including decisions around future water-service delivery and regional collaboration."
+      },
+      {
+        "title": "Natural hazards",
+        "text": "Flooding, landslides and other natural hazards are major issues, particularly around Franz Josef, Fox Glacier and other communities exposed to the West Coast's geography."
+      },
+      {
+        "title": "Tourism & economy",
+        "text": "Tourism is a major part of the local economy, particularly around the glaciers, while agriculture, forestry and small businesses remain important."
+      },
+      {
+        "title": "Local government reform",
+        "text": "Westland is participating in discussions about potential changes to the structure of local government across the West Coast and wider South Island."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 15.5
+      },
+      {
+        "label": "15–29",
+        "pct": 13.5
+      },
+      {
+        "label": "30–64",
+        "pct": 49.8
+      },
+      {
+        "label": "65+",
+        "pct": 21.2
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 87.2
+      },
+      {
+        "label": "Māori",
+        "pct": 16.5
+      },
+      {
+        "label": "Asian",
+        "pct": 4.7
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 2.0
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.5
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 4.6
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "2026: Council continued its Setting Up for Success transformation programme",
+        "2026: Rates affordability and financial stewardship remained key priorities",
+        "2026: Council continued work on Local Water Done Well",
+        "2026: Infrastructure resilience and investment remained major issues",
+        "2026: Westland continued participating in wider West Coast local-government reform discussions"
+      ],
+      "url": "https://www.westlanddc.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Helen Lash",
+      "turnout": "approx. 49%",
+      "votesReturned": "Not published by the council"
+    }
   }
 }
