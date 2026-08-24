@@ -2131,5 +2131,740 @@
       "turnout": "40.73%",
       "votesReturned": "n/a"
     }
+  },
+  "Central Otago District": {
+    "mayor": {
+      "name": "Tamah Alley",
+      "note": "No party affiliation stated — elected Mayor in 2025 with 5,900 votes, ahead of Charlie Sanders and Mark Quinn. Had previously become mayor following Tim Cadogan's resignation."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Cheryl Laws",
+        "ward": "Cromwell Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Sarah Browne",
+        "ward": "Cromwell Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Charlie Sanders",
+        "ward": "Cromwell Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Bob Scott",
+        "ward": "Cromwell Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Tracy Paterson",
+        "ward": "Vincent Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Martin McPherson",
+        "ward": "Vincent Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Nathan McLean",
+        "ward": "Vincent Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Dave McKenzie",
+        "ward": "Vincent Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Stu Duncan",
+        "ward": "Maniototo Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Curtis Pannett",
+        "ward": "Teviot Valley Ward",
+        "note": "No affiliation stated"
+      }
+    ],
+    "mp": {
+      "name": "Miles Anderson",
+      "party": "National",
+      "note": "MP for Waitaki, an electorate that covers Central Otago and surrounding areas."
+    },
+    "profile": {
+      "population": "25,800",
+      "medianAge": "46.7",
+      "medianIncome": "$41,800",
+      "bornOverseas": "approx. 18%",
+      "bornOverseas2013": "approx. 14%"
+    },
+    "keyIssues": [
+      {
+        "title": "Population growth",
+        "text": "Central Otago continues to experience significant population growth, particularly around Cromwell and the Upper Clutha area, creating pressure on housing, roads and community infrastructure."
+      },
+      {
+        "title": "Housing",
+        "text": "Rapid growth and high property prices have created affordability and availability challenges for residents and workers."
+      },
+      {
+        "title": "Water infrastructure",
+        "text": "Water supply, wastewater and stormwater infrastructure require significant long-term investment as the population grows."
+      },
+      {
+        "title": "Local government reform",
+        "text": "Central Otago is involved in the Government's current programme examining the future structure and delivery of local government."
+      },
+      {
+        "title": "Roads and transport",
+        "text": "The district's large rural road network faces ongoing maintenance and renewal costs, while growth is increasing pressure on key transport routes."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 16.0
+      },
+      {
+        "label": "15–29",
+        "pct": 13.5
+      },
+      {
+        "label": "30–64",
+        "pct": 45.8
+      },
+      {
+        "label": "65+",
+        "pct": 24.7
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 88.8
+      },
+      {
+        "label": "Māori",
+        "pct": 9.5
+      },
+      {
+        "label": "Asian",
+        "pct": 6.1
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 1.5
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 1.0
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 1.8
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "Oct 2025: Tamah Alley elected Mayor",
+        "2026: Council continued work around local-government reform",
+        "2026: Population growth and infrastructure capacity remained major planning issues",
+        "2026: Water-service planning continued under Local Water Done Well",
+        "2026: Housing and transport infrastructure remained significant growth pressures"
+      ],
+      "url": "https://www.centralotago.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Tamah Alley",
+      "turnout": "55.08%",
+      "votesReturned": "9,939"
+    }
+  },
+  "Clutha District": {
+    "mayor": {
+      "name": "Jock Martin",
+      "note": "No party affiliation stated — elected Mayor in 2025 with 4,196 votes, defeating Ken Payne (2,331 votes). Had previously served as Mayor of Clutha."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Rachel Harrison",
+        "ward": "Balclutha Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Brendon Smith",
+        "ward": "Balclutha Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Dean McCrostie",
+        "ward": "Bruce-Waihola Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Dane Catherwood",
+        "ward": "Catlins Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Simon McAtamney",
+        "ward": "Clinton-Clydevale Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Bruce Graham",
+        "ward": "Kaitangata-Matau Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Roger Cotton",
+        "ward": "Lawrence-Tuapeka Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Larry Frost",
+        "ward": "Milton Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Michele Kennedy",
+        "ward": "West Otago Ward",
+        "note": "No affiliation stated"
+      }
+    ],
+    "mp": {
+      "name": "Mark Patterson",
+      "party": "NZ First",
+      "note": "MP for the Otago electorate."
+    },
+    "profile": {
+      "population": "approx. 18,700",
+      "medianAge": "approx. 45",
+      "medianIncome": "approx. $38,000",
+      "bornOverseas": "approx. 13%",
+      "bornOverseas2013": "approx. 10%"
+    },
+    "keyIssues": [
+      {
+        "title": "Rates & affordability",
+        "text": "Council must maintain services across a large rural district while managing pressure on rates and household affordability."
+      },
+      {
+        "title": "Water infrastructure",
+        "text": "Drinking water, wastewater and stormwater infrastructure require ongoing investment."
+      },
+      {
+        "title": "Rural roads",
+        "text": "Maintaining the district's extensive rural roading network is a significant ongoing cost."
+      },
+      {
+        "title": "Agriculture & rural economy",
+        "text": "Agriculture remains central to the district's economy, with rural communities and primary industries important to local economic development."
+      },
+      {
+        "title": "Local government reform",
+        "text": "Changes to the structure and delivery of local government remain an important issue for Clutha and wider Otago."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 18
+      },
+      {
+        "label": "15–29",
+        "pct": 14
+      },
+      {
+        "label": "30–64",
+        "pct": 45
+      },
+      {
+        "label": "65+",
+        "pct": 23
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 89
+      },
+      {
+        "label": "Māori",
+        "pct": 13
+      },
+      {
+        "label": "Asian",
+        "pct": 3
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 1
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.9
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 2
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "Oct 2025: Jock Martin elected Mayor",
+        "2026: Council continued work on financial sustainability",
+        "2026: Water infrastructure remained a significant investment issue",
+        "2026: Rural roading and infrastructure remained major priorities",
+        "2026: Otago local-government reform discussions continued"
+      ],
+      "url": "https://www.cluthadc.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Jock Martin",
+      "turnout": "n/a",
+      "votesReturned": "n/a"
+    }
+  },
+  "Queenstown-Lakes District": {
+    "mayor": {
+      "name": "John Glover",
+      "note": "No party affiliation stated — elected Mayor in 2025 with 4,599 votes, defeating Glyn Lewers (3,244), Nik Kiddle (2,108) and Darren Rewi (1,671). Campaign focused on responsible growth, infrastructure, housing and maintaining the district's quality of life."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Heath Copland",
+        "ward": "Arrowtown-Kawarau Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Melissa White",
+        "ward": "Arrowtown-Kawarau Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Q (Samuel) Belk",
+        "ward": "Arrowtown-Kawarau Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Matt Wong",
+        "ward": "Queenstown-Whakatipu Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Gavin Bartlett",
+        "ward": "Queenstown-Whakatipu Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Stephen Brent",
+        "ward": "Queenstown-Whakatipu Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Jon Mitchell",
+        "ward": "Queenstown-Whakatipu Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Nicola King",
+        "ward": "Wānaka-Upper Clutha Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Quentin Smith",
+        "ward": "Wānaka-Upper Clutha Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Niki Gladding",
+        "ward": "Wānaka-Upper Clutha Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Cody Tucker",
+        "ward": "Wānaka-Upper Clutha Ward",
+        "note": "No affiliation stated"
+      }
+    ],
+    "mp": {
+      "name": "Joseph Mooney",
+      "party": "National",
+      "note": "MP for Southland, an electorate that includes Queenstown and parts of the Queenstown-Lakes area."
+    },
+    "profile": {
+      "population": "51,000+",
+      "medianAge": "approx. 35",
+      "medianIncome": "approx. $50,000+",
+      "bornOverseas": "approx. 35%",
+      "bornOverseas2013": "approx. 27%"
+    },
+    "keyIssues": [
+      {
+        "title": "Housing affordability",
+        "text": "High property prices and limited rental supply create major challenges for local workers and families."
+      },
+      {
+        "title": "Tourism pressure",
+        "text": "Large visitor numbers place pressure on roads, public transport, waste services, water infrastructure and public facilities."
+      },
+      {
+        "title": "Transport",
+        "text": "Congestion and limited transport capacity are major concerns, particularly around Queenstown."
+      },
+      {
+        "title": "Rapid growth",
+        "text": "Queenstown-Lakes is one of New Zealand's fastest-growing districts, creating significant infrastructure and planning pressures."
+      },
+      {
+        "title": "Environment & development",
+        "text": "Council must balance substantial development pressure with protection of the district's lakes, landscapes and natural environment."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 15
+      },
+      {
+        "label": "15–29",
+        "pct": 20
+      },
+      {
+        "label": "30–64",
+        "pct": 52
+      },
+      {
+        "label": "65+",
+        "pct": 13
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 76
+      },
+      {
+        "label": "Māori",
+        "pct": 8
+      },
+      {
+        "label": "Asian",
+        "pct": 15
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 2
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 2
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 2
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "Oct 2025: John Glover elected Mayor",
+        "2026: Housing affordability remained a major issue",
+        "2026: Transport and congestion continued to attract significant attention",
+        "2026: Tourism and visitor infrastructure remained major planning issues",
+        "2026: Rapid population growth continued to place pressure on infrastructure and services"
+      ],
+      "url": "https://www.qldc.govt.nz/news"
+    },
+    "election2025": {
+      "mayorElected": "John Glover",
+      "turnout": "41.16%",
+      "votesReturned": "12,927"
+    }
+  },
+  "Waitaki District": {
+    "mayor": {
+      "name": "Mel Tavendale",
+      "note": "No party affiliation stated — elected Mayor in 2025. Council faces significant financial and infrastructure pressures, particularly around water services, rates and maintaining infrastructure across a large rural district."
+    },
+    "updated": "as elected Oct 2025",
+    "councillors": [
+      {
+        "name": "Rebecca Ryan",
+        "ward": "Oamaru Ward",
+        "note": "Deputy Mayor"
+      },
+      {
+        "name": "Hana Melania Fanene-Taiti",
+        "ward": "Oamaru Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Dan Lewis",
+        "ward": "Oamaru Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Jeremy Holding",
+        "ward": "Oamaru Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Jim Hopkins",
+        "ward": "Oamaru Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Courtney Linwood",
+        "ward": "Oamaru Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Brent Cowles",
+        "ward": "Ahuriri Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "John McCone",
+        "ward": "Corriedale Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Sven Thelning",
+        "ward": "Corriedale Ward",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Frans Schlack",
+        "ward": "Waihemo Ward",
+        "note": "No affiliation stated"
+      }
+    ],
+    "mp": {
+      "name": "Miles Anderson",
+      "party": "National",
+      "note": "MP for Waitaki, which includes most of the Waitaki District."
+    },
+    "profile": {
+      "population": "approx. 24,600",
+      "medianAge": "46.1",
+      "medianIncome": "$34,900",
+      "bornOverseas": "approx. 15%",
+      "bornOverseas2013": "approx. 12%"
+    },
+    "keyIssues": [
+      {
+        "title": "Rates & financial sustainability",
+        "text": "Council faces substantial infrastructure costs and rate pressure. Rates remain one of the most significant political issues for the district."
+      },
+      {
+        "title": "Water services",
+        "text": "Drinking water, wastewater and stormwater infrastructure require substantial long-term investment and planning."
+      },
+      {
+        "title": "Local government reform",
+        "text": "Waitaki is considering the Government's changes to the structure and operation of local government."
+      },
+      {
+        "title": "Oamaru CBD",
+        "text": "Revitalisation, parking and supporting businesses in central Oamaru remain important local issues."
+      },
+      {
+        "title": "Roads & infrastructure",
+        "text": "Maintaining roads, bridges and other infrastructure across a large rural district places considerable pressure on Council finances."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 17
+      },
+      {
+        "label": "15–29",
+        "pct": 14
+      },
+      {
+        "label": "30–64",
+        "pct": 45
+      },
+      {
+        "label": "65+",
+        "pct": 24
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 88
+      },
+      {
+        "label": "Māori",
+        "pct": 9
+      },
+      {
+        "label": "Asian",
+        "pct": 4
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 1
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.9
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 2
+      }
+    ],
+    "decisions": [
+      {
+        "title": "2026/27 rates increase revised down",
+        "date": "Jun 2026",
+        "outcome": "Council replaced a proposed 22% rates increase with 17% for 2026/27.",
+        "url": "https://www.waitaki.govt.nz"
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "Jun 2026: Council replaced a proposed 22% rates increase with 17% for 2026/27",
+        "2026: Council worked on its Water Services Delivery Plan",
+        "2026: Council considered the Government's local-government reform programme",
+        "2026: New Oamaru CBD parking rules came into effect",
+        "2026: Financial sustainability and infrastructure investment remained major Council priorities"
+      ],
+      "url": "https://www.waitaki.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Mel Tavendale",
+      "turnout": "approx. 46%",
+      "votesReturned": "n/a"
+    }
+  },
+  "Dunedin": {
+    "mayor": {
+      "name": "Sophie Barker",
+      "note": "Independent — elected Mayor in October 2025 with 16,874 votes, defeating former mayor (and incumbent) Jules Radich. Radich was separately elected as a councillor but died in January 2026; Jo Galer won the resulting by-election."
+    },
+    "updated": "as elected Oct 2025; partial list, full 14-councillor roster not yet confirmed",
+    "councillors": [
+      {
+        "name": "Cherry Lucas",
+        "ward": "City-wide",
+        "note": "Independent — Deputy Mayor"
+      },
+      {
+        "name": "Jo Galer",
+        "ward": "City-wide",
+        "note": "Elected in a 2026 by-election, narrowly defeating former mayor Aaron Hawkins by 89 votes, following the death of Councillor Jules Radich"
+      }
+    ],
+    "mps": [
+      {
+        "name": "Rachel Brooking",
+        "party": "Green",
+        "note": "MP for the Dunedin electorate."
+      },
+      {
+        "name": "(Taieri electorate MP)",
+        "party": "",
+        "note": "Parts of Dunedin City are also represented by the Taieri electorate, depending on location — see the Taieri entry for that MP."
+      }
+    ],
+    "profile": {
+      "population": "approx. 135,000",
+      "medianAge": "approx. 37",
+      "medianIncome": "approx. $38,000",
+      "bornOverseas": "approx. 18%",
+      "bornOverseas2013": "approx. 14%"
+    },
+    "keyIssues": [
+      {
+        "title": "Rates & Council finances",
+        "text": "Council faces substantial infrastructure costs while trying to manage rates and maintain affordability for residents."
+      },
+      {
+        "title": "Dunedin Hospital",
+        "text": "The redevelopment and future of Dunedin's hospital facilities remain major local issues."
+      },
+      {
+        "title": "Transport & roads",
+        "text": "Maintaining roads, public transport and transport infrastructure remains an important Council responsibility."
+      },
+      {
+        "title": "Housing",
+        "text": "Housing affordability and availability are particularly significant for students, young people and lower-income households."
+      },
+      {
+        "title": "University & economic development",
+        "text": "The University of Otago and the student population are major contributors to Dunedin's economy and shape the city's housing, transport and economic-development priorities."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 14
+      },
+      {
+        "label": "15–29",
+        "pct": 25
+      },
+      {
+        "label": "30–64",
+        "pct": 41
+      },
+      {
+        "label": "65+",
+        "pct": 19
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 81
+      },
+      {
+        "label": "Māori",
+        "pct": 11
+      },
+      {
+        "label": "Asian",
+        "pct": 9
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 3
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 1
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 2
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "2026: Council continued work on rates and long-term financial sustainability",
+        "2026: Transport and infrastructure investment remained major issues",
+        "2026: Dunedin Hospital redevelopment remained a significant local political issue",
+        "2026: Housing affordability continued to be a concern",
+        "2026: Council continued planning around Dunedin's economic development"
+      ],
+      "url": "https://www.dunedin.govt.nz/council/news"
+    },
+    "election2025": {
+      "mayorElected": "Jules Radich",
+      "turnout": "approx. 40%",
+      "votesReturned": "n/a"
+    }
   }
 }
