@@ -121,9 +121,10 @@
   }
   .search-overlay{
     position:fixed; inset:0; z-index:100; background:var(--ink);
-    display:none; flex-direction:column;
+    display:none; flex-direction:column; justify-content:center;
   }
   .search-overlay.open{ display:flex; }
+  .search-overlay.has-results{ justify-content:flex-start; }
   .search-overlay-bar{
     display:flex; align-items:center; gap:10px; padding:20px 20px 12px; flex-shrink:0;
   }
@@ -143,7 +144,8 @@
     background:none; border:none; color:var(--paper); font-size:26px;
     line-height:1; cursor:pointer; padding:0 4px; flex-shrink:0;
   }
-  .search-results{ flex:1; overflow-y:auto; padding:8px 20px 24px; }
+  .search-results{ overflow-y:auto; padding:8px 20px 24px; }
+  .search-overlay.has-results .search-results{ flex:1; }
   .search-group-label{
     font-size:11px; letter-spacing:0.08em; text-transform:uppercase;
     color:var(--kowhai); font-weight:700; margin:18px 0 8px;
@@ -1461,6 +1463,7 @@ const globalSearchResults = document.getElementById('globalSearchResults');
 
 document.getElementById('globalSearchBtn').addEventListener('click', ()=>{
   searchOverlay.classList.add('open');
+  searchOverlay.classList.remove('has-results');
   globalSearchInput.value = '';
   globalSearchResults.innerHTML = '';
   setTimeout(()=>globalSearchInput.focus(), 50);
@@ -1472,6 +1475,7 @@ document.getElementById('globalSearchClose').addEventListener('click', ()=>{
 function runGlobalSearch(q){
   q = q.toLowerCase().trim();
   globalSearchResults.innerHTML = '';
+  searchOverlay.classList.toggle('has-results', !!q);
   if(!q){ return; }
 
   const councilMatches = [];
