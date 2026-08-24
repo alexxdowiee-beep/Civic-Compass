@@ -1964,55 +1964,40 @@
   },
   "Invercargill": {
     "mayor": {
-      "name": "Nobby Clark",
-      "note": "No party affiliation stated — re-elected Mayor in 2025 as the incumbent, with 12,544 votes. Main priorities include responsible spending, infrastructure investment, economic development, and improving Invercargill's long-term prospects."
+      "name": "Tom Campbell",
+      "note": "No party affiliation stated — elected Mayor in 2025 with 6,948 votes, ahead of Alex Crackett (5,202). Replaced retiring mayor Nobby Clark, who did not seek re-election."
     },
     "updated": "as elected Oct 2025",
     "councillors": [
       {
-        "name": "Tom Campbell",
+        "name": "Steve Broad",
+        "ward": "At Large",
+        "note": "No affiliation stated — top-polling councillor with 11,503 votes"
+      },
+      {
+        "name": "Alex Crackett",
+        "ward": "At Large",
+        "note": "No affiliation stated — also runner-up in the mayoral race"
+      },
+      {
+        "name": "Marcus Lush",
         "ward": "At Large",
         "note": "No affiliation stated"
       },
       {
-        "name": "Gavin Macpherson",
+        "name": "Grant Dermody",
         "ward": "At Large",
         "note": "No affiliation stated"
       },
       {
-        "name": "Ryan Heath",
+        "name": "Trish Boyle",
         "ward": "At Large",
         "note": "No affiliation stated"
       },
       {
-        "name": "Gillian Alexander",
+        "name": "Ria Bond",
         "ward": "At Large",
-        "note": "No affiliation stated"
-      },
-      {
-        "name": "Alex Thomson",
-        "ward": "At Large",
-        "note": "No affiliation stated"
-      },
-      {
-        "name": "Tracy Kennedy",
-        "ward": "At Large",
-        "note": "No affiliation stated"
-      },
-      {
-        "name": "Robyn Edie",
-        "ward": "At Large",
-        "note": "No affiliation stated"
-      },
-      {
-        "name": "Ricky McFarlane",
-        "ward": "At Large",
-        "note": "No affiliation stated"
-      },
-      {
-        "name": "Graham Darlow",
-        "ward": "At Large",
-        "note": "No affiliation stated"
+        "note": "Independent"
       },
       {
         "name": "Darren Ludlow",
@@ -2020,12 +2005,27 @@
         "note": "No affiliation stated"
       },
       {
-        "name": "Jason Graham",
+        "name": "Ian Pottinger",
         "ward": "At Large",
         "note": "No affiliation stated"
       },
       {
-        "name": "Toni Biddle",
+        "name": "Allan Arnold",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Andrea De Vries",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Lisa Tou McNaughton",
+        "ward": "At Large",
+        "note": "No affiliation stated"
+      },
+      {
+        "name": "Barry Stewart",
         "ward": "At Large",
         "note": "No affiliation stated"
       }
@@ -2127,9 +2127,9 @@
       "url": "https://www.icc.govt.nz/council/news"
     },
     "election2025": {
-      "mayorElected": "Nobby Clark",
-      "turnout": "40.73%",
-      "votesReturned": "n/a"
+      "mayorElected": "Tom Campbell",
+      "turnout": "46.02%",
+      "votesReturned": "17,997"
     }
   },
   "Central Otago District": {
