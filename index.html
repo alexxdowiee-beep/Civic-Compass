@@ -377,16 +377,18 @@
     border:1px solid rgba(244,241,230,0.1); border-radius:100px;
     padding:5px 10px; margin-bottom:16px;
   }
-  .stmt-list{display:flex; flex-direction:column; gap:12px;}
-  .stmt-card{
-    background:var(--paper); color:var(--ink);
-    border-radius:14px; padding:16px 18px;
+  .stmt-list{
+    display:flex; flex-direction:column;
+    background:var(--paper); border-radius:14px; padding:4px 18px;
     box-shadow:0 8px 22px rgba(0,0,0,0.2);
   }
-  .stmt-headline{font-size:15px; font-weight:700; color:var(--pounamu-deep); margin-bottom:6px; line-height:1.35;}
-  .stmt-text{font-size:14px; line-height:1.55; color:var(--ink); margin-bottom:8px;}
-  .stmt-src-line{font-size:12.5px; color:#7C8A80;}
-  .stmt-src-line a{color:var(--pounamu); font-weight:600; text-decoration:none;}
+  .stmt-row{
+    display:block; padding:12px 0; border-bottom:1px solid rgba(0,0,0,0.08);
+    text-decoration:none; color:inherit;
+  }
+  .stmt-row:last-child{border-bottom:none;}
+  .stmt-row-title{font-size:14.5px; font-weight:700; color:var(--pounamu-deep); line-height:1.35; margin-bottom:3px;}
+  .stmt-row-meta{font-size:12px; color:#7C8A80;}
   .stmt-note, .warn-note{
     background:rgba(227,168,59,0.12); border:1px solid rgba(227,168,59,0.3);
     border-radius:12px; padding:14px 16px; font-size:12.5px; line-height:1.55;
@@ -1064,14 +1066,14 @@ function selectCouncil(index){
 
 const stmtList=document.getElementById('stmtList');
 statements.forEach(s=>{
-  const div=document.createElement('div');
-  div.className='stmt-card';
-  div.innerHTML=`
-    <div class="stmt-headline">${s.headline}</div>
-    <div class="stmt-text">${s.text}</div>
-    <div class="stmt-src-line">Source: <a href="${s.url}" target="_blank" rel="noopener">${s.source}</a> — Published ${s.date}</div>
+  const a=document.createElement('a');
+  a.className='stmt-row';
+  a.href=s.url; a.target='_blank'; a.rel='noopener';
+  a.innerHTML=`
+    <div class="stmt-row-title">${s.title}</div>
+    <div class="stmt-row-meta">${s.source} · ${s.date}</div>
   `;
-  stmtList.appendChild(div);
+  stmtList.appendChild(a);
 });
 
 const groupLabels={parliament:"In Parliament", registered:"Also registered for 2026", unregistered:"Standing, not yet registered"};
