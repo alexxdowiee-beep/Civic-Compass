@@ -1618,7 +1618,7 @@
   "Southland District": {
     "mayor": {
       "name": "Rob Scott",
-      "note": "No party affiliation stated — re-elected Mayor in 2025 with 6,017 votes, ahead of former Mayor Gary Tong (1,291) and Wendy Joy Baker (420). Previously served as mayor and returned to the position in the 2022 election."
+      "note": "No party affiliation stated — re-elected Mayor in 2025 with 6,734 votes (77.03%), well ahead of former Mayor Gary Tong (1,418) and Wendy Joy Baker (465). Previously served as mayor and returned to the position in the 2022 election."
     },
     "updated": "as elected Oct 2025",
     "councillors": [
@@ -2744,7 +2744,7 @@
     },
     "election2025": {
       "mayorElected": "Mel Tavendale",
-      "turnout": "approx. 46%",
+      "turnout": "44.35%",
       "votesReturned": "n/a"
     }
   },
