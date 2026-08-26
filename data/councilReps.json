@@ -3913,5 +3913,934 @@
       "turnout": "41.7%",
       "votesReturned": "Not published by the council"
     }
+  },
+  "Auckland": {
+    "updated": "as elected Oct 2025",
+    "mayor": {
+      "name": "Wayne Brown",
+      "note": "Independent (\"Fix Auckland\") — re-elected Mayor in October 2025 with 180,130 votes, defeating Kerrin Leoni (77,577 votes). A former engineer, Bay of Islands property developer and Kordia CEO who was Mayor of Far North District 2007–2013 before first winning the Auckland mayoralty in 2022. Second-term priorities include a \"sensible, rational\" transport plan favouring public transit and freight rail, a visitor levy (\"bed tax\"), increased housing density near transit hubs, and trade delegations to China and India."
+    },
+    "councillors": [
+      {
+        "name": "Victoria Short",
+        "ward": "Albany Ward",
+        "note": "Fix Auckland — new councillor, unseated incumbent Wayne Walker"
+      },
+      {
+        "name": "John Watson",
+        "ward": "Albany Ward",
+        "note": "Independent — long-serving incumbent"
+      },
+      {
+        "name": "Christine Fletcher",
+        "ward": "Albert-Eden-Puketāpapa Ward",
+        "note": "Communities and Residents (C&R) — long-serving incumbent"
+      },
+      {
+        "name": "Julie Fairey",
+        "ward": "Albert-Eden-Puketāpapa Ward",
+        "note": "City Vision"
+      },
+      {
+        "name": "Andy Baker",
+        "ward": "Franklin Ward",
+        "note": "Team Franklin"
+      },
+      {
+        "name": "Bo Burns",
+        "ward": "Howick Ward",
+        "note": "New councillor"
+      },
+      {
+        "name": "Maurice Williamson",
+        "ward": "Howick Ward",
+        "note": "Independent — former National MP and Cabinet minister"
+      },
+      {
+        "name": "Alf Filipaina",
+        "ward": "Manukau Ward",
+        "note": "Labour — long-serving incumbent"
+      },
+      {
+        "name": "Lotu Fuli",
+        "ward": "Manukau Ward",
+        "note": "Labour"
+      },
+      {
+        "name": "Daniel Newman",
+        "ward": "Manurewa-Papakura Ward",
+        "note": "Manurewa-Papakura Action Team — incumbent"
+      },
+      {
+        "name": "Matt Winiata",
+        "ward": "Manurewa-Papakura Ward",
+        "note": "Manurewa-Papakura Action Team — new councillor"
+      },
+      {
+        "name": "Josephine Bartley",
+        "ward": "Maungakiekie-Tāmaki Ward",
+        "note": "Labour"
+      },
+      {
+        "name": "Richard Hills",
+        "ward": "North Shore Ward",
+        "note": "Independent (\"Positive Leadership for the Shore\") — incumbent"
+      },
+      {
+        "name": "John Gillon",
+        "ward": "North Shore Ward",
+        "note": "New councillor"
+      },
+      {
+        "name": "Desley Simpson",
+        "ward": "Ōrākei Ward",
+        "note": "Fix Auckland — Deputy Mayor, reappointed by Mayor Wayne Brown after the 2025 election"
+      },
+      {
+        "name": "Greg Sayers",
+        "ward": "Rodney Ward",
+        "note": "Independent — incumbent"
+      },
+      {
+        "name": "Shane Henderson",
+        "ward": "Waitākere Ward",
+        "note": "Labour"
+      },
+      {
+        "name": "Ken Turner",
+        "ward": "Waitākere Ward",
+        "note": "WestWards ticket"
+      },
+      {
+        "name": "Mike Lee",
+        "ward": "Waitematā and Gulf Ward",
+        "note": "Independent (\"Auckland Independents\") — long-serving incumbent"
+      },
+      {
+        "name": "Sarah Paterson-Hamlin",
+        "ward": "Whau Ward",
+        "note": "Labour — new councillor, defeated incumbent Craig Lord"
+      }
+    ],
+    "mps": [
+      {
+        "name": "Chlöe Swarbrick",
+        "party": "Green",
+        "note": "Sitting MP for Auckland Central since 2020 — Green Party co-leader, also the Green's 2026 candidate"
+      },
+      {
+        "name": "Christopher Luxon",
+        "party": "National",
+        "note": "Sitting MP for Botany since 2020 — Prime Minister, also National's 2026 candidate"
+      },
+      {
+        "name": "Erica Stanford",
+        "party": "National",
+        "note": "Sitting MP for East Coast Bays since 2020 — Minister of Education, also National's 2026 candidate"
+      },
+      {
+        "name": "David Seymour",
+        "party": "ACT",
+        "note": "Sitting MP for Epsom since 2014 — ACT Leader and Deputy Prime Minister, also ACT's 2026 candidate"
+      },
+      {
+        "name": "Carmel Sepuloni",
+        "party": "Labour",
+        "note": "New electorate for 2026, formed mainly from the abolished Kelston seat — sitting Kelston MP since 2014 and a former Deputy PM, she is Labour's 2026 candidate for Glendene"
+      },
+      {
+        "name": "Phil Twyford",
+        "party": "Labour",
+        "note": "New electorate for 2026, formed mainly from the abolished Te Atatū seat — sitting Te Atatū MP since 2011, he is Labour's 2026 candidate for Henderson"
+      },
+      {
+        "name": "Chris Penk",
+        "party": "National",
+        "note": "Sitting MP for Kaipara ki Mahurangi since 2020 (previously Helensville) — dropped as a minister after a failed leadership challenge against Christopher Luxon in Aug 2026 and is retiring from politics, not contesting in 2026"
+      },
+      {
+        "name": "Lemauga Lydia Sosene",
+        "party": "Labour",
+        "note": "Sitting MP for Māngere since a December 2022 by-election, also Labour's 2026 candidate"
+      },
+      {
+        "name": "Arena Williams",
+        "party": "Labour",
+        "note": "Sitting MP for Manurewa since 2020, also Labour's 2026 candidate"
+      },
+      {
+        "name": "Greg Fleming",
+        "party": "National",
+        "note": "Sitting MP for Maungakiekie since 2023, defeating then-minister Priyanca Radhakrishnan (Labour's 2026 candidate attempting a comeback) — also National's 2026 candidate"
+      },
+      {
+        "name": "Helen White",
+        "party": "Labour",
+        "note": "Sitting MP for Mount Albert since 2023, winning by a roughly 106-vote margin, also Labour's 2026 candidate"
+      },
+      {
+        "name": "Carlos Cheung",
+        "party": "National",
+        "note": "Sitting MP for Mount Roskill since 2023, defeating then-minister Michael Wood (Labour's 2026 candidate attempting a comeback) — also National's 2026 candidate"
+      },
+      {
+        "name": "Simon Watts",
+        "party": "National",
+        "note": "Sitting MP for North Shore since 2020 — Minister for Local Government and Climate Change, also National's 2026 candidate"
+      },
+      {
+        "name": "Dan Bidois",
+        "party": "National",
+        "note": "Sitting MP for Northcote since 2023 (previously held the seat 2017–2020) — also National's 2026 candidate"
+      },
+      {
+        "name": "Jenny Salesa",
+        "party": "Labour",
+        "note": "New electorate for 2026, replacing the abolished Panmure-Ōtāhuhu seat — sitting MP Jenny Salesa is Labour's 2026 candidate for the new Ōtāhuhu seat"
+      },
+      {
+        "name": "Simeon Brown",
+        "party": "National",
+        "note": "Sitting MP for Pakuranga since 2017 — senior Cabinet minister covering Transport and Energy, also National's 2026 candidate"
+      },
+      {
+        "name": "Judith Collins",
+        "party": "National",
+        "note": "Sitting MP for Papakura, former National Party leader — announced in January 2026 she is retiring from politics to become President of the Law Commission, not contesting in 2026; National's candidate is now Emma Chatterton"
+      },
+      {
+        "name": "Rima Nakhle",
+        "party": "National",
+        "note": "Sitting MP for Takanini since the seat's creation in 2020, also National's 2026 candidate"
+      },
+      {
+        "name": "Brooke van Velden",
+        "party": "ACT",
+        "note": "Sitting MP for Tāmaki since 2023 — ACT Deputy Leader and Cabinet minister — announced in March 2026 she will not seek re-election; ACT's 2026 candidate is now James Christmas"
+      },
+      {
+        "name": "Cameron Brewer",
+        "party": "National",
+        "note": "Sitting MP for Upper Harbour since 2023, also National's 2026 candidate"
+      },
+      {
+        "name": "Paulo Garcia",
+        "party": "National",
+        "note": "New electorate for 2026, formed mainly from the abolished New Lynn seat — sitting New Lynn MP since 2023, he announced in December 2025 he is retiring from politics; National's 2026 candidate for Waitākere is list MP Agnes Loheni"
+      },
+      {
+        "name": "Mark Mitchell",
+        "party": "National",
+        "note": "Sitting MP for Whangaparāoa since the seat's creation in 2020 — Minister of Police, also National's 2026 candidate"
+      }
+    ],
+    "decisions": [
+      {
+        "date": "1 Jul 2026",
+        "title": "Annual Plan 2026/27 adopted — 7.9% average rates rise",
+        "outcome": "The Governing Body adopted the Annual Plan 2026/2027, confirming a 7.9% average residential rates rise (about $321/year for an average household) after a last-minute councillor amendment to cut it to 5.9% failed. The plan sets out $5.5b for services and $3.6b in capital investment, including funding to complete the City Rail Link.",
+        "url": "https://ourauckland.aucklandcouncil.govt.nz/news/2026/07/auckland-council-secures-sustainable-rates-pathway-while-funding-crucial-infrastructure/"
+      },
+      {
+        "date": "29 Jul 2026",
+        "title": "Councillors reject CCO director fee rises",
+        "outcome": "Councillors voted down a proposal to raise council-controlled organisation director fees — including Watercare's board — by up to 33%, calling it unaffordable given the current rates environment.",
+        "url": "https://newsroom.co.nz/2026/07/29/auckland-councillors-reject-unrealistic-and-unacceptable-fee-rises-for-cco-directors/"
+      },
+      {
+        "date": "17 Aug 2026",
+        "title": "Council takes back day-to-day transport control from 1 October",
+        "outcome": "Following the Transport Governance Amendment Act 2026, Council endorsed a \"Quick Fixes\" work programme so it — rather than Auckland Transport — will directly resolve everyday issues like blocked lanes and confusing road markings from 1 October 2026, ahead of the full transport-governance handover.",
+        "url": "https://ourauckland.aucklandcouncil.govt.nz/news/2026/08/quick-fixes/"
+      },
+      {
+        "date": "Aug 2026",
+        "title": "Congestion (time-of-use) charging options endorsed",
+        "outcome": "The Transport, Infrastructure and Delivery Committee endorsed three congestion-charging zone options — city centre, city fringe, and key motorway locations, at an estimated $2–$7 per trip — and an engagement approach, moving Auckland toward its first congestion charge.",
+        "url": "https://www.nzherald.co.nz/nz/auckland-congestion-charging-three-options-with-fees-of-2-to-7-each-way-revealed/premium/AIPQB7HKFNHFTLO3TVTDSLPQXE/"
+      },
+      {
+        "date": "4 May 2026",
+        "title": "30-year transport spending roadmap approved",
+        "outcome": "The Transport, Infrastructure and Delivery Committee approved a 30-year transport investment policy statement setting principles for future spending, ahead of the full Regional Land Transport Plan.",
+        "url": "https://ourauckland.aucklandcouncil.govt.nz/news/2026/05/roadmap-approved-for-auckland-s-future-transport-spending/"
+      }
+    ],
+    "upcoming": [
+      {
+        "deadline": "~Nov 2026",
+        "title": "Congestion charging public consultation",
+        "detail": "Public engagement on the three endorsed time-of-use charging options is expected to open around November 2026, ahead of a future council decision on which option, if any, to adopt.",
+        "url": "https://at.govt.nz/projects-and-initiatives/time-of-use-charging"
+      },
+      {
+        "deadline": "~Nov 2026",
+        "title": "Full transport-governance handover completes",
+        "detail": "The new Auckland Regional Transport Committee and the shift of most transport functions from Auckland Transport to Council are due to be fully operational by November 2026, six months after the Transport Governance Amendment Act 2026 came into force.",
+        "url": "https://www.transport.govt.nz/area-of-interest/auckland/reforming-transport-governance-for-auckland"
+      }
+    ],
+    "profile": {
+      "population": "1,656,486",
+      "medianAge": "35.9",
+      "medianIncome": "$44,700",
+      "bornOverseas": "42.5%",
+      "bornOverseas2013": "39.1%"
+    },
+    "keyIssues": [
+      {
+        "title": "Rates & council finances",
+        "text": "Council adopted a 7.9% average rates rise for 2026/27 after navigating a $213 million budget risk (which could have forced a 15% rise) and finding $106 million in savings. Affordability of rates versus service and infrastructure funding remains contested — a last-minute amendment to cut the rise to 5.9% narrowly failed."
+      },
+      {
+        "title": "Transport governance reform & congestion charging",
+        "text": "The Transport Governance Amendment Act 2026 is shifting most road-control functions from Auckland Transport back to Council, via a new joint Auckland Regional Transport Committee. In parallel, Council is advancing Auckland's first congestion (time-of-use) charge, with options priced at roughly $2–$7 per trip."
+      },
+      {
+        "title": "City Rail Link & network transformation",
+        "text": "The City Rail Link — a 3.45km twin-tunnel underground rail link with three new stations (Te Waihorotiu, Karanga-a-Hape, Maungawhau) — opens 13 September 2026, bringing a new timetable and much higher service frequency. It is the single largest cost driver behind recent rates decisions."
+      },
+      {
+        "title": "Water services reform (Local Water Done Well)",
+        "text": "Auckland's water services sit under the Government's Local Water Done Well programme, with Watercare operating as a more financially independent council-controlled organisation. Governance costs remain contentious — councillors rejected a 33% fee-rise proposal for CCO directors, including Watercare's board, as unaffordable."
+      },
+      {
+        "title": "Flooding resilience — Making Space for Water",
+        "text": "Council's Making Space for Water programme continues rolling out flood-resilience projects across flood-prone areas such as Māngere/Harania, following the 2023 Auckland Anniversary floods and Cyclone Gabrielle. A May 2026 Auditor-General's office review praised the programme for delivering flood protection efficiently and at good value."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 19.2
+      },
+      {
+        "label": "15–29",
+        "pct": 20.9
+      },
+      {
+        "label": "30–64",
+        "pct": 46.5
+      },
+      {
+        "label": "65+",
+        "pct": 13.3
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 49.8
+      },
+      {
+        "label": "Māori",
+        "pct": 12.3
+      },
+      {
+        "label": "Asian",
+        "pct": 31.3
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 16.6
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 2.7
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 1.8
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "17 Aug 2026: Council announced it is taking back control of everyday transport fixes from 1 October",
+        "6 Aug 2026: City Rail Link confirmed to open Sunday 13 September 2026",
+        "29 Jul 2026: Councillors rejected a proposed 33% fee rise for CCO (incl. Watercare) directors",
+        "1 Jul 2026: Annual Plan 2026/27 adopted, with a 7.9% rates rise taking effect",
+        "4 May 2026: 30-year transport spending roadmap approved ahead of the full Regional Land Transport Plan"
+      ],
+      "url": "https://ourauckland.aucklandcouncil.govt.nz"
+    },
+    "election2025": {
+      "mayorElected": "Wayne Brown",
+      "turnout": "29.3%",
+      "votesReturned": "350,677"
+    }
+  },
+  "Far North District": {
+    "updated": "as elected Oct 2025",
+    "mayor": {
+      "name": "Moko Tepania",
+      "note": "Independent — re-elected Mayor in October 2025 with 10,502 votes, defeating Ann Court (3,259 votes). Of Te Rarawa and Ngāti Kahu ki Whangaroa descent, a te reo Māori teacher based in Kaikohe, first elected councillor in 2019 and became Northland's youngest-ever and the Far North's first Māori mayor in 2022. Rated NZ's most popular mayor in a March 2026 Taxpayers' Union–Curia poll. This term's priorities include roading and water infrastructure contracts, driving a proposed new Northland-wide local government structure, and rates affordability. Announced in November 2025 he will not seek re-election in 2028."
+    },
+    "councillors": [
+      {
+        "name": "Ann Court",
+        "ward": "Bay of Islands–Whangaroa Ward",
+        "note": "Incumbent — also stood for mayor, placed second"
+      },
+      {
+        "name": "Davina Smolders",
+        "ward": "Bay of Islands–Whangaroa Ward",
+        "note": "Newly elected"
+      },
+      {
+        "name": "Kelly Stratford",
+        "ward": "Bay of Islands–Whangaroa Ward",
+        "note": "Incumbent — was Deputy Mayor in the previous term"
+      },
+      {
+        "name": "John Vujcich",
+        "ward": "Kaikohe-Hokianga Ward",
+        "note": "Incumbent, into his fifth term"
+      },
+      {
+        "name": "Felicity Foy",
+        "ward": "Te Hiku Ward",
+        "note": "Incumbent"
+      },
+      {
+        "name": "Rachel Baucke",
+        "ward": "Te Hiku Ward",
+        "note": "Newly elected"
+      },
+      {
+        "name": "Hilda Halkyard-Harawira",
+        "ward": "Ngā Tai o Tokerau Māori Ward",
+        "note": "Incumbent"
+      },
+      {
+        "name": "Tāmati Rākena",
+        "ward": "Ngā Tai o Tokerau Māori Ward",
+        "note": "Incumbent"
+      },
+      {
+        "name": "Chicky Rudkin",
+        "ward": "Ngā Tai o Tokerau Māori Ward",
+        "note": "Newly elected — appointed Deputy Mayor by Mayor Tepania, Oct 2025"
+      },
+      {
+        "name": "Arohanui (Takangaroa) Allen",
+        "ward": "Ngā Tai o Tokerau Māori Ward",
+        "note": "Newly elected"
+      }
+    ],
+    "mp": {
+      "name": "Grant McCallum",
+      "party": "National",
+      "note": "Sitting MP for Northland since 2023, defeating then-incumbent Willow-Jean Prime — also National's 2026 candidate. Electorate covers all of Far North District."
+    },
+    "decisions": [
+      {
+        "date": "Jul–9 Aug 2026",
+        "title": "Northland amalgamation proposal backed",
+        "outcome": "Councillors voted to support a staged local government reform pathway with Whangārei District and Northland Regional Council, proposing two unitary authorities from 2028 (Far North standalone, Whangārei+Kaipara combined) ahead of an eventual full merger; submitted to government by the 9 August 2026 deadline. Kaipara District did not support this model.",
+        "url": "https://www.rnz.co.nz/news/regions_northland/736747/three-northland-councils-vote-to-merge-but-kaipara-still-not-keen"
+      },
+      {
+        "date": "~May 2026",
+        "title": "Joined the Northland Waters regional water company",
+        "outcome": "Council signed off on joining Northland Waters (Ngā Wai o Te Tai Tokerau) with Whangārei and Kaipara district councils, which will take over council water and wastewater infrastructure and debt from July 2027.",
+        "url": "https://www.nzherald.co.nz/northland-age/news/far-north-district-council-signs-off-on-joining-northland-water-entity-far-north-district-council/PCK276ENZ5E2BFCYN6GNCQPAXQ/"
+      },
+      {
+        "date": "8 Apr 2026",
+        "title": "Annual Plan 2026/27 rates rise confirmed at 6.7%",
+        "outcome": "Council voted down a councillor amendment to cut the signalled rise to about 4.2%, keeping the 6.7% average rates increase before it went to public consultation.",
+        "url": "https://www.nzherald.co.nz/northland-age/news/far-north-council-backs-67-rates-rise-after-savings-debate/ECH2CFGX7RA6ZA77PL3K6E5Q4I/"
+      },
+      {
+        "date": "Jun 2026",
+        "title": "District Plan submissions decisions released",
+        "outcome": "Council released its decisions on public submissions to the Proposed District Plan.",
+        "url": "https://www.fndc.govt.nz/Whats-New/Latest-news/news-items/2026/june/decisions-released-on-submissions-to-the-proposed-district-plan"
+      }
+    ],
+    "upcoming": [
+      {
+        "deadline": "~Sep 2026",
+        "title": "Government decision on Northland local government reform",
+        "detail": "Ministers are expected to decide whether the Northland unitary-authority proposal proceeds; if approved, public consultation would run from October 2026 with a detailed proposal due by March 2027.",
+        "url": "https://infrastructurenews.co.nz/story/amalgamation-ultimatum-councils-clash-over-their-future"
+      },
+      {
+        "deadline": "22 Jul 2026 meeting",
+        "title": "Notice of motion on Mana Whakahono ā Rohe iwi agreements",
+        "detail": "A councillor motion requiring a formal significance assessment and public engagement before six proposed iwi relationship agreements are signed was before council.",
+        "url": "https://infocouncil.fndc.govt.nz/Open/2026/07/CO_20260722_AGN_3017_AT.htm"
+      }
+    ],
+    "profile": {
+      "population": "71,430",
+      "medianAge": "44.3",
+      "medianIncome": "$29,700",
+      "bornOverseas": "15.3%",
+      "bornOverseas2013": "not available"
+    },
+    "keyIssues": [
+      {
+        "title": "Rates affordability",
+        "text": "Far North has some of the highest rates burdens relative to income in New Zealand. The 2026/27 rise was held to 6.7% only via roughly $5m in Far North Holdings dividends plus budget savings, after a higher figure was originally signalled."
+      },
+      {
+        "title": "Roading & infrastructure resilience",
+        "text": "Ongoing tendering of roading contracts and infrastructure repair are a top mayoral priority, reflecting the district's large, sparsely populated, storm- and flood-prone road network."
+      },
+      {
+        "title": "Water services reform (Local Water Done Well)",
+        "text": "Far North is transferring its water and wastewater assets and debt into a new joint Northland water entity, Northland Waters, from July 2027 — a major structural and financial change for ratepayers."
+      },
+      {
+        "title": "Local government amalgamation",
+        "text": "A live, high-stakes process: Far North, Whangārei and Northland Regional Council back a staged unitary-authority model, while Kaipara opposes it — creating regional tension ahead of a government decision expected around September 2026."
+      },
+      {
+        "title": "Māori ward representation",
+        "text": "A binding local poll held alongside the October 2025 election on retaining the Ngā Tai o Tokerau Māori ward passed (10,980 to keep vs 9,292 to remove), settling the question through the 2028 and 2031 elections."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 19.9
+      },
+      {
+        "label": "15–29",
+        "pct": 15.3
+      },
+      {
+        "label": "30–64",
+        "pct": 42.8
+      },
+      {
+        "label": "65+",
+        "pct": 22.0
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 64.6
+      },
+      {
+        "label": "Māori",
+        "pct": 49.9
+      },
+      {
+        "label": "Asian",
+        "pct": 3.2
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 5.4
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.6
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 1.5
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "Jun 2026: Decisions released on submissions to the Proposed District Plan",
+        "Jun 2026: Key milestone reached for the new District Plan",
+        "May 2026: Far North property values reset following the latest district revaluation",
+        "Feb 2026: Council agreed its submission on replacing the Resource Management Act",
+        "Oct 2025: Kahika Tepania names Chicky Rudkin as his Deputy Mayor"
+      ],
+      "url": "https://www.fndc.govt.nz/Whats-New/Latest-news"
+    },
+    "election2025": {
+      "mayorElected": "Moko Tepania",
+      "turnout": "~44%",
+      "votesReturned": "~21,300 (estimated from turnout)"
+    }
+  },
+  "Whangārei District": {
+    "updated": "as elected Oct 2025",
+    "mayor": {
+      "name": "Ken Couper",
+      "note": "Independent — elected Mayor in October 2025 in a tight race, defeating incumbent Vince Cocurullo 12,418 votes to 11,983 (Marie Olsen placed third with 8,323). A Waipū farmer who previously represented the Bream Bay ward as councillor since 2019. Campaigns on youth opportunity and regional development — citing that around 2,000 young people leave school in Northland each year, with 19% classified NEET — and his signature initiative is a planned Whangārei CBD education/training hub (\"Kea\") connecting students, educators and employers."
+    },
+    "councillors": [
+      {
+        "name": "Scott McKenzie",
+        "ward": "Hikurangi-Coastal Ward",
+        "note": "Deputy Mayor"
+      },
+      {
+        "name": "Stephen Martin",
+        "ward": "Hikurangi-Coastal Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Matthew Yovich",
+        "ward": "Bream Bay Ward",
+        "note": "ACT Local-affiliated"
+      },
+      {
+        "name": "David Baldwin",
+        "ward": "Bream Bay Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Simon Reid",
+        "ward": "Mangakahia-Maungatapere Ward",
+        "note": "Independent — single-councillor ward"
+      },
+      {
+        "name": "Deb Harding",
+        "ward": "Whangārei District Māori Ward",
+        "note": "Māori ward — being disestablished for 2028 after an Oct 2025 referendum voted to remove it (16,219 to 13,206)"
+      },
+      {
+        "name": "Phoenix Ruka",
+        "ward": "Whangārei District Māori Ward",
+        "note": "Has publicly criticised council's June 2026 rejection of a hapū partnership agreement"
+      },
+      {
+        "name": "Tangiwai Baker",
+        "ward": "Whangārei Heads Ward",
+        "note": "Single-councillor ward"
+      },
+      {
+        "name": "Marie Olsen",
+        "ward": "Whangārei Urban Ward",
+        "note": "Independent — former nurse, placed third in the mayoral race"
+      },
+      {
+        "name": "Brad Flower",
+        "ward": "Whangārei Urban Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Nicholas Connop",
+        "ward": "Whangārei Urban Ward",
+        "note": ""
+      },
+      {
+        "name": "Paul Yovich",
+        "ward": "Whangārei Urban Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Crichton Christie",
+        "ward": "Whangārei Urban Ward",
+        "note": ""
+      }
+    ],
+    "mp": {
+      "name": "Shane Reti",
+      "party": "National",
+      "note": "Sitting MP for Whangārei — held the seat 2014–2020, was a list MP 2020–2023, then regained Whangārei in 2023. Announced his retirement from politics in March 2026 and is not contesting 2026; National's candidate is now Lloyd Budd."
+    },
+    "decisions": [
+      {
+        "date": "25 Jun 2026",
+        "title": "2026/27 Annual Plan adopted — 5% average rates rise",
+        "outcome": "Council adopted the Annual Plan with a 5% average rates rise and established a storm-damage fund; total bills are rising faster once new Local Water Done Well water charges are included.",
+        "url": "https://www.wdc.govt.nz/Council/Council-documents/Plans/Annual-Plan"
+      },
+      {
+        "date": "22 May 2026",
+        "title": "Northland Water Done Well governance agreements approved",
+        "outcome": "Whangārei, Kaipara and Far North councillors approved key governance and transfer agreements for Northland Waters (Ngā Wai o Te Tai Tokerau), a joint council-controlled organisation to run drinking water and wastewater from July 2027.",
+        "url": "https://www.wdc.govt.nz/Services/Water-services/Northland-Water-Done-Well"
+      },
+      {
+        "date": "25 Jun 2026",
+        "title": "Council voted 10–4 against a hapū partnership process",
+        "outcome": "Councillors rejected starting a Mana Whakahono ā Rohe process with local hapū, prompting strong criticism from Ngā Hapū o Whangārei representatives.",
+        "url": "https://www.scoop.co.nz/stories/AK2606/S00934/whangarei-hapu-blast-councils-rejection-of-partnership-deal.htm"
+      },
+      {
+        "date": "3 Aug 2026",
+        "title": "Council backed the Northland \"Head Start\" reform outline",
+        "outcome": "Council unanimously supported a proposal for Whangārei and Kaipara to initially merge into one unitary authority, with Far North separate and a shared regional body from 2028; submitted to central government by the 9 August 2026 deadline.",
+        "url": "https://www.wdc.govt.nz/Whats-new/News-and-notices/Regional-reform-20260803"
+      }
+    ],
+    "upcoming": [
+      {
+        "deadline": "~Oct 2026",
+        "title": "Northland reform public consultation",
+        "detail": "If the Head Start proposal is accepted by central government, detailed analysis and public consultation on a Whangārei–Kaipara unitary authority model is expected to begin.",
+        "url": "https://www.wdc.govt.nz/Whats-new/News-and-notices/Regional-reform-20260803"
+      },
+      {
+        "deadline": "16 Oct 2026",
+        "title": "Chief Executive recruitment",
+        "detail": "Chief Executive Simon Weston departs after 30 years' service; council must decide interim leadership arrangements and run a recruitment process for his replacement.",
+        "url": "https://www.scoop.co.nz/stories/AK2608/S00596/chief-executive-simon-weston-to-depart-whangarei-district-council.htm"
+      }
+    ],
+    "profile": {
+      "population": "96,678",
+      "medianAge": "41.6",
+      "medianIncome": "$36,500",
+      "bornOverseas": "18.4%",
+      "bornOverseas2013": "not available"
+    },
+    "keyIssues": [
+      {
+        "title": "Local government reform / possible unitary authority",
+        "text": "Central government's \"Head Start\" process could see Whangārei and Kaipara merge into one unitary council, with a single Northland-wide authority as the eventual goal. Kaipara has resisted this model, creating regional tension over the district's future shape."
+      },
+      {
+        "title": "Rates affordability and infrastructure funding",
+        "text": "After a 2025/26 rate hike that drew hundreds of submissions, mostly from pensioners, the district settled on a 5% rise for 2026/27 — but total bills are rising faster once new water charges are folded in, keeping affordability a live political issue."
+      },
+      {
+        "title": "Three Waters / Local Water Done Well",
+        "text": "Whangārei is moving its drinking water and wastewater into a new joint Northland-wide CCO, Northland Waters, with Kaipara and Far North, operational from July 2027 — a major structural and cost change for ratepayers."
+      },
+      {
+        "title": "Council–hapū relations",
+        "text": "The June 2026 vote against a Mana Whakahono ā Rohe agreement, alongside central government's move to scrap such statutory arrangements nationally, has strained relations with Ngā Hapū o Whangārei and raised questions about future engagement with tangata whenua."
+      },
+      {
+        "title": "Housing growth and roading capacity",
+        "text": "Council-backed roading works have been positioned as unlocking land for thousands of new homes in northern Whangārei, keeping growth-related infrastructure a persistent council focus."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 19.8
+      },
+      {
+        "label": "15–29",
+        "pct": 16.0
+      },
+      {
+        "label": "30–64",
+        "pct": 43.3
+      },
+      {
+        "label": "65+",
+        "pct": 20.9
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 76.3
+      },
+      {
+        "label": "Māori",
+        "pct": 31.4
+      },
+      {
+        "label": "Asian",
+        "pct": 6.4
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 4.5
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.7
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 2.3
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "Aug 2026: Chief Executive Simon Weston announced he is departing after 30 years' service",
+        "3 Aug 2026: Council unanimously backed the Northland Head Start regional-reform proposal",
+        "Aug 2026: Freedom camping temporarily banned at A H Reed Memorial Park after kauri dieback detected",
+        "Aug 2026: New $7.5m roof-replacement project announced for Semenoff Stadium",
+        "2026: New \"dog stops\" installed at council facilities for visiting pet owners"
+      ],
+      "url": "https://www.wdc.govt.nz/Whats-new/News-and-notices"
+    },
+    "election2025": {
+      "mayorElected": "Ken Couper",
+      "turnout": "~40%",
+      "votesReturned": "~26,800 (estimated from turnout)"
+    }
+  },
+  "Kaipara District": {
+    "updated": "as elected Oct 2025",
+    "mayor": {
+      "name": "Jonathan Larsen",
+      "note": "Independent — elected Mayor in October 2025 in an extremely tight four-way race: Larsen 3,138 votes, Snow Tane 3,117 (21-vote margin), previous mayor Jason Smith 3,081, Ash Nayyar 1,278. All four candidates ran as independents. Larsen was the sitting Deputy Mayor going into the election. Detailed background and a specific policy platform for this term were not confirmed in research — treat characterisations of his priorities as unconfirmed pending a direct profile."
+    },
+    "councillors": [
+      {
+        "name": "Gordon Lambeth",
+        "ward": "Wairoa Ward",
+        "note": "Independent — Deputy Mayor"
+      },
+      {
+        "name": "Josephine Nathan",
+        "ward": "Wairoa Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Snow Tane",
+        "ward": "Wairoa Ward",
+        "note": "Independent — iwi leader, also ran for mayor (runner-up)"
+      },
+      {
+        "name": "Denise Rogers",
+        "ward": "Otamatea Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Mike Schimanski",
+        "ward": "Otamatea Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Luke Canton",
+        "ward": "Kaiwaka-Mangawhai Ward",
+        "note": "Independent"
+      },
+      {
+        "name": "Craig Jepson",
+        "ward": "Kaiwaka-Mangawhai Ward",
+        "note": "Independent — outgoing/previous Mayor, re-elected as a councillor"
+      },
+      {
+        "name": "Rachael Williams",
+        "ward": "Kaiwaka-Mangawhai Ward",
+        "note": "Independent"
+      }
+    ],
+    "mp": {
+      "name": "Chris Penk",
+      "party": "National",
+      "note": "Sitting MP for Kaipara ki Mahurangi since 2020 (previously Helensville). Was already not contesting the seat in 2026 and ranked only 14th on National's list; then dropped as a minister on 12 August 2026 after launching a failed leadership challenge against Christopher Luxon, and is stepping back from politics. As of late August 2026 National had not yet named a replacement candidate for the seat."
+    },
+    "decisions": [
+      {
+        "date": "29 Jun 2026",
+        "title": "Annual Plan 2026/27 adopted — 3.9% average rates rise",
+        "outcome": "Council confirmed an average rates rise of 3.9% after growth, well down from the 8.9% originally projected in the Long Term Plan.",
+        "url": "https://www.kaipara.govt.nz/news/post/1010-Annual-Plan-adopted-for-the-year-ahead"
+      },
+      {
+        "date": "10 Aug 2026",
+        "title": "\"True North\" alternative reform proposal sent to government",
+        "outcome": "Council rejected the \"Head Start\" two-unitary-authority model backed by Whangārei and Far North, instead proposing a three-unitary-authority model that removes the regional council layer.",
+        "url": "https://www.kaipara.govt.nz/news/post/1032-Kaipara-District-Council-sends-alternative-proposal-to-central-government"
+      },
+      {
+        "date": "~28 Apr 2026",
+        "title": "Northland Waters Limited established",
+        "outcome": "Council approved setting up a Northland-wide council-controlled water organisation with Whangārei and Far North district councils, to deliver drinking water and wastewater services from July 2027.",
+        "url": "https://www.kaipara.govt.nz/news/post/968-Councils-commit-in-principle-to-establishing-regional-water-services-organisation"
+      }
+    ],
+    "upcoming": [
+      {
+        "deadline": "~Apr 2027",
+        "title": "Proposed Kaipara District Plan decisions",
+        "detail": "A hearings panel is working through 42 sessions covering 365+ initial submissions on the Proposed District Plan; final decisions are expected around April 2027 under the RMA's statutory timeframe.",
+        "url": "https://www.localmatters.co.nz/health/kaipara-district-plan-process-ploughs-on/"
+      },
+      {
+        "deadline": "TBC",
+        "title": "Central government decision on Northland local government reform",
+        "detail": "Following the 9 August 2026 submission deadline, government is expected to choose between the \"Head Start\" two-unitary model and Kaipara's \"True North\" three-unitary alternative.",
+        "url": "https://www.kaipara.govt.nz/news/post/1032-Kaipara-District-Council-sends-alternative-proposal-to-central-government"
+      }
+    ],
+    "profile": {
+      "population": "25,899",
+      "medianAge": "46.8",
+      "medianIncome": "$31,600",
+      "bornOverseas": "15.7%",
+      "bornOverseas2013": "not available"
+    },
+    "keyIssues": [
+      {
+        "title": "Local government reform / possible amalgamation",
+        "text": "Central government's local-government reform agenda has put Northland's three councils at odds over whether to merge into two or three unitary authorities, with Kaipara publicly opposing the model backed by Whangārei and Far North."
+      },
+      {
+        "title": "Water services delivery (Local Water Done Well)",
+        "text": "Kaipara is moving drinking water and wastewater delivery into a new shared entity, Northland Waters Limited, ahead of a July 2027 go-live — a major structural and cost change for ratepayers."
+      },
+      {
+        "title": "Rates affordability",
+        "text": "After an 8.9% rise was projected in the Long Term Plan before being trimmed to 3.9% for 2026/27, rates increases and cost-of-living pressure remain a recurring flashpoint at annual plan time."
+      },
+      {
+        "title": "District Plan review",
+        "text": "A lengthy, high-volume hearings process covering 365+ submissions is reshaping land-use rules district-wide, from sites of significance to Māori through to general development provisions."
+      },
+      {
+        "title": "Roading",
+        "text": "Ongoing state highway and local road funding and recovery work — including storm and flood road-recovery projects — is a persistent theme in council decision-making."
+      }
+    ],
+    "ageBreakdown": [
+      {
+        "label": "0–14",
+        "pct": 18.3
+      },
+      {
+        "label": "15–29",
+        "pct": 13.4
+      },
+      {
+        "label": "30–64",
+        "pct": 43.9
+      },
+      {
+        "label": "65+",
+        "pct": 24.4
+      }
+    ],
+    "ethnicityBreakdown": [
+      {
+        "label": "European",
+        "pct": 83.7
+      },
+      {
+        "label": "Māori",
+        "pct": 25.4
+      },
+      {
+        "label": "Asian",
+        "pct": 3.6
+      },
+      {
+        "label": "Pacific peoples",
+        "pct": 4.8
+      },
+      {
+        "label": "Middle Eastern / Latin American / African",
+        "pct": 0.5
+      },
+      {
+        "label": "Other ethnicity",
+        "pct": 3.0
+      }
+    ],
+    "recentNews": {
+      "items": [
+        "29 Jun 2026: Annual Plan for 2026/27 adopted, confirming a 3.9% rates rise",
+        "10 Aug 2026: Council sent a \"True North\" alternative local government reform proposal to central government",
+        "2026: Northland's three district councils progressed the Northland Waters Limited water-services CCO",
+        "Apr 2026: Council published its April roading report"
+      ],
+      "url": "https://www.kaipara.govt.nz/news"
+    },
+    "election2025": {
+      "mayorElected": "Jonathan Larsen",
+      "turnout": "~58% (estimated)",
+      "votesReturned": "10,702"
+    }
   }
 }
